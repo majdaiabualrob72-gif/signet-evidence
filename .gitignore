@@ -20,3 +20,4 @@ dist/
 
 # Temporarily excluded pending research-data review
 /data/realdata/
+/experiments/realdata/
