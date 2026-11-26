@@ -1,0 +1,45 @@
+reference {'R1 hi': (205, 175), 'R1 lo': (386, 287), 'R2 hi': (322, 233), 'R2 lo': (390, 271), 'R3 hi': (389, 185), 'R3 lo': (398, 188)}
+null effect {'R1 hi': (193, 167), 'R1 lo': (391, 290), 'R2 hi': (333, 240), 'R2 lo': (392, 275), 'R3 hi': (392, 175), 'R3 lo': (395, 174)}
+magnitudes doubled {'R1 hi': (209, 193), 'R1 lo': (390, 281), 'R2 hi': (326, 240), 'R2 lo': (396, 274), 'R3 hi': (393, 184), 'R3 lo': (400, 191)}
+dense small biases {'R1 hi': (201, 177), 'R1 lo': (387, 278), 'R2 hi': (328, 227), 'R2 lo': (389, 260), 'R3 hi': (392, 168), 'R3 lo': (398, 166)}
+15% of signs wrong {'R1 hi': (199, 182), 'R1 lo': (391, 271), 'R2 hi': (331, 229), 'R2 lo': (395, 257), 'R3 hi': (392, 161), 'R3 lo': (396, 158)}
+omitted bias {'R1 hi': (171, 153), 'R1 lo': (388, 266), 'R2 hi': (325, 235), 'R2 lo': (391, 262), 'R3 hi': (393, 186), 'R3 lo': (398, 187)}
+no design opposing benefit {'R1 hi': (0, 0), 'R1 lo': (346, 198), 'R2 hi': (242, 125), 'R2 lo': (346, 183), 'R3 hi': (242, 125), 'R3 lo': (346, 183)}
+no bias {'R1 hi': (195, 174), 'R1 lo': (385, 267), 'R2 hi': (314, 227), 'R2 lo': (388, 259), 'R3 hi': (392, 174), 'R3 lo': (397, 175)}
+one-signed literature, null effect {'R1 hi': (0, 0), 'R1 lo': (265, 127), 'R2 hi': (0, 0), 'R2 lo': (265, 127), 'R3 hi': (0, 0), 'R3 lo': (265, 127)}
+one-signed literature, null effect, magnitudes doubled {'R1 hi': (0, 0), 'R1 lo': (261, 132), 'R2 hi': (0, 0), 'R2 lo': (261, 132), 'R3 hi': (0, 0), 'R3 lo': (261, 132)}
+extreme outlier {'R1 hi': (215, 187), 'R1 lo': (390, 272), 'R2 hi': (343, 251), 'R2 lo': (394, 266), 'R3 hi': (395, 195), 'R3 lo': (400, 195)}
+publication bias {'R1 hi': (198, 174), 'R1 lo': (390, 275), 'R2 hi': (316, 215), 'R2 lo': (392, 263), 'R3 hi': (392, 176), 'R3 lo': (399, 184)}
+heterogeneous populations {'R1 hi': (194, 180), 'R1 lo': (387, 282), 'R2 hi': (324, 228), 'R2 lo': (392, 259), 'R3 hi': (389, 158), 'R3 lo': (399, 158)}
+missing controls and variances {'R1 hi': (221, 197), 'R1 lo': (392, 283), 'R2 hi': (221, 197), 'R2 lo': (392, 283), 'R3 hi': (377, 239), 'R3 lo': (397, 247)}
+contradictory evidence {'R1 hi': (211, 193), 'R1 lo': (400, 304), 'R2 hi': (346, 242), 'R2 lo': (400, 280), 'R3 hi': (400, 172), 'R3 lo': (400, 172)}
+# Certificate weights (finding N11)
+
+Rule of the paper: least total weight on inequality assumptions first, least variance second.
+Comparison: the certificate of least variance alone. Literatures with at least two cells measuring the effect.
+Simulated literatures per scenario: 400 (archived seeds).
+
+## Simulation, rung 3, upper limit (the side that supports a claim of benefit)
+
+The last three columns compare the one-sided limits (level 0.0125) of the two rules on the log scale: mean of
+(limit under the rule minus limit under least variance); a negative value means that the rule gave the tighter limit on average.
+Limits closer than 1e-4 on the log scale are counted as the same.
+
+| Scenario | Literatures with a certificate | Most precise cell given zero weight | Median SD ratio (rule / least variance) | 90th centile | Ratio above 1.05 | Mean difference in limit | Rule tighter | Same limit | Rule looser |
+|---|---|---|---|---|---|---|---|---|---|
+| reference | 389 | 185 (0.476) | 1.022 | 1.583 | 0.463 | +0.004 | 0.308 | 0.463 | 0.229 |
+| null effect | 392 | 175 (0.446) | 1.000 | 1.474 | 0.434 | +0.000 | 0.332 | 0.487 | 0.181 |
+| magnitudes doubled | 393 | 184 (0.468) | 1.000 | 1.385 | 0.425 | -0.015 | 0.557 | 0.326 | 0.117 |
+| dense small biases | 392 | 168 (0.429) | 1.000 | 1.447 | 0.446 | +0.011 | 0.258 | 0.452 | 0.291 |
+| 15% of signs wrong | 392 | 161 (0.411) | 1.000 | 1.355 | 0.452 | +0.004 | 0.291 | 0.467 | 0.242 |
+| omitted bias | 393 | 186 (0.473) | 1.000 | 1.306 | 0.382 | -0.005 | 0.379 | 0.511 | 0.109 |
+| no design opposing benefit | 242 | 125 (0.517) | 1.000 | 1.000 | 0.000 | -0.000 | 0.083 | 0.917 | 0.000 |
+| no bias | 392 | 174 (0.444) | 1.000 | 1.432 | 0.444 | +0.016 | 0.115 | 0.513 | 0.372 |
+| one-signed literature, null effect | 0 | not applicable | | | | | | | |
+| one-signed literature, null effect, magnitudes doubled | 0 | not applicable | | | | | | | |
+| extreme outlier | 395 | 195 (0.494) | 1.012 | 1.433 | 0.435 | -0.001 | 0.352 | 0.433 | 0.215 |
+| publication bias | 392 | 176 (0.449) | 1.000 | 1.445 | 0.459 | +0.005 | 0.286 | 0.467 | 0.247 |
+| heterogeneous populations | 389 | 158 (0.406) | 1.000 | 1.400 | 0.434 | -0.000 | 0.332 | 0.463 | 0.206 |
+| missing controls and variances | 377 | 239 (0.634) | 1.028 | 1.586 | 0.469 | +0.002 | 0.371 | 0.435 | 0.194 |
+| contradictory evidence | 400 | 172 (0.430) | 1.034 | 1.408 | 0.472 | +0.007 | 0.370 | 0.343 | 0.287 |
+

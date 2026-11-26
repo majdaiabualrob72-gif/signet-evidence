@@ -1,0 +1,2 @@
+island check (seed 777): 118 literatures, accepted values outside the 40-point hull in 1, captured by outer_scan=40 in 0
+island check (seed 909): 149 literatures, accepted values outside the 40-point hull in 5, captured by outer_scan=40 in 4

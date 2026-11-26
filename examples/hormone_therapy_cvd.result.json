@@ -1,0 +1,324 @@
+{
+ "name": "Hormone therapy and cardiovascular disease, evidence available in 1994",
+ "input_sha256": "5b41a98a867b06246741d60f8aad9e0e74f8fbe29c8c7e7a7d49741d9e5f3e72",
+ "alpha": 0.05,
+ "signet_version": "1.2.0",
+ "inversion": "hull",
+ "certificate_selection": "covariance of the estimates",
+ "warnings": [],
+ "targets": {
+  "cvd": {
+   "rung1": {
+    "include": [
+     "H_toward_lower_risk",
+     "D_toward_higher_risk"
+    ],
+    "capacity": {
+     "above": false,
+     "below": true
+    },
+    "set": {
+     "lo": -0.703248607792418,
+     "hi": "inf",
+     "ratio_scale": "0.495 to inf"
+    },
+    "inversion_checks": {
+     "outer_set": {
+      "lo": -0.7332277719648596,
+      "hi": "inf"
+     },
+     "bracketed": {
+      "hi": null,
+      "lo": true
+     },
+     "hull_extended": false,
+     "warnings": []
+    },
+    "certificate_unique": {
+     "hi": null,
+     "lo": true
+    },
+    "identified_at_estimates": {
+     "lo": -0.5621189181535413,
+     "hi": "inf",
+     "certificate_hi": null,
+     "certificate_lo": {
+      "weights": {
+       "A_cvd": 1.0
+      },
+      "assumptions": [
+       "H_toward_lower_risk"
+      ]
+     }
+    },
+    "model_test": {
+     "reject": false,
+     "T": 9.93452944523307e-18,
+     "r": 0,
+     "crit": 0.0,
+     "p": 1.0
+    },
+    "claims": {
+     "benefit": {
+      "p_cert": 1.0,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": null
+     },
+     "harm": {
+      "p_cert": 1.0,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "A_cvd": 1.0000000004044305
+       },
+       "assumptions": [
+        "H_toward_lower_risk"
+       ],
+       "sd": 0.06297566689453592
+      }
+     }
+    },
+    "tolerance_k1": {
+     "lo": "-inf",
+     "hi": "inf",
+     "ratio_scale": "0 to inf"
+    }
+   },
+   "rung2": {
+    "include": [
+     "H_toward_lower_risk",
+     "D_toward_higher_risk",
+     "control_signed",
+     "H_shared"
+    ],
+    "capacity": {
+     "above": false,
+     "below": true
+    },
+    "set": {
+     "lo": -0.5986620765667079,
+     "hi": "inf",
+     "ratio_scale": "0.550 to inf"
+    },
+    "inversion_checks": {
+     "outer_set": {
+      "lo": -0.6459224636939239,
+      "hi": "inf"
+     },
+     "bracketed": {
+      "hi": null,
+      "lo": true
+     },
+     "hull_extended": false,
+     "warnings": []
+    },
+    "certificate_unique": {
+     "hi": null,
+     "lo": true
+    },
+    "identified_at_estimates": {
+     "lo": -0.37578933996204783,
+     "hi": "inf",
+     "certificate_hi": null,
+     "certificate_lo": {
+      "weights": {
+       "A_cvd": 1.0,
+       "A_cancer": -1.0
+      },
+      "assumptions": [
+       "D_toward_higher_risk",
+       "H_shared",
+       "control_signed"
+      ]
+     }
+    },
+    "model_test": {
+     "reject": false,
+     "T": 3.5087361609870334e-17,
+     "r": 0,
+     "crit": 0.0,
+     "p": 1.0
+    },
+    "claims": {
+     "benefit": {
+      "p_cert": 1.0,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": null
+     },
+     "harm": {
+      "p_cert": 1.0,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "A_cvd": 1.0000000004776635
+       },
+       "assumptions": [
+        "H_shared",
+        "H_toward_lower_risk"
+       ],
+       "sd": 0.06297566689914781
+      }
+     }
+    },
+    "tolerance_k1": {
+     "lo": -0.7032667147386725,
+     "hi": "inf",
+     "ratio_scale": "0.495 to inf"
+    }
+   },
+   "rung3": {
+    "include": [
+     "H_toward_lower_risk",
+     "D_toward_higher_risk",
+     "control_signed",
+     "H_shared",
+     "control_exact",
+     "D_absent"
+    ],
+    "capacity": {
+     "above": true,
+     "below": true
+    },
+    "set": {
+     "lo": -0.5986684853084754,
+     "hi": -0.15291019391724947,
+     "ratio_scale": "0.550 to 0.858"
+    },
+    "inversion_checks": {
+     "outer_set": {
+      "lo": -0.6459065271128626,
+      "hi": -0.10567215211286242
+     },
+     "bracketed": {
+      "hi": true,
+      "lo": true
+     },
+     "hull_extended": false,
+     "warnings": []
+    },
+    "certificate_unique": {
+     "hi": true,
+     "lo": true
+    },
+    "identified_at_estimates": {
+     "lo": -0.37578933996204783,
+     "hi": -0.37578933996204783,
+     "certificate_hi": {
+      "weights": {
+       "A_cvd": 1.0,
+       "A_cancer": -1.0
+      },
+      "assumptions": [
+       "D_absent",
+       "H_shared",
+       "control_exact"
+      ]
+     },
+     "certificate_lo": {
+      "weights": {
+       "A_cvd": 1.0,
+       "A_cancer": -1.0
+      },
+      "assumptions": [
+       "D_toward_higher_risk",
+       "H_shared",
+       "control_signed"
+      ]
+     }
+    },
+    "model_test": {
+     "reject": false,
+     "T": 2.9972182010228384e-17,
+     "r": 0,
+     "crit": 0.0,
+     "p": 1.0
+    },
+    "claims": {
+     "benefit": {
+      "p_cert": 7.871776111466963e-05,
+      "p_cc": 0.00015743552126545461,
+      "p": 0.00031487104253090923,
+      "p_cc_upper": 0.0007923056026326316,
+      "p_upper": 0.00031487104445867853,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "A_cvd": 1.0,
+        "A_cancer": -1.0000000003685445
+       },
+       "assumptions": [
+        "D_absent",
+        "H_shared",
+        "control_exact"
+       ],
+       "sd": 0.09944048170396912
+      }
+     },
+     "harm": {
+      "p_cert": 0.9999212822399317,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "A_cvd": 1.0,
+        "A_cancer": -0.9999999995683869
+       },
+       "assumptions": [
+        "D_absent",
+        "H_shared",
+        "control_exact"
+       ],
+       "sd": 0.09944048165631333
+      }
+     }
+    },
+    "tolerance_k1": {
+     "lo": -0.7032216812214598,
+     "hi": "inf",
+     "ratio_scale": "0.495 to inf"
+    },
+    "default": {
+     "lo": "-inf",
+     "hi": "inf",
+     "ratio_scale": "0 to inf"
+    },
+    "default_capacity": {
+     "above": false,
+     "below": false,
+     "limiting": {
+      "above": [
+       "without group H_shared",
+       "without group control_exact",
+       "without group D_absent",
+       "without cell A_cvd",
+       "without cell A_cancer"
+      ],
+      "below": [
+       "without cell A_cvd"
+      ]
+     }
+    },
+    "n_cells_measuring_target": 1
+   }
+  }
+ }
+}

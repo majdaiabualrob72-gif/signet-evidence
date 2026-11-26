@@ -1,0 +1,925 @@
+{
+ "nrep": 200,
+ "results": {
+  "mixed designs, true benefit | x0.5": {
+   "RE (all designs)": {
+    "n": 200,
+    "coverage": 0.84,
+    "mc_se": 0.025922962793631443,
+    "median_width": 0.15701605101963872,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.995,
+    "harm": 0.0
+   },
+   "FE (all designs)": {
+    "n": 200,
+    "coverage": 0.67,
+    "mc_se": 0.0332490601370926,
+    "median_width": 0.11253504240255435,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 1.0,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.3753672605498985,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.97,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.35296047205704356,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.85,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 200,
+    "coverage": 0.985,
+    "mc_se": 0.008595056718835545,
+    "median_width": 0.284560079682519,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.89,
+    "harm": 0.0
+   },
+   "SIGNET R3": {
+    "n": 200,
+    "coverage": 0.91,
+    "mc_se": 0.02023610634484806,
+    "median_width": 0.2208643210755551,
+    "unbounded": 0.03,
+    "empty": 0.015,
+    "benefit": 0.91,
+    "harm": 0.0
+   },
+   "SIGNET R3 k=1": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.37887857201938735,
+    "unbounded": 0.12,
+    "empty": 0.0,
+    "benefit": 0.675,
+    "harm": 0.0
+   },
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 200,
+    "coverage": 0.905,
+    "mc_se": 0.02073342711661533,
+    "median_width": 0.25230261761209244,
+    "unbounded": 0.0,
+    "empty": 0.02,
+    "benefit": 0.905,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.41920099673063854,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.685,
+    "harm": 0.0
+   }
+  },
+  "mixed designs, true benefit | x1.0": {
+   "RE (all designs)": {
+    "n": 200,
+    "coverage": 0.79,
+    "mc_se": 0.028801041647829335,
+    "median_width": 0.2104146643129931,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.975,
+    "harm": 0.0
+   },
+   "FE (all designs)": {
+    "n": 200,
+    "coverage": 0.41,
+    "mc_se": 0.0347778665245584,
+    "median_width": 0.11397980024679694,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 1.0,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.3567603688342632,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.99,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 200,
+    "coverage": 0.99,
+    "mc_se": 0.007035623639735147,
+    "median_width": 0.33318509733152957,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.94,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.3519181427203948,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.765,
+    "harm": 0.0
+   },
+   "SIGNET R3": {
+    "n": 200,
+    "coverage": 0.9,
+    "mc_se": 0.021213203435596423,
+    "median_width": 0.23619515779657493,
+    "unbounded": 0.015,
+    "empty": 0.045,
+    "benefit": 0.885,
+    "harm": 0.0
+   },
+   "SIGNET R3 k=1": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.4125590789259754,
+    "unbounded": 0.12,
+    "empty": 0.0,
+    "benefit": 0.655,
+    "harm": 0.0
+   },
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 200,
+    "coverage": 0.885,
+    "mc_se": 0.022558257911461158,
+    "median_width": 0.2661652938179348,
+    "unbounded": 0.0,
+    "empty": 0.05,
+    "benefit": 0.875,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.4471234438230398,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.685,
+    "harm": 0.0
+   }
+  },
+  "mixed designs, true benefit | x2.0": {
+   "RE (all designs)": {
+    "n": 200,
+    "coverage": 0.645,
+    "mc_se": 0.033836001536824645,
+    "median_width": 0.34094618633674734,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.975,
+    "harm": 0.0
+   },
+   "FE (all designs)": {
+    "n": 200,
+    "coverage": 0.17,
+    "mc_se": 0.02656124997058685,
+    "median_width": 0.11120036886903006,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 1.0,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 200,
+    "coverage": 0.785,
+    "mc_se": 0.02904952667428507,
+    "median_width": 0.36568676158566504,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.97,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 200,
+    "coverage": 0.965,
+    "mc_se": 0.012995191418367032,
+    "median_width": 0.3419397909506668,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.965,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 200,
+    "coverage": 0.985,
+    "mc_se": 0.008595056718835545,
+    "median_width": 0.7289526277297366,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.505,
+    "harm": 0.0
+   },
+   "SIGNET R3": {
+    "n": 200,
+    "coverage": 0.8,
+    "mc_se": 0.0282842712474619,
+    "median_width": 0.2341869780995214,
+    "unbounded": 0.025,
+    "empty": 0.11,
+    "benefit": 0.78,
+    "harm": 0.005
+   },
+   "SIGNET R3 k=1": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.4288002657778349,
+    "unbounded": 0.17,
+    "empty": 0.0,
+    "benefit": 0.625,
+    "harm": 0.0
+   },
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 200,
+    "coverage": 0.78,
+    "mc_se": 0.029291637031753616,
+    "median_width": 0.24780512270720112,
+    "unbounded": 0.0,
+    "empty": 0.13,
+    "benefit": 0.775,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 200,
+    "coverage": 0.985,
+    "mc_se": 0.008595056718835545,
+    "median_width": 0.46532990828804344,
+    "unbounded": 0.0,
+    "empty": 0.01,
+    "benefit": 0.69,
+    "harm": 0.0
+   }
+  },
+  "mixed designs, true benefit | x3.0": {
+   "RE (all designs)": {
+    "n": 200,
+    "coverage": 0.585,
+    "mc_se": 0.03484070894801081,
+    "median_width": 0.451329240892247,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.93,
+    "harm": 0.0
+   },
+   "FE (all designs)": {
+    "n": 200,
+    "coverage": 0.08,
+    "mc_se": 0.01918332609325088,
+    "median_width": 0.10805200885316507,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.995,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 200,
+    "coverage": 0.495,
+    "mc_se": 0.03535357124817803,
+    "median_width": 0.34154794596906524,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.98,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 200,
+    "coverage": 0.755,
+    "mc_se": 0.030411757594719844,
+    "median_width": 0.33488736222750926,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.975,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 200,
+    "coverage": 0.99,
+    "mc_se": 0.007035623639735147,
+    "median_width": 0.9960112093491142,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.34,
+    "harm": 0.0
+   },
+   "SIGNET R3": {
+    "n": 200,
+    "coverage": 0.79,
+    "mc_se": 0.028801041647829335,
+    "median_width": 0.23246174882925605,
+    "unbounded": 0.01,
+    "empty": 0.135,
+    "benefit": 0.775,
+    "harm": 0.0
+   },
+   "SIGNET R3 k=1": {
+    "n": 200,
+    "coverage": 0.99,
+    "mc_se": 0.007035623639735147,
+    "median_width": 0.3947321582311937,
+    "unbounded": 0.155,
+    "empty": 0.0,
+    "benefit": 0.655,
+    "harm": 0.0
+   },
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 200,
+    "coverage": 0.66,
+    "mc_se": 0.03349626844888845,
+    "median_width": 0.22546333644701094,
+    "unbounded": 0.0,
+    "empty": 0.245,
+    "benefit": 0.725,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 200,
+    "coverage": 0.825,
+    "mc_se": 0.02686773157525585,
+    "median_width": 0.361282740538298,
+    "unbounded": 0.0,
+    "empty": 0.09,
+    "benefit": 0.785,
+    "harm": 0.0
+   }
+  },
+  "mixed designs, true benefit | x4.0": {
+   "RE (all designs)": {
+    "n": 200,
+    "coverage": 0.62,
+    "mc_se": 0.03432200460346103,
+    "median_width": 0.6073664841188097,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.845,
+    "harm": 0.0
+   },
+   "FE (all designs)": {
+    "n": 200,
+    "coverage": 0.12,
+    "mc_se": 0.022978250586152115,
+    "median_width": 0.10632916515500856,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.975,
+    "harm": 0.015
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 200,
+    "coverage": 0.43,
+    "mc_se": 0.03500714212842859,
+    "median_width": 0.3482712593994638,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.965,
+    "harm": 0.01
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 200,
+    "coverage": 0.6,
+    "mc_se": 0.034641016151377546,
+    "median_width": 0.32568213563888293,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.955,
+    "harm": 0.01
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 1.3355557154603015,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.195,
+    "harm": 0.0
+   },
+   "SIGNET R3": {
+    "n": 200,
+    "coverage": 0.755,
+    "mc_se": 0.030411757594719844,
+    "median_width": 0.2164380944293478,
+    "unbounded": 0.025,
+    "empty": 0.18,
+    "benefit": 0.725,
+    "harm": 0.005
+   },
+   "SIGNET R3 k=1": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.43902882914764085,
+    "unbounded": 0.12,
+    "empty": 0.0,
+    "benefit": 0.595,
+    "harm": 0.0
+   },
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 200,
+    "coverage": 0.265,
+    "mc_se": 0.031206970375222264,
+    "median_width": 0.17993270210597823,
+    "unbounded": 0.0,
+    "empty": 0.63,
+    "benefit": 0.36,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 200,
+    "coverage": 0.355,
+    "mc_se": 0.033836001536824645,
+    "median_width": 0.2768675099832339,
+    "unbounded": 0.0,
+    "empty": 0.45,
+    "benefit": 0.51,
+    "harm": 0.0
+   }
+  },
+  "one-signed literature, null effect | x0.5": {
+   "RE (all designs)": {
+    "n": 200,
+    "coverage": 0.805,
+    "mc_se": 0.028015620642777128,
+    "median_width": 0.33868210392819176,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.195,
+    "harm": 0.0
+   },
+   "FE (all designs)": {
+    "n": 200,
+    "coverage": 0.425,
+    "mc_se": 0.034955328635273904,
+    "median_width": 0.18999307503906576,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.575,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.6203661503881253,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.5557051257450992,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 200,
+    "coverage": 0.84,
+    "mc_se": 0.025922962793631443,
+    "median_width": 1.0122631149162595,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.16,
+    "harm": 0.0
+   },
+   "SIGNET R3": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.005
+   },
+   "SIGNET R3 k=1": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.7566182675568954,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.005
+   },
+   "SIGNET-B k=1": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 1.5691998904565398,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   }
+  },
+  "one-signed literature, null effect | x1.0": {
+   "RE (all designs)": {
+    "n": 200,
+    "coverage": 0.38,
+    "mc_se": 0.03432200460346103,
+    "median_width": 0.3404015692565918,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.62,
+    "harm": 0.0
+   },
+   "FE (all designs)": {
+    "n": 200,
+    "coverage": 0.08,
+    "mc_se": 0.01918332609325088,
+    "median_width": 0.17816614319475196,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.92,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 200,
+    "coverage": 0.95,
+    "mc_se": 0.015411035007422448,
+    "median_width": 0.6102402665135,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.05,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.5447923970220532,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 200,
+    "coverage": 0.715,
+    "mc_se": 0.03191982142807193,
+    "median_width": 1.2880312107229437,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.285,
+    "harm": 0.0
+   },
+   "SIGNET R3": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET R3 k=1": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.7764449409816578,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.005
+   },
+   "SIGNET-B k=1": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 1.5414138114351434,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   }
+  },
+  "one-signed literature, null effect | x2.0": {
+   "RE (all designs)": {
+    "n": 200,
+    "coverage": 0.21,
+    "mc_se": 0.028801041647829335,
+    "median_width": 0.4204003084326846,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.79,
+    "harm": 0.0
+   },
+   "FE (all designs)": {
+    "n": 200,
+    "coverage": 0.015,
+    "mc_se": 0.008595056718835542,
+    "median_width": 0.1728796107077129,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.985,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 200,
+    "coverage": 0.24,
+    "mc_se": 0.030199337741083,
+    "median_width": 0.6027576247299394,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.76,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 200,
+    "coverage": 0.92,
+    "mc_se": 0.019183326093250873,
+    "median_width": 0.5398026431821461,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.08,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 200,
+    "coverage": 0.67,
+    "mc_se": 0.0332490601370926,
+    "median_width": 2.306385278851162,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.33,
+    "harm": 0.0
+   },
+   "SIGNET R3": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET R3 k=1": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.7597895083220109,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 1.465096416201338,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   }
+  },
+  "one-signed literature, null effect | x3.0": {
+   "RE (all designs)": {
+    "n": 200,
+    "coverage": 0.155,
+    "mc_se": 0.02559052559053839,
+    "median_width": 0.5267236495243868,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.845,
+    "harm": 0.0
+   },
+   "FE (all designs)": {
+    "n": 200,
+    "coverage": 0.01,
+    "mc_se": 0.007035623639735145,
+    "median_width": 0.17334958839493853,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.99,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 200,
+    "coverage": 0.06,
+    "mc_se": 0.016792855623746664,
+    "median_width": 0.6005757206524837,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.94,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 200,
+    "coverage": 0.34,
+    "mc_se": 0.03349626844888845,
+    "median_width": 0.5351145168255769,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.66,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 200,
+    "coverage": 0.7,
+    "mc_se": 0.032403703492039304,
+    "median_width": 4.335250634968408,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.3,
+    "harm": 0.0
+   },
+   "SIGNET R3": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET R3 k=1": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 200,
+    "coverage": 0.845,
+    "mc_se": 0.02559052559053839,
+    "median_width": 0.723343558933424,
+    "unbounded": 0.0,
+    "empty": 0.055,
+    "benefit": 0.1,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 200,
+    "coverage": 0.865,
+    "mc_se": 0.024163505540380516,
+    "median_width": 1.2791392483460342,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.135,
+    "harm": 0.0
+   }
+  },
+  "one-signed literature, null effect | x4.0": {
+   "RE (all designs)": {
+    "n": 200,
+    "coverage": 0.12,
+    "mc_se": 0.022978250586152115,
+    "median_width": 0.6472711595539,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.88,
+    "harm": 0.0
+   },
+   "FE (all designs)": {
+    "n": 200,
+    "coverage": 0.005,
+    "mc_se": 0.004987484335815001,
+    "median_width": 0.1760803227784285,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.995,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 200,
+    "coverage": 0.02,
+    "mc_se": 0.009899494936611665,
+    "median_width": 0.5985555111950829,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.98,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 200,
+    "coverage": 0.135,
+    "mc_se": 0.024163505540380516,
+    "median_width": 0.5331931253559316,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.865,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 200,
+    "coverage": 0.72,
+    "mc_se": 0.03174901573277509,
+    "median_width": 6.148670829737913,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.28,
+    "harm": 0.0
+   },
+   "SIGNET R3": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET R3 k=1": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 200,
+    "coverage": 0.44,
+    "mc_se": 0.03509985754956849,
+    "median_width": 0.7281998344089675,
+    "unbounded": 0.0,
+    "empty": 0.24,
+    "benefit": 0.32,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 200,
+    "coverage": 0.51,
+    "mc_se": 0.03534826728426727,
+    "median_width": 1.1783342464305262,
+    "unbounded": 0.0,
+    "empty": 0.005,
+    "benefit": 0.485,
+    "harm": 0.0
+   }
+  }
+ }
+}

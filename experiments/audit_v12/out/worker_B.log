@@ -1,0 +1,23 @@
+13:09:01 done ablation | null effect | 400 literatures | 567s
+13:19:28 done ablation | dense small biases | 400 literatures | 627s
+13:29:44 done ablation | omitted bias | 400 literatures | 616s
+13:42:14 done ablation | no bias | 400 literatures | 750s
+13:54:11 done ablation | publication bias | 400 literatures | 717s
+14:03:03 done ablation | missing controls and variances | 400 literatures | 531s
+14:06:17 done groups | reference | 200 literatures | 194s
+14:09:42 done groups | null effect | 200 literatures | 206s
+14:12:37 done groups | magnitudes doubled | 200 literatures | 174s
+14:16:03 done groups | 15% of signs wrong | 200 literatures | 206s
+14:17:39 done groups | no design opposing benefit | 200 literatures | 96s
+14:21:26 done groups | no bias | 200 literatures | 227s
+14:24:49 done groups | publication bias | 200 literatures | 203s
+14:27:36 done groups | missing controls and variances | 200 literatures | 167s
+14:32:05 done groups | contradictory evidence | 200 literatures | 269s
+14:34:58 done heldout | magnitudes doubled | 200 literatures | 173s
+14:38:15 done heldout | 15% of signs wrong | 200 literatures | 197s
+14:39:54 done heldout | no design opposing benefit | 200 literatures | 99s
+14:43:21 done heldout | no bias | 200 literatures | 208s
+14:46:49 done heldout | publication bias | 200 literatures | 207s
+14:49:38 done heldout | missing controls and variances | 200 literatures | 169s
+14:54:08 done heldout | held-out: registry against its direction | 200 literatures | 270s
+14:57:42 done heldout | held-out: two designs against their directions | 200 literatures | 214s

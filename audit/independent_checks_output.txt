@@ -1,0 +1,8 @@
+(A) capacity, primal LP vs Farkas dual: 4500/4500 agree (27 s)
+(B) T(theta0), package vs CVXPY+OSQP on 400 problems: max abs diff 2.01e-07, max rel diff 2.28e-08 (7 s)
+(C) size, Early-stage population, simulation truth: rejection 0.0375 at 0.05 (MC SE 0.0049), 0.0905 at 0.10 (15 s)
+(C) size, Early-stage population, least favourable (H=P=R=0): rejection 0.0495 at 0.05 (MC SE 0.0049), 0.1085 at 0.10 (33 s)
+(C) size, Late minus early population, simulation truth: rejection 0.0460 at 0.05 (MC SE 0.0049), 0.0935 at 0.10 (13 s)
+(C) size, Late minus early population, least favourable (H=P=R=0): rejection 0.0405 at 0.05 (MC SE 0.0049), 0.0885 at 0.10 (32 s)
+(D) 300 literatures, true assumption set, Gaussian cells: SIGNET set coverage 0.967; CC set (alpha/2) coverage 0.983; theta accepted but outside reported CC set: 0; dense scan (300 points, 3 widths each side) found accepted values outside the set in 1/25 literatures (286 s)
+(E) 2004 certificates: largest L1 residual of c - A'lam over D'nu + E'kap with nu >= 0: 5.21e-09 (16 s)

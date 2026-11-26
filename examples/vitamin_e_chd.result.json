@@ -1,0 +1,118 @@
+{
+ "name": "Vitamin E supplements and coronary disease, evidence available in 1993",
+ "input_sha256": "8a09adbb242ff248a9ff2bd8e25394b2352f2ae5dfc32306f4f1812b22dc3f0c",
+ "alpha": 0.05,
+ "signet_version": "1.2.0",
+ "inversion": "hull",
+ "certificate_selection": "covariance of the estimates",
+ "warnings": [],
+ "targets": {
+  "chd": {
+   "rung1": {
+    "include": [
+     "H_toward_lower_risk"
+    ],
+    "capacity": {
+     "above": false,
+     "below": true
+    },
+    "set": {
+     "lo": -0.7586288598792036,
+     "hi": "inf",
+     "ratio_scale": "0.468 to inf"
+    },
+    "inversion_checks": {
+     "outer_set": {
+      "lo": -0.8158310610645012,
+      "hi": "inf"
+     },
+     "bracketed": {
+      "hi": null,
+      "lo": true
+     },
+     "hull_extended": true,
+     "warnings": []
+    },
+    "certificate_unique": {
+     "hi": null,
+     "lo": false
+    },
+    "identified_at_estimates": {
+     "lo": -0.4620354595965587,
+     "hi": "inf",
+     "certificate_hi": null,
+     "certificate_lo": {
+      "weights": {
+       "C_hpfs": 1.0
+      },
+      "assumptions": [
+       "H_toward_lower_risk"
+      ]
+     }
+    },
+    "model_test": {
+     "reject": false,
+     "T": 3.1652652747975864e-18,
+     "r": 0,
+     "crit": 0.0,
+     "p": 1.0
+    },
+    "claims": {
+     "benefit": {
+      "p_cert": 1.0,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": null
+     },
+     "harm": {
+      "p_cert": 0.9999536018433781,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "C_nhs": 0.3065847548511539,
+        "C_hpfs": 0.6934152457886302
+       },
+       "assumptions": [
+        "H_toward_lower_risk"
+       ],
+       "sd": 0.12335234084089047
+      }
+     }
+    },
+    "tolerance_k1": {
+     "lo": "-inf",
+     "hi": "inf",
+     "ratio_scale": "0 to inf"
+    },
+    "default": {
+     "lo": "-inf",
+     "hi": "inf",
+     "ratio_scale": "0 to inf"
+    },
+    "default_capacity": {
+     "above": false,
+     "below": false,
+     "limiting": {
+      "above": [
+       "all groups in force",
+       "without group H_toward_lower_risk",
+       "without cell C_nhs",
+       "without cell C_hpfs"
+      ],
+      "below": [
+       "without group H_toward_lower_risk"
+      ]
+     }
+    },
+    "n_cells_measuring_target": 2
+   }
+  }
+ }
+}

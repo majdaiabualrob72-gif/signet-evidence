@@ -1,0 +1,10 @@
+reference 294s
+null effect 166s
+magnitudes doubled 145s
+dense small biases 165s
+15% of signs wrong 172s
+omitted bias 230s
+no design opposing benefit 123s
+no bias 190s
+one-signed literature, null effect 80s
+one-signed literature, null effect, magnitudes doubled 89s

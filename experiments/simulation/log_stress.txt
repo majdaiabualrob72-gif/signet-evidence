@@ -1,0 +1,65 @@
+extreme outlier 148s
+   RE (all designs)                             cov 0.790 width 0.276 unb 0.00 benefit 0.96 harm 0.00
+   RE (trials only)                             cov 0.984 width 0.879 unb 0.00 benefit 0.25 harm 0.01
+   FE (all designs)                             cov 0.330 width 0.114 unb 0.00 benefit 1.00 harm 0.00
+   BA-U (unsigned bias priors)                  cov 0.965 width 0.378 unb 0.00 benefit 0.96 harm 0.00
+   BA-S (elicited directions and magnitudes)    cov 0.990 width 0.352 unb 0.00 benefit 0.91 harm 0.00
+   NCO-cal (calibrated, RE)                     cov 0.983 width 0.456 unb 0.00 benefit 0.73 harm 0.00
+   DECODE                                       cov 0.943 width 0.252 unb 0.00 benefit 0.97 harm 0.00
+   SIGNET R1                                    cov 0.983 width 0.653 unb 0.48 benefit 0.24 harm 0.00
+   SIGNET R2                                    cov 0.950 width 0.471 unb 0.15 benefit 0.54 harm 0.01
+   SIGNET R3                                    cov 0.840 width 0.259 unb 0.01 benefit 0.83 harm 0.00
+   SIGNET protocol                              cov 0.915 width 0.268 unb 0.02 benefit 0.87 harm 0.00
+   SIGNET R3 k=1                                cov 0.988 width 0.460 unb 0.11 benefit 0.60 harm 0.00
+publication bias 288s
+   RE (all designs)                             cov 0.600 width 0.190 unb 0.00 benefit 0.99 harm 0.00
+   RE (trials only)                             cov 0.992 width 0.850 unb 0.00 benefit 0.27 harm 0.00
+   FE (all designs)                             cov 0.280 width 0.112 unb 0.00 benefit 1.00 harm 0.00
+   BA-U (unsigned bias priors)                  cov 0.985 width 0.363 unb 0.00 benefit 0.99 harm 0.00
+   BA-S (elicited directions and magnitudes)    cov 0.995 width 0.338 unb 0.00 benefit 0.95 harm 0.00
+   NCO-cal (calibrated, RE)                     cov 0.965 width 0.346 unb 0.00 benefit 0.87 harm 0.00
+   DECODE                                       cov 0.948 width 0.207 unb 0.00 benefit 0.99 harm 0.00
+   SIGNET R1                                    cov 0.995 width 0.559 unb 0.52 benefit 0.36 harm 0.00
+   SIGNET R2                                    cov 0.993 width 0.401 unb 0.22 benefit 0.65 harm 0.00
+   SIGNET R3                                    cov 0.855 width 0.230 unb 0.02 benefit 0.90 harm 0.00
+   SIGNET protocol                              cov 0.932 width 0.240 unb 0.03 benefit 0.93 harm 0.00
+   SIGNET R3 k=1                                cov 0.998 width 0.409 unb 0.12 benefit 0.71 harm 0.00
+heterogeneous populations 435s
+   RE (all designs)                             cov 0.695 width 0.215 unb 0.00 benefit 0.98 harm 0.00
+   RE (trials only)                             cov 0.963 width 0.773 unb 0.00 benefit 0.29 harm 0.00
+   FE (all designs)                             cov 0.357 width 0.111 unb 0.00 benefit 1.00 harm 0.00
+   BA-U (unsigned bias priors)                  cov 0.943 width 0.362 unb 0.00 benefit 0.97 harm 0.00
+   BA-S (elicited directions and magnitudes)    cov 0.963 width 0.336 unb 0.00 benefit 0.90 harm 0.00
+   NCO-cal (calibrated, RE)                     cov 0.973 width 0.437 unb 0.00 benefit 0.73 harm 0.00
+   DECODE                                       cov 0.825 width 0.222 unb 0.00 benefit 0.98 harm 0.00
+   SIGNET R1                                    cov 0.970 width 0.590 unb 0.53 benefit 0.25 harm 0.00
+   SIGNET R2                                    cov 0.895 width 0.396 unb 0.20 benefit 0.57 harm 0.00
+   SIGNET R3                                    cov 0.650 width 0.207 unb 0.03 benefit 0.78 harm 0.00
+   SIGNET protocol                              cov 0.780 width 0.242 unb 0.06 benefit 0.82 harm 0.00
+   SIGNET R3 k=1                                cov 0.938 width 0.395 unb 0.12 benefit 0.64 harm 0.00
+missing controls and variances 559s
+   RE (all designs)                             cov 0.767 width 0.203 unb 0.00 benefit 0.98 harm 0.00
+   RE (trials only)                             cov 0.961 width 0.809 unb 0.00 benefit 0.25 harm 0.00
+   FE (all designs)                             cov 0.398 width 0.112 unb 0.00 benefit 1.00 harm 0.00
+   BA-U (unsigned bias priors)                  cov 0.978 width 0.357 unb 0.00 benefit 0.97 harm 0.00
+   BA-S (elicited directions and magnitudes)    cov 0.988 width 0.336 unb 0.00 benefit 0.90 harm 0.00
+   NCO-cal (calibrated, RE)                     cov 0.980 width 0.450 unb 0.00 benefit 0.79 harm 0.00
+   DECODE                                       cov 0.963 width 0.229 unb 0.00 benefit 0.98 harm 0.00
+   SIGNET R1                                    cov 1.000 width 0.615 unb 0.46 benefit 0.27 harm 0.00
+   SIGNET R2                                    cov 1.000 width 0.615 unb 0.46 benefit 0.27 harm 0.00
+   SIGNET R3                                    cov 0.885 width 0.257 unb 0.06 benefit 0.80 harm 0.00
+   SIGNET protocol                              cov 0.932 width 0.269 unb 0.09 benefit 0.79 harm 0.00
+   SIGNET R3 k=1                                cov 1.000 width 0.487 unb 0.27 benefit 0.46 harm 0.00
+contradictory evidence 752s
+   RE (all designs)                             cov 0.932 width 0.217 unb 0.00 benefit 0.98 harm 0.00
+   RE (trials only)                             cov 0.993 width 0.821 unb 0.00 benefit 0.24 harm 0.00
+   FE (all designs)                             cov 0.630 width 0.105 unb 0.00 benefit 1.00 harm 0.00
+   BA-U (unsigned bias priors)                  cov 0.983 width 0.306 unb 0.00 benefit 0.98 harm 0.00
+   BA-S (elicited directions and magnitudes)    cov 0.927 width 0.289 unb 0.00 benefit 0.85 harm 0.00
+   NCO-cal (calibrated, RE)                     cov 0.998 width 0.458 unb 0.00 benefit 0.64 harm 0.00
+   DECODE                                       cov 0.855 width 0.209 unb 0.00 benefit 0.95 harm 0.00
+   SIGNET R1                                    cov 0.380 width 0.267 unb 0.47 benefit 0.29 harm 0.00
+   SIGNET R2                                    cov 0.305 width 0.287 unb 0.14 benefit 0.34 harm 0.00
+   SIGNET R3                                    cov 0.367 width 0.162 unb 0.00 benefit 0.60 harm 0.00
+   SIGNET protocol                              cov 0.410 width 0.201 unb 0.03 benefit 0.63 harm 0.00
+   SIGNET R3 k=1                                cov 0.743 width 0.318 unb 0.03 benefit 0.59 harm 0.00

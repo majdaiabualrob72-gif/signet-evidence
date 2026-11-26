@@ -1,0 +1,15 @@
+contradictory evidence {'SIGNET R3 k=1 (group or cell)': (0.925, 0.37, 0.6)}
+missing controls and variances {'SIGNET R3 k=1 (group or cell)': (1.0, 0.5, 0.46)}
+heterogeneous populations {'SIGNET R3 k=1 (group or cell)': (0.945, 0.45, 0.62)}
+publication bias {'SIGNET R3 k=1 (group or cell)': (0.995, 0.41, 0.72)}
+extreme outlier {'SIGNET R3 k=1 (group or cell)': (0.99, 0.46, 0.59)}
+reference {'SIGNET R3 k=1 (group or cell)': (0.995, 0.4, 0.69)}
+null effect {'SIGNET R3 k=1 (group or cell)': (0.995, 0.42, 0.0)}
+magnitudes doubled {'SIGNET R3 k=1 (group or cell)': (1.0, 0.44, 0.59)}
+dense small biases {'SIGNET R3 k=1 (group or cell)': (1.0, 0.41, 0.72)}
+15% of signs wrong {'SIGNET R3 k=1 (group or cell)': (0.995, 0.38, 0.61)}
+omitted bias {'SIGNET R3 k=1 (group or cell)': (1.0, 0.4, 0.54)}
+no design opposing benefit {'SIGNET R3 k=1 (group or cell)': (1.0, 0.63, 0.06)}
+no bias {'SIGNET R3 k=1 (group or cell)': (1.0, 0.34, 0.75)}
+one-signed literature, null effect {'SIGNET R3 k=1 (group or cell)': (1.0, None, 0.0)}
+one-signed literature, null effect, magnitudes doubled {'SIGNET R3 k=1 (group or cell)': (1.0, None, 0.0)}

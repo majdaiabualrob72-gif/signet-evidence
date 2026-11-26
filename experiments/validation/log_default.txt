@@ -1,0 +1,15 @@
+reference 33s
+null effect 84s
+magnitudes doubled 119s
+dense small biases 170s
+15% of signs wrong 226s
+omitted bias 259s
+no design opposing benefit 275s
+no bias 328s
+one-signed literature, null effect 336s
+one-signed literature, null effect, magnitudes doubled 343s
+extreme outlier 387s
+publication bias 428s
+heterogeneous populations 466s
+missing controls and variances 504s
+contradictory evidence 549s

@@ -1,0 +1,440 @@
+# PROJECT GENESIS VI
+# THE FINAL SCIENTIFIC GATE
+## Independent Verification, Research Integrity, Editorial Perfection, and Submission Authorization
+
+### THE MISSION
+
+You have access to the complete SIGNET manuscript:
+
+**"Signed evidence triangulation: what biased evidence can certify when the direction of bias is known but its size is not."**
+
+The methodology has been developed, evaluated, and written into a scientific manuscript.
+
+This is the final stage.
+
+Your task is to conduct the most demanding independent examination of the research before journal submission.
+
+Do not approach this as another writing exercise.
+
+Approach it as an independent scientific institution deciding whether this work deserves to enter the international scientific literature.
+
+Your objective is to produce the strongest possible final manuscript without compromising scientific integrity.
+
+You must be willing to identify fundamental errors, remove unsupported claims, correct mathematical mistakes, and recommend additional experiments if necessary.
+
+Do not prioritize protecting SIGNET.
+
+Prioritize protecting the scientific credibility of the research.
+
+---
+
+## PHASE 1 — COMPLETE INDEPENDENT RECONSTRUCTION
+
+Read the complete manuscript, every supplementary file, all available source code, datasets, figures, tables, and computational outputs.
+
+Do not rely on previous AI-generated summaries or previous claims that the work has been verified.
+
+Reconstruct the research independently.
+
+Understand:
+
+- The scientific problem.
+- The theoretical foundations.
+- The capacity criterion.
+- The certificate construction.
+- The conditional chi-squared inference.
+- The tolerance theorem.
+- The evidence-cell architecture.
+- The operational SIGNET procedure.
+- The computational implementation.
+- The simulation design.
+- The historical case series.
+- The comparative findings.
+- The limitations and proposed future validation.
+
+Establish a traceable connection between every major methodological claim and its mathematical derivation, implementation, or empirical evidence.
+
+Identify any claim that cannot be traced to supporting material.
+
+## PHASE 2 — INDEPENDENT MATHEMATICAL VERIFICATION
+
+This is a non-negotiable requirement.
+
+Independently rederive all three principal theoretical results:
+
+1. The capacity criterion based on Farkas' lemma.
+2. The certificate validity result.
+3. The tolerance coverage theorem.
+
+Check every assumption, quantifier, equality, inequality, optimization condition, and logical implication.
+
+Pay particular attention to:
+
+- The recession-cone characterization.
+- The dual representation of certificates.
+- The restriction that certificate weights must be independent of observed estimates.
+- The Gaussian inference assumptions.
+- The active-constraint degrees of freedom.
+- The conditional chi-squared reference distribution.
+- The construction of confidence sets.
+- The Bonferroni correction.
+- The directional p-value.
+- The union over omitted assumption groups.
+- The union over omitted evidence cells.
+- The distinction between one failed assumption group and one broken evidence cell.
+
+Investigate whether the stated finite-sample guarantees hold under the exact conditions described in the paper.
+
+If the inference procedure requires additional regularity conditions, state them explicitly.
+
+Do not confuse an asymptotic result with a finite-sample guarantee.
+
+Do not accept a theorem merely because its proof looks mathematically sophisticated.
+
+If a theorem is incorrect or incomplete, correct it and propagate the correction throughout the manuscript, code, and supplementary materials.
+
+If you cannot establish a result, mark it as unresolved rather than asserting its validity.
+
+## PHASE 3 — INDEPENDENT COMPUTATIONAL AUDIT
+
+Inspect the actual SIGNET implementation.
+
+Verify the mathematical implementation against the written methodology.
+
+Test:
+
+- Capacity calculations.
+- Linear programming formulations.
+- Certificate construction.
+- Quadratic optimization.
+- Active-face rank calculations.
+- Conditional test statistics.
+- Confidence-set inversion.
+- Tolerance calculations.
+- Minimal repairs.
+- Broken-cell protection.
+- Numerical stability.
+- Solver failure handling.
+- Input validation.
+- Reproducibility.
+
+Independently reproduce representative results using an alternative implementation or solver where possible.
+
+Pay special attention to the reported numerical agreement below 1e-8 and establish exactly which computations that statement covers.
+
+Run the unit tests and simulation scripts if the complete executable materials are available.
+
+If the original environment is unavailable, identify what can and cannot be independently verified.
+
+Never claim that code was executed, tests passed, or results were reproduced unless this actually occurred.
+
+## PHASE 4 — EMPIRICAL RESULTS FORENSICS
+
+Audit every reported experimental result.
+
+Reconstruct the simulation scenarios and verify the reported:
+
+- Coverage rates.
+- Monte Carlo standard errors.
+- False directional claim rates.
+- True benefit certification rates.
+- Confidence intervals.
+- P-values.
+- Median interval widths.
+- Sensitivity analyses.
+- Computational timings.
+- Comparisons between methods.
+
+Investigate the 15 simulation scenarios and all subsequent redesigns.
+
+Verify that the manuscript accurately distinguishes the initial SIGNET procedure from its later redesigns.
+
+Examine the contradictory-evidence scenario particularly carefully.
+
+Confirm that the final default, tolerating one failed assumption group or one broken evidence cell, is described accurately and that its performance is not presented as independent validation.
+
+Audit the four historical research questions and verify the relationship between the pre-trial evidence, comparator estimates, SIGNET bounds, and subsequent trials.
+
+Check all extracted estimates against the original full-text sources wherever accessible.
+
+Do not silently replace missing information with estimates from memory or secondary summaries.
+
+If a result cannot be reproduced, flag it.
+
+## PHASE 5 — SCIENTIFIC NOVELTY AND PRIORITY AUDIT
+
+Conduct a final targeted literature investigation.
+
+Search for the closest developments in:
+
+- Partial identification.
+- Linear moment inequalities.
+- Sign-restricted inference.
+- Bias-adjusted evidence synthesis.
+- Quantitative triangulation.
+- Formal causal triangulation.
+- Negative-control methods.
+- Robust inference.
+- Assumption robustness.
+- Model diagnosis.
+- Breakdown frontiers.
+
+Determine whether SIGNET's central contribution is distinguishable from existing work.
+
+Evaluate separately:
+
+1. The capacity criterion.
+2. Assumption-labelled certificates.
+3. Finite-sample inference.
+4. Tolerance to failed assumptions.
+5. Broken-cell protection.
+6. Their integration into one evidence-synthesis procedure.
+
+Do not claim that every component is new when the mathematical ingredients are established.
+
+Develop the strongest defensible statement of SIGNET's original contribution.
+
+Distinguish a novel integration, a novel decision procedure, a new application, and a genuinely new mathematical result.
+
+Update the novelty statement and literature review where necessary.
+
+## PHASE 6 — THE MOST HOSTILE PEER REVIEW
+
+Imagine that the manuscript is being reviewed by five exceptionally demanding experts.
+
+Each must act independently.
+
+**Reviewer 1: Mathematical statistician**
+
+Attempt to disprove the theorems and inference procedure.
+
+**Reviewer 2: Epidemiologist and causal inference specialist**
+
+Challenge the bias directions, evidence-cell assumptions, estimands, and historical comparisons.
+
+**Reviewer 3: Research synthesis methodologist**
+
+Challenge the novelty, relevance, practical usability, and comparisons with existing methods.
+
+**Reviewer 4: Computational scientist**
+
+Challenge the implementation, numerical claims, software reproducibility, and computational scalability.
+
+**Reviewer 5: Scientific integrity editor**
+
+Challenge the provenance of the results, AI involvement, data extraction, references, author accountability, and reporting transparency.
+
+For every major criticism:
+
+- Determine whether it is correct.
+- Identify the evidence needed to resolve it.
+- Make the necessary revision if possible.
+- Explain what remains unresolved.
+- Determine whether the criticism affects the central contribution.
+
+Do not dismiss valid criticism to preserve the manuscript.
+
+## PHASE 7 — COMPLETE REFERENCE AND SOURCE VERIFICATION
+
+Audit the entire bibliography and all in-text citations.
+
+Verify each source against its original publication or authoritative bibliographic record.
+
+Check author names, titles, journals, years, volume, issue, pages, DOI, publication status, and the actual relevance of the source to the cited claim.
+
+Pay special attention to recent 2025–2026 references, preprints, software documentation, and methodological developments.
+
+Verify that the literature review does not omit a directly competing contribution.
+
+Identify every citation that is:
+
+- Incorrect.
+- Incomplete.
+- Unverifiable.
+- Misrepresented.
+- Outdated where a newer primary source is necessary.
+- Insufficient to support its associated claim.
+
+Never fabricate references or DOI identifiers.
+
+## PHASE 8 — COMPLETE DOCUMENT AND SUPPLEMENTARY AUDIT
+
+Check that every supplementary item cited in the manuscript actually exists.
+
+Verify:
+
+- S1: Mathematical proofs and propositions.
+- S2: Algorithmic pseudocode.
+- S3: Input specification and schema.
+- S4: Simulation design and complete results.
+- S5: Redesign and sensitivity analyses.
+- S6: Real-data sources, extraction protocol, and inputs.
+- S7: Proposed blinded validation study.
+- S8: AI prompts and disclosure details.
+- S9: Reproducibility instructions.
+
+Check that the supplements agree with the final manuscript.
+
+Inspect all figures and tables for numerical accuracy, captions, labels, numbering, and consistency.
+
+Check equations for missing symbols, rendering errors, and formatting problems.
+
+Make the final document professionally typeset and readable.
+
+## PHASE 9 — RESEARCH INTEGRITY AND AUTHOR ACCOUNTABILITY
+
+Resolve every unresolved declaration in the manuscript.
+
+In particular, examine:
+
+- AI-use disclosure and model identification.
+- The actual dates of AI assistance.
+- The author's verification responsibilities.
+- Funding.
+- Competing interests.
+- Author contributions.
+- Data availability.
+- Code availability.
+- Ethics statement.
+- Preregistration status.
+- Repository and DOI references.
+
+Do not invent author activities or claim that the author independently verified work that remains unverified.
+
+Do not invent repository links, archived datasets, registrations, funding, institutional approvals, or declarations.
+
+The author must personally confirm factual declarations and take responsibility for the submitted research.
+
+Verify that the selected journal's AI-use and authorship policies are satisfied.
+
+## PHASE 10 — FINAL SCIENTIFIC WRITING
+
+After completing the audits, revise the entire manuscript.
+
+Optimize it for precision, intellectual clarity, scientific rigor, and editorial quality.
+
+Ensure that:
+
+- The title communicates the contribution accurately.
+- The abstract reflects the actual findings.
+- The introduction establishes a credible research gap.
+- The novelty statement is defensible.
+- The mathematical section is precise.
+- The methods are reproducible.
+- The results are accurately reported.
+- The discussion distinguishes evidence from interpretation.
+- The limitations are transparent.
+- The conclusion does not exceed the evidence.
+
+Preserve the distinctive intellectual contribution of SIGNET.
+
+Do not turn the paper into promotional material.
+
+Avoid exaggerated descriptions such as revolutionary, unprecedented, paradigm-shifting, or universally superior.
+
+Let the mathematical and empirical contribution speak for itself.
+
+## PHASE 11 — FINAL JOURNAL SUBMISSION PACKAGE
+
+Reassess the suitability of Research Synthesis Methods and identify the most appropriate target journal based on the final version of the work.
+
+Check the current author instructions directly.
+
+Produce the complete submission package, including:
+
+1. Final manuscript.
+2. Title page.
+3. Structured abstract.
+4. Keywords.
+5. Cover letter.
+6. Highlights.
+7. Graphical abstract, if required or useful.
+8. Final figures.
+9. Figure captions.
+10. Final tables.
+11. Supplementary S1–S9.
+12. Data availability statement.
+13. Code availability statement.
+14. AI-use declaration.
+15. Funding and competing-interest statements.
+16. CRediT author contributions.
+17. Ethics statement.
+18. Applicable reporting checklists.
+19. Submission metadata.
+20. Final submission checklist.
+
+Ensure every file follows the journal's formatting, naming, and technical requirements.
+
+Prepare actual editable files wherever the available tools permit.
+
+Do not submit the paper or sign any declarations on behalf of the author.
+
+## PHASE 12 — THE FINAL GO/NO-GO DECISION
+
+Make the final editorial decision.
+
+Use one of four outcomes:
+
+**A. READY FOR SUBMISSION**
+
+The scientific, mathematical, computational, ethical, and administrative requirements have been adequately addressed.
+
+**B. READY AFTER AUTHOR CONFIRMATION**
+
+The research is sufficiently prepared, but specific personal or administrative declarations require the author's confirmation.
+
+**C. REQUIRES ADDITIONAL SCIENTIFIC WORK**
+
+One or more unresolved issues require new analysis, experiments, proofs, or independent verification.
+
+**D. NOT READY FOR SUBMISSION**
+
+Fundamental methodological, mathematical, empirical, or integrity problems remain.
+
+Do not choose the most optimistic outcome.
+
+Choose the scientifically justified outcome.
+
+---
+
+# FINAL EXECUTION RULES
+
+Work through all phases autonomously.
+
+Do not ask for approval after every revision.
+
+Do not merely list recommendations: implement all corrections that can be supported.
+
+Maintain an explicit record of substantive changes.
+
+Maintain a separate list of issues that require the author's intervention.
+
+Do not manufacture evidence to complete the submission package.
+
+Do not conceal negative findings.
+
+Do not introduce new methodological claims merely to make the paper appear more innovative.
+
+Do not change actual numerical findings without tracing the correction to a reproducible analysis.
+
+Preserve the original manuscript and produce a separate final revised version.
+
+Create a clean submission package with clearly named files.
+
+# THE FINAL COMMAND
+
+This is the last intellectual and scientific gate before submission.
+
+Treat SIGNET as a serious proposed contribution to the scientific methodology literature.
+
+Your responsibility is not to make the paper impossible to reject.
+
+Your responsibility is to make it as correct, transparent, rigorous, reproducible, and professionally prepared as the available evidence allows.
+
+If it survives this examination, prepare it for submission.
+
+If it does not, identify precisely what must happen before it can.
+
+**Do not give this manuscript your approval because you helped create it. Give it your approval only if it earns it.**
+
+The final deliverable must be a complete, independently scrutinized scientific submission package, accompanied by an honest GO/NO-GO decision.

@@ -1,0 +1,2537 @@
+{
+ "reference": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.7,
+   "median_width": 0.19682243522477105,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.995,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 239,
+   "coverage": 0.9748953974895398,
+   "median_width": 0.8231288559567256,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.28451882845188287,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.9725,
+   "median_width": 0.20826523345580716,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.995,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.578777147376019,
+   "unbounded": 0.5025,
+   "empty": 0.0,
+   "benefit": 0.2825,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.985,
+   "median_width": 0.41493274260143387,
+   "unbounded": 0.205,
+   "empty": 0.0,
+   "benefit": 0.625,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.8925,
+   "median_width": 0.2228079803133683,
+   "unbounded": 0.025,
+   "empty": 0.0375,
+   "benefit": 0.8875,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.9425,
+   "median_width": 0.24240266214570327,
+   "unbounded": 0.0325,
+   "empty": 0.0,
+   "benefit": 0.91,
+   "harm": 0.0
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 0.9975,
+   "median_width": 0.4007638737855224,
+   "unbounded": 0.125,
+   "empty": 0.0025,
+   "benefit": 0.67,
+   "harm": 0.0
+  },
+  "box R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.6413429527403429,
+   "unbounded": 0.5025,
+   "empty": 0.0,
+   "benefit": 0.23,
+   "harm": 0.0
+  },
+  "box R2": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.5917439797084093,
+   "unbounded": 0.205,
+   "empty": 0.0,
+   "benefit": 0.4075,
+   "harm": 0.0
+  },
+  "box R3": {
+   "n": 400,
+   "coverage": 0.9025,
+   "median_width": 0.3178711492266335,
+   "unbounded": 0.025,
+   "empty": 0.0125,
+   "benefit": 0.8425,
+   "harm": 0.0
+  },
+  "cert R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.545278236901797,
+   "unbounded": 0.5025,
+   "empty": 0.0,
+   "benefit": 0.33,
+   "harm": 0.0
+  },
+  "cert R2": {
+   "n": 400,
+   "coverage": 0.975,
+   "median_width": 0.4047743477535067,
+   "unbounded": 0.205,
+   "empty": 0.0,
+   "benefit": 0.635,
+   "harm": 0.0
+  },
+  "cert R3": {
+   "n": 400,
+   "coverage": 0.875,
+   "median_width": 0.2055657042473104,
+   "unbounded": 0.025,
+   "empty": 0.0,
+   "benefit": 0.91,
+   "harm": 0.0
+  },
+  "cc R3": {
+   "n": 400,
+   "coverage": 0.875,
+   "median_width": 0.24472231657608695,
+   "unbounded": 0.025,
+   "empty": 0.04,
+   "benefit": 0.895,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.0775,
+  "protocol rungs": {
+   "R3": 0.9225,
+   "R3 repaired": 0.015,
+   "R2": 0.0625
+  },
+  "R3 rejection when a validity zero failed": 0.2184873949579832,
+  "R3 rejection when none failed": 0.017793594306049824,
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.365,
+   "mc_se": 0.024071508054129054,
+   "median_width": 0.11221021127980135,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 1.0,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.9725,
+   "mc_se": 0.00817675822071314,
+   "median_width": 0.36121607251417776,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.99,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.9925,
+   "mc_se": 0.004313858481684336,
+   "median_width": 0.3358975099702846,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.94,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.9825,
+   "mc_se": 0.006556247020971671,
+   "median_width": 0.3744852608427427,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.8175,
+   "harm": 0.0
+  }
+ },
+ "null effect": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.6775,
+   "median_width": 0.20578332603288607,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.3125,
+   "harm": 0.01
+  },
+  "RE (trials only)": {
+   "n": 238,
+   "coverage": 0.9747899159663865,
+   "median_width": 0.8179645842190859,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.02100840336134454,
+   "harm": 0.004201680672268907
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.9625,
+   "median_width": 0.20780083371543093,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.025,
+   "harm": 0.0125
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.5891135837720788,
+   "unbounded": 0.5275,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.9875,
+   "median_width": 0.4289877475864503,
+   "unbounded": 0.175,
+   "empty": 0.0,
+   "benefit": 0.0075,
+   "harm": 0.005
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.8575,
+   "median_width": 0.22903178988185297,
+   "unbounded": 0.0225,
+   "empty": 0.04,
+   "benefit": 0.055,
+   "harm": 0.0475
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.905,
+   "median_width": 0.2403617849147643,
+   "unbounded": 0.035,
+   "empty": 0.0,
+   "benefit": 0.055,
+   "harm": 0.04
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 0.995,
+   "median_width": 0.42629902789999574,
+   "unbounded": 0.115,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.005
+  },
+  "box R1": {
+   "n": 400,
+   "coverage": 0.995,
+   "median_width": 0.658447107070576,
+   "unbounded": 0.5225,
+   "empty": 0.005,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "box R2": {
+   "n": 400,
+   "coverage": 0.995,
+   "median_width": 0.611125586052551,
+   "unbounded": 0.17,
+   "empty": 0.005,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "box R3": {
+   "n": 400,
+   "coverage": 0.875,
+   "median_width": 0.32057119050038924,
+   "unbounded": 0.0175,
+   "empty": 0.0175,
+   "benefit": 0.0525,
+   "harm": 0.055
+  },
+  "cert R1": {
+   "n": 400,
+   "coverage": 0.9975,
+   "median_width": 0.5658514873908493,
+   "unbounded": 0.5275,
+   "empty": 0.0,
+   "benefit": 0.0025,
+   "harm": 0.0
+  },
+  "cert R2": {
+   "n": 400,
+   "coverage": 0.9775,
+   "median_width": 0.40549456409121815,
+   "unbounded": 0.175,
+   "empty": 0.0,
+   "benefit": 0.0125,
+   "harm": 0.01
+  },
+  "cert R3": {
+   "n": 400,
+   "coverage": 0.8525,
+   "median_width": 0.2041720143801663,
+   "unbounded": 0.0225,
+   "empty": 0.0,
+   "benefit": 0.08,
+   "harm": 0.0675
+  },
+  "cc R3": {
+   "n": 400,
+   "coverage": 0.86,
+   "median_width": 0.24848208220108697,
+   "unbounded": 0.0225,
+   "empty": 0.045,
+   "benefit": 0.0525,
+   "harm": 0.0425
+  },
+  "R3 rejection rate": 0.0825,
+  "protocol rungs": {
+   "R3": 0.9175,
+   "R3 repaired": 0.035,
+   "R2": 0.0475
+  },
+  "R3 rejection when a validity zero failed": 0.2047244094488189,
+  "R3 rejection when none failed": 0.02564102564102564,
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.315,
+   "mc_se": 0.023225793850803037,
+   "median_width": 0.11316698186753449,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.65,
+   "harm": 0.035
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.97,
+   "mc_se": 0.008529361054615993,
+   "median_width": 0.3648051099200977,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.03,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.99,
+   "mc_se": 0.004974937185533102,
+   "median_width": 0.33861056046586346,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.0075,
+   "harm": 0.0025
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.965,
+   "mc_se": 0.009188987974744557,
+   "median_width": 0.38719550813251696,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.0275,
+   "harm": 0.0075
+  }
+ },
+ "magnitudes doubled": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.64,
+   "median_width": 0.3365106803626277,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9575,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 233,
+   "coverage": 0.9914163090128756,
+   "median_width": 0.8826333469802683,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.2875536480686695,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.9325,
+   "median_width": 0.21402924371365256,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.99,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.8737741221552311,
+   "unbounded": 0.4925,
+   "empty": 0.0,
+   "benefit": 0.105,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.985,
+   "median_width": 0.46074908712635887,
+   "unbounded": 0.1925,
+   "empty": 0.0,
+   "benefit": 0.505,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.8125,
+   "median_width": 0.23039629095167258,
+   "unbounded": 0.0175,
+   "empty": 0.11,
+   "benefit": 0.7775,
+   "harm": 0.0025
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.93,
+   "median_width": 0.25554942255434787,
+   "unbounded": 0.0425,
+   "empty": 0.0,
+   "benefit": 0.8425,
+   "harm": 0.0025
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 0.995,
+   "median_width": 0.43270572444722066,
+   "unbounded": 0.135,
+   "empty": 0.0025,
+   "benefit": 0.6025,
+   "harm": 0.0
+  },
+  "box R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.9321217075237413,
+   "unbounded": 0.4925,
+   "empty": 0.0,
+   "benefit": 0.0625,
+   "harm": 0.0
+  },
+  "box R2": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.7092875517635351,
+   "unbounded": 0.1925,
+   "empty": 0.0,
+   "benefit": 0.225,
+   "harm": 0.0
+  },
+  "box R3": {
+   "n": 400,
+   "coverage": 0.83,
+   "median_width": 0.32466389436585735,
+   "unbounded": 0.0175,
+   "empty": 0.0775,
+   "benefit": 0.69,
+   "harm": 0.005
+  },
+  "cert R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.8286922406115287,
+   "unbounded": 0.4925,
+   "empty": 0.0,
+   "benefit": 0.1375,
+   "harm": 0.0
+  },
+  "cert R2": {
+   "n": 400,
+   "coverage": 0.98,
+   "median_width": 0.4163459926613794,
+   "unbounded": 0.1925,
+   "empty": 0.0,
+   "benefit": 0.545,
+   "harm": 0.0
+  },
+  "cert R3": {
+   "n": 400,
+   "coverage": 0.825,
+   "median_width": 0.2034347834649871,
+   "unbounded": 0.0175,
+   "empty": 0.0,
+   "benefit": 0.8675,
+   "harm": 0.015
+  },
+  "cc R3": {
+   "n": 400,
+   "coverage": 0.8,
+   "median_width": 0.2486306895380435,
+   "unbounded": 0.0175,
+   "empty": 0.125,
+   "benefit": 0.765,
+   "harm": 0.005
+  },
+  "R3 rejection rate": 0.1575,
+  "protocol rungs": {
+   "R3": 0.8425,
+   "R3 repaired": 0.0775,
+   "R2": 0.08
+  },
+  "R3 rejection when a validity zero failed": 0.46153846153846156,
+  "R3 rejection when none failed": 0.03180212014134275,
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.1925,
+   "mc_se": 0.019713177699194007,
+   "median_width": 0.1104335798343063,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.99,
+   "harm": 0.0025
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.79,
+   "mc_se": 0.0203654118544163,
+   "median_width": 0.3669953104096105,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9825,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.9525,
+   "mc_se": 0.010635289135702893,
+   "median_width": 0.3402484700297261,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9625,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.9975,
+   "mc_se": 0.002496873044429746,
+   "median_width": 0.6764067216502481,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.545,
+   "harm": 0.0
+  }
+ },
+ "dense small biases": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.5825,
+   "median_width": 0.21442265377291464,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.985,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 246,
+   "coverage": 0.983739837398374,
+   "median_width": 0.7616175823968759,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.3130081300813008,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.935,
+   "median_width": 0.2155637648253297,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9875,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 0.9975,
+   "median_width": 0.5964883555536684,
+   "unbounded": 0.5125,
+   "empty": 0.0,
+   "benefit": 0.3425,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.985,
+   "median_width": 0.4136591372282608,
+   "unbounded": 0.19,
+   "empty": 0.0025,
+   "benefit": 0.6575,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.8675,
+   "median_width": 0.22729680730230306,
+   "unbounded": 0.0175,
+   "empty": 0.03,
+   "benefit": 0.905,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.9225,
+   "median_width": 0.24123392416595107,
+   "unbounded": 0.02,
+   "empty": 0.0,
+   "benefit": 0.925,
+   "harm": 0.0
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.4102237639802205,
+   "unbounded": 0.14,
+   "empty": 0.0,
+   "benefit": 0.6725,
+   "harm": 0.0
+  },
+  "box R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.6527755366046661,
+   "unbounded": 0.5125,
+   "empty": 0.0,
+   "benefit": 0.265,
+   "harm": 0.0
+  },
+  "box R2": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.602391216235237,
+   "unbounded": 0.19,
+   "empty": 0.0,
+   "benefit": 0.415,
+   "harm": 0.0
+  },
+  "box R3": {
+   "n": 400,
+   "coverage": 0.9,
+   "median_width": 0.3104129995777686,
+   "unbounded": 0.0175,
+   "empty": 0.02,
+   "benefit": 0.8575,
+   "harm": 0.0
+  },
+  "cert R1": {
+   "n": 400,
+   "coverage": 0.9975,
+   "median_width": 0.5582779169532954,
+   "unbounded": 0.5125,
+   "empty": 0.0,
+   "benefit": 0.3675,
+   "harm": 0.0
+  },
+  "cert R2": {
+   "n": 400,
+   "coverage": 0.9775,
+   "median_width": 0.39858704536491785,
+   "unbounded": 0.19,
+   "empty": 0.0,
+   "benefit": 0.6425,
+   "harm": 0.0
+  },
+  "cert R3": {
+   "n": 400,
+   "coverage": 0.835,
+   "median_width": 0.2068516105041412,
+   "unbounded": 0.0175,
+   "empty": 0.0,
+   "benefit": 0.9025,
+   "harm": 0.0025
+  },
+  "cc R3": {
+   "n": 400,
+   "coverage": 0.865,
+   "median_width": 0.2419985563858696,
+   "unbounded": 0.0175,
+   "empty": 0.0475,
+   "benefit": 0.8875,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.085,
+  "protocol rungs": {
+   "R3": 0.915,
+   "R3 repaired": 0.035,
+   "R2": 0.05
+  },
+  "R3 rejection when a validity zero failed": 0.1925925925925926,
+  "R3 rejection when none failed": 0.03018867924528302,
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.245,
+   "mc_se": 0.02150436002302789,
+   "median_width": 0.11465207713203701,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.995,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.955,
+   "mc_se": 0.010365206220813944,
+   "median_width": 0.35243676374600474,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.985,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.9825,
+   "mc_se": 0.006556247020971671,
+   "median_width": 0.33327029114142775,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.96,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.9825,
+   "mc_se": 0.006556247020971671,
+   "median_width": 0.39770891511283263,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.8075,
+   "harm": 0.0
+  }
+ },
+ "15% of signs wrong": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.7475,
+   "median_width": 0.18969242570088005,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.985,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 237,
+   "coverage": 0.9831223628691983,
+   "median_width": 0.7682490758066913,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.31223628691983124,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.9875,
+   "median_width": 0.20924801489829142,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.985,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 0.9225,
+   "median_width": 0.5335686508048701,
+   "unbounded": 0.4925,
+   "empty": 0.03,
+   "benefit": 0.2975,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.91,
+   "median_width": 0.3680511143247235,
+   "unbounded": 0.17,
+   "empty": 0.03,
+   "benefit": 0.65,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.82,
+   "median_width": 0.2168287930611842,
+   "unbounded": 0.015,
+   "empty": 0.0875,
+   "benefit": 0.86,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.8825,
+   "median_width": 0.2290167279248775,
+   "unbounded": 0.035,
+   "empty": 0.03,
+   "benefit": 0.8875,
+   "harm": 0.0
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 0.99,
+   "median_width": 0.3656728262423474,
+   "unbounded": 0.1375,
+   "empty": 0.0025,
+   "benefit": 0.6875,
+   "harm": 0.0
+  },
+  "box R1": {
+   "n": 400,
+   "coverage": 0.9375,
+   "median_width": 0.5904539671488356,
+   "unbounded": 0.495,
+   "empty": 0.025,
+   "benefit": 0.2525,
+   "harm": 0.0
+  },
+  "box R2": {
+   "n": 400,
+   "coverage": 0.9375,
+   "median_width": 0.5464386223774883,
+   "unbounded": 0.17,
+   "empty": 0.025,
+   "benefit": 0.425,
+   "harm": 0.0
+  },
+  "box R3": {
+   "n": 400,
+   "coverage": 0.8425,
+   "median_width": 0.29567715026849384,
+   "unbounded": 0.015,
+   "empty": 0.05,
+   "benefit": 0.83,
+   "harm": 0.0
+  },
+  "cert R1": {
+   "n": 400,
+   "coverage": 0.9275,
+   "median_width": 0.4861699773054011,
+   "unbounded": 0.505,
+   "empty": 0.0,
+   "benefit": 0.3375,
+   "harm": 0.0
+  },
+  "cert R2": {
+   "n": 400,
+   "coverage": 0.945,
+   "median_width": 0.3635845956749952,
+   "unbounded": 0.1725,
+   "empty": 0.0,
+   "benefit": 0.665,
+   "harm": 0.0
+  },
+  "cert R3": {
+   "n": 400,
+   "coverage": 0.8675,
+   "median_width": 0.19977560340372,
+   "unbounded": 0.0175,
+   "empty": 0.0,
+   "benefit": 0.94,
+   "harm": 0.0
+  },
+  "cc R3": {
+   "n": 400,
+   "coverage": 0.8025,
+   "median_width": 0.23432404891304354,
+   "unbounded": 0.015,
+   "empty": 0.1125,
+   "benefit": 0.83,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.1575,
+  "protocol rungs": {
+   "R3": 0.8425,
+   "R3 repaired": 0.0575,
+   "R2": 0.1
+  },
+  "R3 rejection when a validity zero failed": 0.31092436974789917,
+  "R3 rejection when none failed": 0.09252669039145907,
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.44,
+   "mc_se": 0.024819347291981715,
+   "median_width": 0.11114261297440832,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.995,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.9925,
+   "mc_se": 0.004313858481684336,
+   "median_width": 0.35237424037723086,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9675,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.9775,
+   "mc_se": 0.00741514497498194,
+   "median_width": 0.33693847616516803,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.8775,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.98,
+   "mc_se": 0.007000000000000003,
+   "median_width": 0.3635300727087789,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.8175,
+   "harm": 0.0
+  }
+ },
+ "omitted bias": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.8675,
+   "median_width": 0.1960765185817298,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.98,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 236,
+   "coverage": 0.9872881355932204,
+   "median_width": 0.7339289379836348,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.3305084745762712,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.8825,
+   "median_width": 0.21882712725668946,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.955,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 0.9875,
+   "median_width": 0.572558063009511,
+   "unbounded": 0.5875,
+   "empty": 0.0,
+   "benefit": 0.07,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.91,
+   "median_width": 0.4186480978260869,
+   "unbounded": 0.1975,
+   "empty": 0.0,
+   "benefit": 0.3275,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.8325,
+   "median_width": 0.22426780209772973,
+   "unbounded": 0.0125,
+   "empty": 0.0625,
+   "benefit": 0.815,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.8925,
+   "median_width": 0.2446882492383674,
+   "unbounded": 0.0225,
+   "empty": 0.0,
+   "benefit": 0.8275,
+   "harm": 0.0
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 0.9975,
+   "median_width": 0.3959253008166028,
+   "unbounded": 0.1425,
+   "empty": 0.0,
+   "benefit": 0.5425,
+   "harm": 0.0
+  },
+  "box R1": {
+   "n": 400,
+   "coverage": 0.9925,
+   "median_width": 0.6344598289787171,
+   "unbounded": 0.5875,
+   "empty": 0.0,
+   "benefit": 0.03,
+   "harm": 0.0
+  },
+  "box R2": {
+   "n": 400,
+   "coverage": 0.99,
+   "median_width": 0.6031086082798555,
+   "unbounded": 0.1975,
+   "empty": 0.0,
+   "benefit": 0.0625,
+   "harm": 0.0
+  },
+  "box R3": {
+   "n": 400,
+   "coverage": 0.885,
+   "median_width": 0.3098262240356966,
+   "unbounded": 0.0125,
+   "empty": 0.0325,
+   "benefit": 0.735,
+   "harm": 0.0
+  },
+  "cert R1": {
+   "n": 400,
+   "coverage": 0.98,
+   "median_width": 0.5357144045448868,
+   "unbounded": 0.5875,
+   "empty": 0.0,
+   "benefit": 0.0975,
+   "harm": 0.0
+  },
+  "cert R2": {
+   "n": 400,
+   "coverage": 0.89,
+   "median_width": 0.38681758866727034,
+   "unbounded": 0.1975,
+   "empty": 0.0,
+   "benefit": 0.3775,
+   "harm": 0.0
+  },
+  "cert R3": {
+   "n": 400,
+   "coverage": 0.835,
+   "median_width": 0.2038947076478162,
+   "unbounded": 0.0125,
+   "empty": 0.0,
+   "benefit": 0.89,
+   "harm": 0.005
+  },
+  "cc R3": {
+   "n": 400,
+   "coverage": 0.81,
+   "median_width": 0.24083145805027173,
+   "unbounded": 0.0125,
+   "empty": 0.09,
+   "benefit": 0.795,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.1275,
+  "protocol rungs": {
+   "R3": 0.8725,
+   "R3 repaired": 0.0725,
+   "R2": 0.055
+  },
+  "R3 rejection when a validity zero failed": 0.288135593220339,
+  "R3 rejection when none failed": 0.06028368794326241,
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.63,
+   "mc_se": 0.024140215409146622,
+   "median_width": 0.11358156798239578,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.995,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.9925,
+   "mc_se": 0.004313858481684336,
+   "median_width": 0.3653566784351281,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.92,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.9725,
+   "mc_se": 0.00817675822071314,
+   "median_width": 0.3425911977428859,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.7675,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.98,
+   "mc_se": 0.007000000000000003,
+   "median_width": 0.3778852983487246,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.725,
+   "harm": 0.0
+  }
+ },
+ "no design opposing benefit": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.5425,
+   "median_width": 0.2961836814685132,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.91,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 0,
+   "coverage": null,
+   "median_width": null,
+   "unbounded": null,
+   "empty": null,
+   "benefit": null,
+   "harm": null
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.9625,
+   "median_width": 0.30276465637667443,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.93,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.9925,
+   "median_width": 0.41133455772124583,
+   "unbounded": 0.38,
+   "empty": 0.0,
+   "benefit": 0.455,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.9925,
+   "median_width": 0.41133455772124583,
+   "unbounded": 0.38,
+   "empty": 0.0,
+   "benefit": 0.455,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.9925,
+   "median_width": 0.41133455772124583,
+   "unbounded": 0.38,
+   "empty": 0.0,
+   "benefit": 0.4525,
+   "harm": 0.0
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.5562286399031909,
+   "unbounded": 0.8625,
+   "empty": 0.0,
+   "benefit": 0.07,
+   "harm": 0.0
+  },
+  "box R1": {
+   "n": 400,
+   "coverage": 0.9625,
+   "median_width": null,
+   "unbounded": 0.9625,
+   "empty": 0.0375,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "box R2": {
+   "n": 400,
+   "coverage": 0.9625,
+   "median_width": 0.6054324234808535,
+   "unbounded": 0.3425,
+   "empty": 0.0375,
+   "benefit": 0.2425,
+   "harm": 0.0
+  },
+  "box R3": {
+   "n": 400,
+   "coverage": 0.9625,
+   "median_width": 0.6054324234808535,
+   "unbounded": 0.3425,
+   "empty": 0.0375,
+   "benefit": 0.2425,
+   "harm": 0.0
+  },
+  "cert R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "cert R2": {
+   "n": 400,
+   "coverage": 0.9825,
+   "median_width": 0.3701211923827823,
+   "unbounded": 0.38,
+   "empty": 0.0,
+   "benefit": 0.4925,
+   "harm": 0.0
+  },
+  "cert R3": {
+   "n": 400,
+   "coverage": 0.9825,
+   "median_width": 0.3701211923827823,
+   "unbounded": 0.38,
+   "empty": 0.0,
+   "benefit": 0.4925,
+   "harm": 0.0
+  },
+  "cc R3": {
+   "n": 400,
+   "coverage": 0.9825,
+   "median_width": 0.38671808657438866,
+   "unbounded": 0.38,
+   "empty": 0.0,
+   "benefit": 0.485,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.005,
+  "protocol rungs": {
+   "R3": 0.995,
+   "R3 repaired": 0.0025,
+   "R2": 0.0025
+  },
+  "R3 rejection when a validity zero failed": null,
+  "R3 rejection when none failed": 0.005,
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.2125,
+   "mc_se": 0.020453835214941964,
+   "median_width": 0.14902909609781012,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 1.0,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.975,
+   "mc_se": 0.007806247497998001,
+   "median_width": 0.5750325018873967,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.945,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 1.0,
+   "mc_se": 0.0,
+   "median_width": 0.5137897507274714,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.5025,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.955,
+   "mc_se": 0.010365206220813944,
+   "median_width": 0.9455692442551871,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.395,
+   "harm": 0.0
+  }
+ },
+ "no bias": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.995,
+   "median_width": 0.13584315733514618,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.985,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 253,
+   "coverage": 0.9881422924901185,
+   "median_width": 0.8198731296285212,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.2845849802371542,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.995,
+   "median_width": 0.19241604873632906,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.985,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 0.9875,
+   "median_width": 0.3011130589996094,
+   "unbounded": 0.5225,
+   "empty": 0.0025,
+   "benefit": 0.405,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.98,
+   "median_width": 0.29319303648377804,
+   "unbounded": 0.22,
+   "empty": 0.0,
+   "benefit": 0.6825,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.965,
+   "median_width": 0.19720004020942322,
+   "unbounded": 0.015,
+   "empty": 0.0075,
+   "benefit": 0.9275,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.9725,
+   "median_width": 0.20074747754952144,
+   "unbounded": 0.0175,
+   "empty": 0.0,
+   "benefit": 0.93,
+   "harm": 0.0
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": 0.335550015579108,
+   "unbounded": 0.125,
+   "empty": 0.0,
+   "benefit": 0.7125,
+   "harm": 0.0
+  },
+  "box R1": {
+   "n": 400,
+   "coverage": 0.995,
+   "median_width": 0.362396166301995,
+   "unbounded": 0.5225,
+   "empty": 0.0025,
+   "benefit": 0.345,
+   "harm": 0.0
+  },
+  "box R2": {
+   "n": 400,
+   "coverage": 0.995,
+   "median_width": 0.3935264229252191,
+   "unbounded": 0.22,
+   "empty": 0.0025,
+   "benefit": 0.465,
+   "harm": 0.0
+  },
+  "box R3": {
+   "n": 400,
+   "coverage": 0.98,
+   "median_width": 0.2537591975064373,
+   "unbounded": 0.015,
+   "empty": 0.0025,
+   "benefit": 0.8775,
+   "harm": 0.0
+  },
+  "cert R1": {
+   "n": 400,
+   "coverage": 0.9925,
+   "median_width": 0.301938857694935,
+   "unbounded": 0.5225,
+   "empty": 0.0,
+   "benefit": 0.4275,
+   "harm": 0.0
+  },
+  "cert R2": {
+   "n": 400,
+   "coverage": 0.97,
+   "median_width": 0.36121077089620934,
+   "unbounded": 0.22,
+   "empty": 0.0,
+   "benefit": 0.66,
+   "harm": 0.0
+  },
+  "cert R3": {
+   "n": 400,
+   "coverage": 0.965,
+   "median_width": 0.20302837509377683,
+   "unbounded": 0.015,
+   "empty": 0.0,
+   "benefit": 0.925,
+   "harm": 0.0
+  },
+  "cc R3": {
+   "n": 400,
+   "coverage": 0.975,
+   "median_width": 0.20856800908627715,
+   "unbounded": 0.015,
+   "empty": 0.01,
+   "benefit": 0.925,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.0375,
+  "protocol rungs": {
+   "R3": 0.9625,
+   "R3 repaired": 0.02,
+   "R2": 0.0175
+  },
+  "R3 rejection when a validity zero failed": null,
+  "R3 rejection when none failed": 0.0375,
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.96,
+   "mc_se": 0.009797958971132717,
+   "median_width": 0.11311094017783131,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.995,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 1.0,
+   "mc_se": 0.0,
+   "median_width": 0.3585284069011051,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9275,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.9875,
+   "mc_se": 0.005555121510822233,
+   "median_width": 0.3351975504948921,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.76,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 1.0,
+   "mc_se": 0.0,
+   "median_width": 0.22837078140141054,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.8675,
+   "harm": 0.0
+  }
+ },
+ "one-signed literature, null effect": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.42,
+   "median_width": 0.3263545016909323,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.58,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 0,
+   "coverage": null,
+   "median_width": null,
+   "unbounded": null,
+   "empty": null,
+   "benefit": null,
+   "harm": null
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.995,
+   "median_width": 0.6478622389591735,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.005,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "box R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "box R2": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "box R3": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "cert R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "cert R2": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "cert R3": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "cc R3": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.0,
+  "protocol rungs": {
+   "R3": 1.0,
+   "R3 repaired": 0.0,
+   "R2": 0.0
+  },
+  "R3 rejection when a validity zero failed": null,
+  "R3 rejection when none failed": 0.0,
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.09,
+   "mc_se": 0.014309088021254185,
+   "median_width": 0.17435527955819108,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.91,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.9275,
+   "mc_se": 0.012965699942540704,
+   "median_width": 0.6066324248400478,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.0725,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 1.0,
+   "mc_se": 0.0,
+   "median_width": 0.5452296886575532,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.7425,
+   "mc_se": 0.021862853770722612,
+   "median_width": 1.3635749126844792,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.2575,
+   "harm": 0.0
+  }
+ },
+ "one-signed literature, null effect, magnitudes doubled": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.21,
+   "median_width": 0.42724370051436433,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.79,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 0,
+   "coverage": null,
+   "median_width": null,
+   "unbounded": null,
+   "empty": null,
+   "benefit": null,
+   "harm": null
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.56,
+   "median_width": 0.6618712212446056,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.44,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "box R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "box R2": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "box R3": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "cert R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "cert R2": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "cert R3": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "cc R3": {
+   "n": 400,
+   "coverage": 1.0,
+   "median_width": null,
+   "unbounded": 1.0,
+   "empty": 0.0,
+   "benefit": 0.0,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.0,
+  "protocol rungs": {
+   "R3": 1.0,
+   "R3 repaired": 0.0,
+   "R2": 0.0
+  },
+  "R3 rejection when a validity zero failed": null,
+  "R3 rejection when none failed": 0.0,
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.0175,
+   "mc_se": 0.006556247020971678,
+   "median_width": 0.17757150715704337,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9825,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.27,
+   "mc_se": 0.022197972880423113,
+   "median_width": 0.6080398395324522,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.73,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.8975,
+   "mc_se": 0.015165235738358969,
+   "median_width": 0.5432463963784566,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.1025,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.6675,
+   "mc_se": 0.023555453190291203,
+   "median_width": 2.408361141533966,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.3325,
+   "harm": 0.0
+  }
+ },
+ "extreme outlier": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.79,
+   "mc_se": 0.0203654118544163,
+   "median_width": 0.2760826763904734,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.96,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 243,
+   "coverage": 0.9835390946502057,
+   "mc_se": 0.008162431238528212,
+   "median_width": 0.8793979683351492,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.25102880658436216,
+   "harm": 0.00823045267489712
+  },
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.33,
+   "mc_se": 0.023510635891017494,
+   "median_width": 0.11401694849215092,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9975,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.965,
+   "mc_se": 0.009188987974744557,
+   "median_width": 0.37757892002214744,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9575,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.99,
+   "mc_se": 0.004974937185533102,
+   "median_width": 0.3515317268811718,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.91,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.9825,
+   "mc_se": 0.006556247020971671,
+   "median_width": 0.4555790547484042,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.735,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.9425,
+   "mc_se": 0.01163977555625537,
+   "median_width": 0.2518918768490896,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9675,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 0.9825,
+   "mc_se": 0.006556247020971671,
+   "median_width": 0.6527439874470261,
+   "unbounded": 0.48,
+   "empty": 0.01,
+   "benefit": 0.2425,
+   "harm": 0.0025
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.95,
+   "mc_se": 0.010897247358851688,
+   "median_width": 0.4712437880389131,
+   "unbounded": 0.1525,
+   "empty": 0.0175,
+   "benefit": 0.5425,
+   "harm": 0.0075
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.84,
+   "mc_se": 0.018330302779823362,
+   "median_width": 0.25899683775125626,
+   "unbounded": 0.0125,
+   "empty": 0.075,
+   "benefit": 0.83,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.915,
+   "mc_se": 0.013944084767384337,
+   "median_width": 0.26796323169905295,
+   "unbounded": 0.0175,
+   "empty": 0.0125,
+   "benefit": 0.8675,
+   "harm": 0.0025
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 0.9875,
+   "mc_se": 0.005555121510822233,
+   "median_width": 0.45952441830224544,
+   "unbounded": 0.1075,
+   "empty": 0.0025,
+   "benefit": 0.6025,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.115,
+  "median seconds": {
+   "established": 0.0007315940000580667,
+   "DECODE": 0.014800222999951984,
+   "SIGNET R1": 0.052971821500023,
+   "SIGNET R2": 0.06777662549995966,
+   "SIGNET R3": 0.07248769850002645,
+   "SIGNET R3 k=1": 0.48426212900005794
+  },
+  "certificate R3 sparsity": {
+   "mean_cells_used": 3.2628930817610065,
+   "mean_cells_available": 5.584905660377358,
+   "mean_assumption_groups": 2.9245283018867925,
+   "n_certificates": 795
+  }
+ },
+ "publication bias": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.6,
+   "mc_se": 0.02449489742783178,
+   "median_width": 0.18963660976092156,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.995,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 251,
+   "coverage": 0.9920318725099602,
+   "mc_se": 0.005611824608416295,
+   "median_width": 0.8495173476656492,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.27091633466135456,
+   "harm": 0.0
+  },
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.28,
+   "mc_se": 0.02244994432064365,
+   "median_width": 0.11232784235668908,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 1.0,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.985,
+   "mc_se": 0.006077622890571612,
+   "median_width": 0.36298037587576526,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9925,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.995,
+   "mc_se": 0.0035266839949164726,
+   "median_width": 0.3376348268907904,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.955,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.965,
+   "mc_se": 0.009188987974744557,
+   "median_width": 0.3455518944793994,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.8675,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.9475,
+   "mc_se": 0.01115165346484547,
+   "median_width": 0.20696300156663347,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9925,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 0.995,
+   "mc_se": 0.0035266839949164726,
+   "median_width": 0.5590756623641304,
+   "unbounded": 0.5175,
+   "empty": 0.0,
+   "benefit": 0.3575,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.9925,
+   "mc_se": 0.004313858481684336,
+   "median_width": 0.40141379554373197,
+   "unbounded": 0.2175,
+   "empty": 0.0,
+   "benefit": 0.6525,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.855,
+   "mc_se": 0.017605041891458256,
+   "median_width": 0.22983772545964345,
+   "unbounded": 0.02,
+   "empty": 0.0575,
+   "benefit": 0.895,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.9325,
+   "mc_se": 0.0125442965127583,
+   "median_width": 0.23981562650880342,
+   "unbounded": 0.0325,
+   "empty": 0.0,
+   "benefit": 0.93,
+   "harm": 0.0
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 0.9975,
+   "mc_se": 0.002496873044429746,
+   "median_width": 0.40901992876344023,
+   "unbounded": 0.115,
+   "empty": 0.0,
+   "benefit": 0.7075,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.1,
+  "median seconds": {
+   "established": 0.0007322709999471044,
+   "DECODE": 0.01446310050005195,
+   "SIGNET R1": 0.05031964649992915,
+   "SIGNET R2": 0.06738805399993453,
+   "SIGNET R3": 0.07088718399995741,
+   "SIGNET R3 k=1": 0.4747521860000461
+  },
+  "certificate R3 sparsity": {
+   "mean_cells_used": 3.1843434343434343,
+   "mean_cells_available": 5.529040404040404,
+   "mean_assumption_groups": 2.8573232323232323,
+   "n_certificates": 792
+  }
+ },
+ "heterogeneous populations": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.695,
+   "mc_se": 0.023020371413163602,
+   "median_width": 0.21515056960447748,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.985,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 240,
+   "coverage": 0.9625,
+   "mc_se": 0.012263385543967862,
+   "median_width": 0.7734602049105159,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.2916666666666667,
+   "harm": 0.0
+  },
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.3575,
+   "mc_se": 0.023963187913965036,
+   "median_width": 0.11103711491652707,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 1.0,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.9425,
+   "mc_se": 0.01163977555625537,
+   "median_width": 0.36174231984312494,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9675,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.9625,
+   "mc_se": 0.009499177595981663,
+   "median_width": 0.33574674885383116,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.8975,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.9725,
+   "mc_se": 0.00817675822071314,
+   "median_width": 0.43667649382670937,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.7325,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.825,
+   "mc_se": 0.018998355191963332,
+   "median_width": 0.22194145100908202,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.98,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 0.97,
+   "mc_se": 0.008529361054615993,
+   "median_width": 0.5901322737984036,
+   "unbounded": 0.53,
+   "empty": 0.0,
+   "benefit": 0.2475,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.895,
+   "mc_se": 0.015327671055969331,
+   "median_width": 0.39617501182128934,
+   "unbounded": 0.2,
+   "empty": 0.0225,
+   "benefit": 0.57,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.65,
+   "mc_se": 0.023848480035423638,
+   "median_width": 0.20667886535985475,
+   "unbounded": 0.0275,
+   "empty": 0.13,
+   "benefit": 0.775,
+   "harm": 0.0025
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.78,
+   "mc_se": 0.020712315177207976,
+   "median_width": 0.2419067508734149,
+   "unbounded": 0.055,
+   "empty": 0.0075,
+   "benefit": 0.825,
+   "harm": 0.0025
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 0.9375,
+   "mc_se": 0.012103072956898178,
+   "median_width": 0.3948241801253441,
+   "unbounded": 0.115,
+   "empty": 0.01,
+   "benefit": 0.635,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.24,
+  "median seconds": {
+   "established": 0.0007554864999974598,
+   "DECODE": 0.014731851499959703,
+   "SIGNET R1": 0.05088452600000437,
+   "SIGNET R2": 0.06927764650004065,
+   "SIGNET R3": 0.07352401149989873,
+   "SIGNET R3 k=1": 0.4752614110000195
+  },
+  "certificate R3 sparsity": {
+   "mean_cells_used": 3.320659062103929,
+   "mean_cells_available": 5.623574144486692,
+   "mean_assumption_groups": 2.9683143219264894,
+   "n_certificates": 789
+  }
+ },
+ "missing controls and variances": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.7675,
+   "mc_se": 0.02112130145137842,
+   "median_width": 0.20279955441898695,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9775,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 230,
+   "coverage": 0.9608695652173913,
+   "mc_se": 0.01278573319322764,
+   "median_width": 0.8094019563064744,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.24782608695652175,
+   "harm": 0.0
+  },
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.3975,
+   "mc_se": 0.02446904932767107,
+   "median_width": 0.11210065939925073,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9975,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.9775,
+   "mc_se": 0.00741514497498194,
+   "median_width": 0.3569597088777796,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9725,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.9875,
+   "mc_se": 0.005555121510822233,
+   "median_width": 0.3363239366988059,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9025,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.98,
+   "mc_se": 0.007000000000000003,
+   "median_width": 0.45027200820097035,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.7925,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.9625,
+   "mc_se": 0.009499177595981663,
+   "median_width": 0.22856315523724505,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.985,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 1.0,
+   "mc_se": 0.0,
+   "median_width": 0.6146866508152173,
+   "unbounded": 0.4625,
+   "empty": 0.0,
+   "benefit": 0.2725,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 1.0,
+   "mc_se": 0.0,
+   "median_width": 0.6149477751358696,
+   "unbounded": 0.4625,
+   "empty": 0.0,
+   "benefit": 0.2725,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.885,
+   "mc_se": 0.01595109714094927,
+   "median_width": 0.2566215183423914,
+   "unbounded": 0.06,
+   "empty": 0.0275,
+   "benefit": 0.8025,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.9325,
+   "mc_se": 0.0125442965127583,
+   "median_width": 0.2692097349034873,
+   "unbounded": 0.085,
+   "empty": 0.0,
+   "benefit": 0.785,
+   "harm": 0.0
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 1.0,
+   "mc_se": 0.0,
+   "median_width": 0.4871398087684502,
+   "unbounded": 0.265,
+   "empty": 0.0,
+   "benefit": 0.455,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.0675,
+  "median seconds": {
+   "established": 0.0006812004999119381,
+   "DECODE": 0.014174183000022822,
+   "SIGNET R1": 0.051253786499842136,
+   "SIGNET R2": 0.05174625649988229,
+   "SIGNET R3": 0.06662740750016383,
+   "SIGNET R3 k=1": 0.40477554350002265
+  },
+  "certificate R3 sparsity": {
+   "mean_cells_used": 1.708762886597938,
+   "mean_cells_available": 4.487113402061856,
+   "mean_assumption_groups": 1.8079896907216495,
+   "n_certificates": 776
+  }
+ },
+ "contradictory evidence": {
+  "RE (all designs)": {
+   "n": 400,
+   "coverage": 0.9325,
+   "mc_se": 0.0125442965127583,
+   "median_width": 0.21702116928799475,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9825,
+   "harm": 0.0
+  },
+  "RE (trials only)": {
+   "n": 400,
+   "coverage": 0.9925,
+   "mc_se": 0.004313858481684336,
+   "median_width": 0.8212162191213837,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.24,
+   "harm": 0.0
+  },
+  "FE (all designs)": {
+   "n": 400,
+   "coverage": 0.63,
+   "mc_se": 0.024140215409146622,
+   "median_width": 0.10499098096754139,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 1.0,
+   "harm": 0.0
+  },
+  "BA-U (unsigned bias priors)": {
+   "n": 400,
+   "coverage": 0.9825,
+   "mc_se": 0.006556247020971671,
+   "median_width": 0.3056068542410024,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.9825,
+   "harm": 0.0
+  },
+  "BA-S (elicited directions and magnitudes)": {
+   "n": 400,
+   "coverage": 0.9275,
+   "mc_se": 0.012965699942540704,
+   "median_width": 0.28892510987440523,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.85,
+   "harm": 0.0
+  },
+  "NCO-cal (calibrated, RE)": {
+   "n": 400,
+   "coverage": 0.9975,
+   "mc_se": 0.002496873044429746,
+   "median_width": 0.4578552765943919,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.635,
+   "harm": 0.0
+  },
+  "DECODE": {
+   "n": 400,
+   "coverage": 0.855,
+   "mc_se": 0.017605041891458256,
+   "median_width": 0.2087624752318238,
+   "unbounded": 0.0,
+   "empty": 0.0,
+   "benefit": 0.955,
+   "harm": 0.0
+  },
+  "SIGNET R1": {
+   "n": 400,
+   "coverage": 0.38,
+   "mc_se": 0.024269322199023193,
+   "median_width": 0.26670532226562493,
+   "unbounded": 0.47,
+   "empty": 0.0225,
+   "benefit": 0.2875,
+   "harm": 0.0
+  },
+  "SIGNET R2": {
+   "n": 400,
+   "coverage": 0.305,
+   "mc_se": 0.023020371413163602,
+   "median_width": 0.28659031080163044,
+   "unbounded": 0.135,
+   "empty": 0.0825,
+   "benefit": 0.3425,
+   "harm": 0.0
+  },
+  "SIGNET R3": {
+   "n": 400,
+   "coverage": 0.3675,
+   "mc_se": 0.024106210299422844,
+   "median_width": 0.16201171875000003,
+   "unbounded": 0.0,
+   "empty": 0.3375,
+   "benefit": 0.5975,
+   "harm": 0.0
+  },
+  "SIGNET protocol": {
+   "n": 400,
+   "coverage": 0.41,
+   "mc_se": 0.024591665254715876,
+   "median_width": 0.20092090043210098,
+   "unbounded": 0.0325,
+   "empty": 0.065,
+   "benefit": 0.63,
+   "harm": 0.0025
+  },
+  "SIGNET R3 k=1": {
+   "n": 400,
+   "coverage": 0.7425,
+   "mc_se": 0.021862853770722612,
+   "median_width": 0.3180450624589687,
+   "unbounded": 0.025,
+   "empty": 0.0475,
+   "benefit": 0.595,
+   "harm": 0.0
+  },
+  "R3 rejection rate": 0.5375,
+  "median seconds": {
+   "established": 0.0008107995000727897,
+   "DECODE": 0.019618272499997147,
+   "SIGNET R1": 0.05580383350002194,
+   "SIGNET R2": 0.07945286400001805,
+   "SIGNET R3": 0.08619794700007333,
+   "SIGNET R3 k=1": 0.6432887849999815
+  },
+  "certificate R3 sparsity": {
+   "mean_cells_used": 3.9975,
+   "mean_cells_available": 6.2975,
+   "mean_assumption_groups": 3.63,
+   "n_certificates": 800
+  }
+ }
+}

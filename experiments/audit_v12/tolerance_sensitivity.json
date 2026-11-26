@@ -1,0 +1,181 @@
+{
+ "base": {
+  "T_zero": 1e-09,
+  "slack": 0.0001,
+  "implicit": 1e-07
+ },
+ "real": {
+  "default": {
+   "max_limit_change": 0.0,
+   "max_p_change": 0.0,
+   "state_changes": 0
+  },
+  "T_zero x 0.01": {
+   "max_limit_change": 0.0,
+   "max_p_change": 0.0,
+   "state_changes": 0
+  },
+  "T_zero x 100": {
+   "max_limit_change": 0.0,
+   "max_p_change": 0.0,
+   "state_changes": 0
+  },
+  "slack x 0.01": {
+   "max_limit_change": 0.0,
+   "max_p_change": 0.0,
+   "state_changes": 0
+  },
+  "slack x 100": {
+   "max_limit_change": 0.0,
+   "max_p_change": 0.0,
+   "state_changes": 0
+  },
+  "implicit x 0.01": {
+   "max_limit_change": 0.0,
+   "max_p_change": 0.0,
+   "state_changes": 0
+  },
+  "implicit x 100": {
+   "max_limit_change": 0.0,
+   "max_p_change": 0.0,
+   "state_changes": 0
+  }
+ },
+ "sim_fast": {
+  "default": {
+   "max_limit_change": 0.0,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "T_zero x 0.01": {
+   "max_limit_change": 0.0,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "T_zero x 100": {
+   "max_limit_change": 0.0,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "slack x 0.01": {
+   "max_limit_change": 0.0,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "slack x 100": {
+   "max_limit_change": 0.0,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "implicit x 0.01": {
+   "max_limit_change": 0.022131878396739108,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "implicit x 100": {
+   "max_limit_change": 0.0013788637907608536,
+   "state_changes": 0,
+   "outcome_changes": 0
+  }
+ },
+ "sim_exact": {
+  "default": {
+   "max_limit_change": 0.0,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "T_zero x 0.01": {
+   "max_limit_change": 0.0,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "T_zero x 100": {
+   "max_limit_change": 0.0,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "slack x 0.01": {
+   "max_limit_change": 0.0,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "slack x 100": {
+   "max_limit_change": 0.0,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "implicit x 0.01": {
+   "max_limit_change": 0.022131878396739108,
+   "state_changes": 0,
+   "outcome_changes": 0
+  },
+  "implicit x 100": {
+   "max_limit_change": 0.0013788637907608536,
+   "state_changes": 0,
+   "outcome_changes": 0
+  }
+ },
+ "n_real_analyses": 14,
+ "fast_vs_exact_default": {
+  "max_limit_change": 0.0,
+  "outcome_changes": 0
+ },
+ "scale": {
+  "0.0001": {
+   "empty": false,
+   "lo": -1.5916674316496735,
+   "hi": -0.07968944333896472,
+   "p": 0.02791118754375617,
+   "rel_change": 0.06015066594538185
+  },
+  "0.001": {
+   "empty": false,
+   "lo": -1.59225660961509,
+   "hi": -0.07703814242052001,
+   "p": 0.02791118754375611,
+   "rel_change": 0.02487901242968454
+  },
+  "0.01": {
+   "empty": false,
+   "lo": -1.5934386479491285,
+   "hi": -0.07778934435749926,
+   "p": 0.027911187543756186,
+   "rel_change": 0.0348726477266526
+  },
+  "0.1": {
+   "empty": false,
+   "lo": -1.5935632498376557,
+   "hi": -0.07560303371244333,
+   "p": 0.02791118754375611,
+   "rel_change": 0.005787004896139636
+  },
+  "1.0": {
+   "empty": false,
+   "lo": -1.5935629365114834,
+   "hi": -0.07516803592053797,
+   "p": 0.02791118754375611,
+   "rel_change": 0.0
+  },
+  "10.0": {
+   "empty": false,
+   "lo": -1.5935638211804577,
+   "hi": -0.07510083612947356,
+   "p": 0.02791118754375611,
+   "rel_change": 0.0008939942389269146
+  },
+  "100.0": {
+   "empty": false,
+   "lo": -1.593563882242079,
+   "hi": -0.07509780029701318,
+   "p": 0.02791118754374811,
+   "rel_change": 0.0009343815182165599
+  },
+  "1000.0": {
+   "empty": false,
+   "lo": -1.5935638949344753,
+   "hi": -0.07509745539630032,
+   "p": 0.02791118746338276,
+   "rel_change": 0.0009389699141835551
+  }
+ }
+}

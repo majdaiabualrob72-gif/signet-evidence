@@ -1,0 +1,13 @@
+missing controls and variances 135s
+   RE (all designs)                             cov 0.765 width 0.203 unb 0.00 benefit 0.98 harm 0.00
+   RE (trials only)                             cov 0.965 width 0.810 unb 0.00 benefit 0.26 harm 0.00
+   FE (all designs)                             cov 0.390 width 0.112 unb 0.00 benefit 1.00 harm 0.00
+   BA-U (unsigned bias priors)                  cov 0.980 width 0.355 unb 0.00 benefit 0.98 harm 0.00
+   BA-S (elicited directions and magnitudes)    cov 0.985 width 0.335 unb 0.00 benefit 0.90 harm 0.00
+   NCO-cal (calibrated, RE)                     cov 0.980 width 0.447 unb 0.00 benefit 0.79 harm 0.00
+   DECODE                                       cov 0.970 width 0.230 unb 0.00 benefit 0.98 harm 0.00
+   SIGNET R1                                    cov 1.000 width 0.617 unb 0.46 benefit 0.27 harm 0.00
+   SIGNET R2                                    cov 1.000 width 0.617 unb 0.46 benefit 0.27 harm 0.00
+   SIGNET R3                                    cov 0.887 width 0.256 unb 0.06 benefit 0.80 harm 0.00
+   SIGNET protocol                              cov 0.930 width 0.270 unb 0.09 benefit 0.78 harm 0.00
+   SIGNET R3 k=1                                cov 0.998 width 0.494 unb 0.27 benefit 0.47 harm 0.00

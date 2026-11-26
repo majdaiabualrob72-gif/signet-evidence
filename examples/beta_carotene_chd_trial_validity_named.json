@@ -1,0 +1,21 @@
+{
+ "name": "Beta-carotene and coronary heart disease, published triangulation inputs, trial validity named (post hoc encoding, 22 November 2026)",
+ "field": ["chd"],
+ "cells": [
+  {"id": "D_rct", "design": "five randomized trials pooled", "estimate": 1.00, "lower": 0.98, "upper": 1.01,
+   "kernel": [1], "processes": ["A"], "source": "Shapland et al. medRxiv 2024"},
+  {"id": "D_mr", "design": "one Mendelian randomization study", "estimate": 1.02, "lower": 0.98, "upper": 1.07,
+   "kernel": [1], "processes": ["P"], "source": "Shapland et al. medRxiv 2024"},
+  {"id": "D_mvr", "design": "13 multivariable-regression studies pooled", "estimate": 0.83, "lower": 0.76, "upper": 0.91,
+   "kernel": [1], "processes": ["H", "L"], "source": "Shapland et al. medRxiv 2024"}
+ ],
+ "assumptions": [
+  {"name": "H_toward_lower_risk", "type": "sign", "process": "H", "direction": "negative", "rung": 1,
+   "source": "healthy-user bias in dietary cohorts"},
+  {"name": "P_absent", "type": "zero", "process": "P", "rung": 2, "source": "no horizontal pleiotropy (amendment 2)"},
+  {"name": "L_absent", "type": "zero", "process": "L", "rung": 2, "source": "dietary intake relevant to supplementation (amendment 2)"},
+  {"name": "trial_valid", "type": "zero", "process": "A", "rung": 3, "source": "pooled trials unbiased (named in the post hoc encoding)"}
+ ],
+ "targets": [{"name": "chd", "coefficients": {"chd": 1.0}}],
+ "analysis": {"alpha": 0.05, "rungs": [1, 2, 3], "tolerance": [0, 1], "claims": ["benefit", "harm"]}
+}

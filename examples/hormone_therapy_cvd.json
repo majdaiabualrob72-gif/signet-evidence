@@ -1,0 +1,25 @@
+{
+ "name": "Hormone therapy and cardiovascular disease, evidence available in 1994",
+ "field": ["cvd", "cancer"],
+ "cells": [
+  {"id": "A_cvd", "design": "cohort follow-up studies (three meta-analyses)", "estimate": 0.57, "lower": 0.50, "upper": 0.64,
+   "kernel": [1, 0], "processes": ["H"], "source": "Posthuma et al. BMJ 1994;308:1268-9"},
+  {"id": "A_cancer", "design": "same studies, total cancer", "estimate": 0.83, "lower": 0.71, "upper": 0.96,
+   "kernel": [0, 1], "processes": ["H", "D"], "source": "Posthuma et al. BMJ 1994;308:1268-9"}
+ ],
+ "assumptions": [
+  {"name": "H_toward_lower_risk", "type": "sign", "process": "H", "direction": "negative", "rung": 1,
+   "source": "healthy-user bias among elective users of preventive hormones (Barrett-Connor 1991; Posthuma 1994)"},
+  {"name": "D_toward_higher_risk", "type": "sign", "process": "D", "direction": "positive", "rung": 1,
+   "source": "greater medical contact raises detected cancer incidence among users"},
+  {"name": "control_signed", "type": "fieldsign", "field": "cancer", "direction": "positive", "rung": 2,
+   "source": "oestrogen increases or does not change cancer risk (Posthuma 1994; Grady 1992)"},
+  {"name": "H_shared", "type": "share", "process": "H", "rows": ["A_cvd", "A_cancer"], "rung": 2,
+   "source": "same cohorts, same selection of users"},
+  {"name": "control_exact", "type": "linear", "coefs": {"cancer": 1.0}, "sense": "eq", "rhs": 0.0, "rung": 3,
+   "source": "classical negative-control assumption (null control); deliberately strong"},
+  {"name": "D_absent", "type": "zero", "process": "D", "rung": 3, "source": "classical negative-control assumption"}
+ ],
+ "targets": [{"name": "cvd", "coefficients": {"cvd": 1.0}}],
+ "analysis": {"alpha": 0.05, "rungs": [1, 2, 3], "tolerance": [0, 1], "claims": ["benefit", "harm"]}
+}

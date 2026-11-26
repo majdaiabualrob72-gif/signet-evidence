@@ -1,0 +1,219 @@
+{
+ "name": "Screening sigmoidoscopy and distal colorectal cancer mortality, evidence available in 1992",
+ "input_sha256": "d80bc152014c7ba53a7ff271babd69141ebd7808bb32b0c0fd483254472dba11",
+ "alpha": 0.05,
+ "signet_version": "1.2.0",
+ "inversion": "hull",
+ "certificate_selection": "covariance of the estimates",
+ "warnings": [],
+ "targets": {
+  "distal": {
+   "rung1": {
+    "include": [
+     "H_toward_lower_risk"
+    ],
+    "capacity": {
+     "above": false,
+     "below": true
+    },
+    "set": {
+     "lo": -1.4720845776764087,
+     "hi": "inf",
+     "ratio_scale": "0.229 to inf"
+    },
+    "inversion_checks": {
+     "outer_set": {
+      "lo": -1.5951634129926018,
+      "hi": "inf"
+     },
+     "bracketed": {
+      "hi": null,
+      "lo": true
+     },
+     "hull_extended": false,
+     "warnings": []
+    },
+    "certificate_unique": {
+     "hi": null,
+     "lo": true
+    },
+    "identified_at_estimates": {
+     "lo": -0.8915981192837836,
+     "hi": "inf",
+     "certificate_hi": null,
+     "certificate_lo": {
+      "weights": {
+       "B_distal": 1.0
+      },
+      "assumptions": [
+       "H_toward_lower_risk"
+      ]
+     }
+    },
+    "model_test": {
+     "reject": false,
+     "T": 3.1515836300757107e-17,
+     "r": 0,
+     "crit": 0.0,
+     "p": 1.0
+    },
+    "claims": {
+     "benefit": {
+      "p_cert": 1.0,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": null
+     },
+     "harm": {
+      "p_cert": 0.9997118902532106,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "B_distal": 1.0000000003593885
+       },
+       "assumptions": [
+        "H_toward_lower_risk"
+       ],
+       "sd": 0.2589921774333434
+      }
+     }
+    },
+    "tolerance_k1": {
+     "lo": "-inf",
+     "hi": "inf",
+     "ratio_scale": "0 to inf"
+    }
+   },
+   "rung2": {
+    "include": [
+     "H_toward_lower_risk",
+     "H_shared"
+    ],
+    "capacity": {
+     "above": true,
+     "below": true
+    },
+    "set": {
+     "lo": -1.5935629365114834,
+     "hi": -0.07516803592053797,
+     "ratio_scale": "0.203 to 0.928"
+    },
+    "inversion_checks": {
+     "outer_set": {
+      "lo": -1.5936472168678661,
+      "hi": 0.08926293938213374
+     },
+     "bracketed": {
+      "hi": true,
+      "lo": true
+     },
+     "hull_extended": false,
+     "warnings": []
+    },
+    "certificate_unique": {
+     "hi": true,
+     "lo": true
+    },
+    "identified_at_estimates": {
+     "lo": -0.8507761247635285,
+     "hi": -0.8507761247635285,
+     "certificate_hi": {
+      "weights": {
+       "B_distal": 1.0,
+       "B_proximal": -1.0
+      },
+      "assumptions": [
+       "H_shared"
+      ]
+     },
+     "certificate_lo": {
+      "weights": {
+       "B_distal": 1.0,
+       "B_proximal": -1.0
+      },
+      "assumptions": [
+       "H_shared"
+      ]
+     }
+    },
+    "model_test": {
+     "reject": false,
+     "T": 2.2618545333752438e-17,
+     "r": 0,
+     "crit": 0.0,
+     "p": 1.0
+    },
+    "claims": {
+     "benefit": {
+      "p_cert": 0.006977796896879127,
+      "p_cc": 0.013955593771878055,
+      "p": 0.02791118754375611,
+      "p_cc_upper": 0.04870975171195979,
+      "p_upper": 0.027911187587516508,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "B_distal": 1.0,
+        "B_proximal": -1.0000000004693619
+       },
+       "assumptions": [
+        "H_shared"
+       ],
+       "sd": 0.3460684233176185
+      }
+     },
+     "harm": {
+      "p_cert": 0.9930222031337914,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "B_distal": 1.0,
+        "B_proximal": -0.9999999991535057
+       },
+       "assumptions": [
+        "H_shared"
+       ],
+       "sd": 0.3460684231172889
+      }
+     }
+    },
+    "tolerance_k1": {
+     "lo": -1.626421335236025,
+     "hi": "inf",
+     "ratio_scale": "0.197 to inf"
+    },
+    "default": {
+     "lo": "-inf",
+     "hi": "inf",
+     "ratio_scale": "0 to inf"
+    },
+    "default_capacity": {
+     "above": false,
+     "below": false,
+     "limiting": {
+      "above": [
+       "without group H_shared",
+       "without cell B_distal",
+       "without cell B_proximal"
+      ],
+      "below": [
+       "without cell B_distal"
+      ]
+     }
+    },
+    "n_cells_measuring_target": 1
+   }
+  }
+ }
+}

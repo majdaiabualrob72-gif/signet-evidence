@@ -1,0 +1,129 @@
+== SIGNET v1.2.0 reproduction, Sun Nov 22 18:12:06 +03 2026
+== machine: Darwin majds-MacBook-Air.local 25.0.0 Darwin Kernel Version 25.0.0: Mon Aug 25 21:17:45 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8103 arm64
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys, numpy, scipy, clarabel; import signet; print('python', sys.version.split()[0], 'numpy', numpy.__version__, 'scipy', scipy.__version__, 'clarabel', clarabel.__version__, 'signet', signet.__version__)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'numpy'
+== tests/test_core.py
+Traceback (most recent call last):
+  File "/Users/majdabualrob/Downloads/signet-evidence/tests/test_core.py", line 2, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+exit code 1
+== tests/test_spec.py
+Traceback (most recent call last):
+  File "/Users/majdabualrob/Downloads/signet-evidence/tests/test_spec.py", line 4, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+exit code 1
+== tests/test_cell_tolerance.py
+Traceback (most recent call last):
+  File "/Users/majdabualrob/Downloads/signet-evidence/tests/test_cell_tolerance.py", line 3, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+exit code 1
+== tests/test_v11.py
+Traceback (most recent call last):
+  File "/Users/majdabualrob/Downloads/signet-evidence/tests/test_v11.py", line 8, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+exit code 1
+== tests/test_v12.py
+Traceback (most recent call last):
+  File "/Users/majdabualrob/Downloads/signet-evidence/tests/test_v12.py", line 11, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+exit code 1
+== the four example specifications
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 148, in _get_module_details
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "/Users/majdabualrob/Downloads/signet-evidence/signet/__init__.py", line 2, in <module>
+    from .core import *          # noqa: F401,F403
+    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/majdabualrob/Downloads/signet-evidence/signet/core.py", line 32, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+sigmoidoscopy_distal exit code 1
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/signet_sigmoidoscopy_distal.json'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 148, in _get_module_details
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "/Users/majdabualrob/Downloads/signet-evidence/signet/__init__.py", line 2, in <module>
+    from .core import *          # noqa: F401,F403
+    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/majdabualrob/Downloads/signet-evidence/signet/core.py", line 32, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+hormone_therapy_cvd exit code 1
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/signet_hormone_therapy_cvd.json'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 148, in _get_module_details
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "/Users/majdabualrob/Downloads/signet-evidence/signet/__init__.py", line 2, in <module>
+    from .core import *          # noqa: F401,F403
+    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/majdabualrob/Downloads/signet-evidence/signet/core.py", line 32, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+vitamin_e_chd exit code 1
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/signet_vitamin_e_chd.json'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 148, in _get_module_details
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "/Users/majdabualrob/Downloads/signet-evidence/signet/__init__.py", line 2, in <module>
+    from .core import *          # noqa: F401,F403
+    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/majdabualrob/Downloads/signet-evidence/signet/core.py", line 32, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+beta_carotene_chd_trial_validity_named exit code 1
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/signet_beta_carotene_chd_trial_validity_named.json'
+== comparison of a sample of every analysis of this revision with the archived output
+Traceback (most recent call last):
+  File "/Users/majdabualrob/Downloads/signet-evidence/experiments/audit_v12/verify_v120.py", line 19, in <module>
+    import sim_audit as S                      # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/majdabualrob/Downloads/signet-evidence/experiments/audit_v12/sim_audit.py", line 30, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+exit code 1
+== quick check of the version 1.0.0 simulation under this version (20 literatures per base scenario)
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+  File "/Users/majdabualrob/Downloads/signet-evidence/experiments/validation/validation_v11.py", line 26, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+== R interface
+Error in signet_validate(ex) : Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 148, in _get_module_details
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "/Users/majdabualrob/Downloads/signet-evidence/signet/__init__.py", line 2, in <module>
+    from .core import *          # noqa: F401,F403
+    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/majdabualrob/Downloads/signet-evidence/signet/core.py", line 32, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Calls: chk -> cat -> isTRUE -> signet_validate
+Execution halted
+exit code 1
+== R reconstruction (second implementation, no call to the Python package)
+Error in library(lpSolve) : there is no package called ‘lpSolve’
+Calls: suppressMessages -> withCallingHandlers -> library
+Execution halted
+exit code 1
+== done Sun Nov 22 18:12:08 +03 2026

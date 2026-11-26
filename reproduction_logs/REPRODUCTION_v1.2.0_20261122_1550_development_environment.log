@@ -1,0 +1,114 @@
+== SIGNET v1.2.0 reproduction, Sun Nov 22 15:50:12 +03 2026
+== machine: Linux vm 6.18.44-fc-v726 #1 SMP PREEMPT_DYNAMIC @0 x86_64 x86_64 x86_64 GNU/Linux
+python 3.13.18 numpy 2.5.3 scipy 1.18.1 clarabel 0.11.1 signet 1.2.0
+== tests/test_core.py
+PASS point identification by a shared negative control  -0.4055,-0.1545 vs -0.4055,-0.1545
+PASS bracket from opposite signs  -0.5480,0.0176
+PASS certificate of the upper bound  {'weights': {'harmward': 1.0}, 'assumptions': ['R+']}
+PASS cone criterion, one-sided design  {'above': True, 'below': False}
+PASS cone criterion, no sign knowledge  {'above': False, 'below': False}
+PASS tolerance dial removes one-route bounds  {'lo': -inf, 'hi': inf, 'empty': False}
+PASS tolerance dial keeps a two-route bound  {'lo': -inf, 'hi': 0.03443172678293362, 'empty': False}
+PASS conditional chi-squared covers at an intersection point  CC 0.9627 (theory 0.9625); profile chi2(1) 0.9395 (theory 0.938)
+PASS exact size in an over-identified model  0.9540
+PASS falsification and minimal repair  T=65.4, r=2, repairs=[('v3',)]
+PASS fast rank equals exact rank (fast never smaller)  300/300
+ALL PASS
+PASS certificate prefers the exact route (upper)  -0.15450; {'lagged': 0.9999999997320201, 'nco': -1.000000000215154}
+PASS certificate prefers the exact route (lower)  -0.40550
+PASS sign-based certificates without sharing  -0.4980, -0.0432
+PASS certificate bound is valid whatever the bias size  0.9710
+ALL PASS
+exit code 0
+== tests/test_spec.py
+PASS invalid spec rejected cell x: ratio estimate must be positive; cell x: give se or both confidence limi
+PASS rung 1 cannot certify benefit 
+PASS rung 3 identified at estimates equals log(0.57/0.83) -0.37578933996204783
+PASS k = 1 removes the rung-3 benefit claim 
+PASS anatomical control certifies benefit at rung 2 0.203 to 0.928
+PASS benefit p-value below 0.05 0.02791118754375611
+ALL PASS
+exit code 0
+== tests/test_cell_tolerance.py
+PASS single effect design gives an unbounded default (-inf, inf)
+PASS cell-tolerant set covers with one broken cell (>= 0.93 in 400) 1.000 (full analysis 0.000)
+ALL PASS
+exit code 0
+== tests/test_v11.py
+PASS test_approximate_rank_never_below_exact_rank
+PASS test_certificate_uniqueness
+PASS test_check_certificate_rejects_a_non_certificate
+PASS test_dense_check_does_not_shrink_the_hull
+PASS test_frozen_certificate_is_valid_and_uses_data_variance
+PASS test_non_homogeneous_certificate_offset
+PASS test_outer_set_contains_hull_and_has_exact_end_points
+PASS test_row_scaling_invariance_of_certificates_and_sets
+PASS test_spec_certificate_se_freezes_the_choice
+PASS test_spec_correlations_enter_the_covariance
+PASS test_spec_rejects_bad_correlations
+PASS test_unbracketed_limit_is_reported_as_unbounded_with_a_warning
+PASS test_validated_p_value_bound_dominates_grid_value
+PASS test_without_normalisation_scaling_changes_the_choice
+ALL PASS
+exit code 0
+== tests/test_v12.py
+PASS test_ba_s_shared_closed_form
+PASS test_corollary_needs_non_negative_kernels
+PASS test_default_capacity_single_effect_cell_is_unbounded_whatever_the_data
+PASS test_default_capacity_with_three_routes_can_be_bounded
+PASS test_empty_set_reports_no_directional_p_value
+PASS test_group_readings_are_nested
+PASS test_named_thresholds_default_values_and_insensitivity
+PASS test_non_empty_set_p_value_unchanged
+PASS test_random_effects_interval_variants
+PASS test_report_prints_structural_rung_beside_default
+PASS test_rungs_need_not_be_nested_and_the_reason
+PASS test_scale_warning
+PASS test_spec_run_marks_empty_set_claims_as_not_reported
+ALL PASS
+exit code 0
+== the four example specifications
+sigmoidoscopy_distal exit code 0
+sigmoidoscopy_distal: 0 differences from the archived result
+hormone_therapy_cvd exit code 0
+hormone_therapy_cvd: 0 differences from the archived result
+vitamin_e_chd exit code 0
+vitamin_e_chd: 0 differences from the archived result
+beta_carotene_chd_trial_validity_named exit code 0
+beta_carotene_chd_trial_validity_named: 0 differences from the archived result
+== comparison of a sample of every analysis of this revision with the archived output
+signet 1.2.0
+PASS  real-data checks of version 1.1.0 under this version: 0 differences from the archived output
+PASS  real-data analyses of the forensic-audit revision: 0 differences from the archived output
+PASS  comparators (random effects with three intervals, BA-S independent and shared): 25 literatures per scenario: 1875 of 1875 intervals identical to the archive
+PASS  ablation: sample of 4 literatures per scenario: 480 of 480 sets identical to the archive (limits within 1e-6)
+PASS  groups: sample of 3 literatures per scenario: 90 of 90 sets identical to the archive (limits within 1e-6)
+PASS  heldout: sample of 3 literatures per scenario: 486 of 486 sets identical to the archive (limits within 1e-6)
+ALL PASS
+exit code 0
+== quick check of the version 1.0.0 simulation under this version (20 literatures per base scenario)
+legacy settings agree with the archived results in 400 of 400 analyses
+== R interface
+PASS valid specification 
+PASS rung 1 cannot certify benefit 
+PASS rung 2 can certify benefit 
+PASS certificate is distal minus proximal 
+PASS rung 2 set 0.203 to 0.928 
+PASS benefit p about 0.028 
+PASS default unbounded 
+ALL PASS
+exit code 0
+== R reconstruction (second implementation, no call to the Python package)
+# Reconstruction of SIGNET in R: comparison with the Python package
+
+R 4.3.3; lpSolve 5.6.20; quadprog 1.5.8; jsonlite 1.8.8. Run on 2026-11-22 16:04 +03.
+
+Comparisons: 80. Outside tolerance: 0. Largest absolute difference among finite values: 7.00e-05.
+Tolerances: 0 for capacity, 5e-4 on the log scale for set limits (the bisection tolerances are 1e-4 in the package and 1e-5 here), 1e-6 for p-values.
+
+Worked example (sigmoidoscopy, rung 2): test-based limits -1.59356 and -0.07510 on the log scale (RR 0.2032 to 0.9277); just inside the lower limit T = 7.373 with 2 degrees of freedom, p = 0.0251; just inside the upper limit T = 5.021 with 1 degree of freedom, p = 0.0250.
+
+
+ALL COMPARISONS WITHIN TOLERANCE
+exit code 0
+== done Sun Nov 22 16:04:42 +03 2026

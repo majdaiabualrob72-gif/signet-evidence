@@ -1,0 +1,25 @@
+13:08:46 done ablation | reference | 400 literatures | 556s
+13:17:30 done ablation | magnitudes doubled | 400 literatures | 523s
+13:28:52 done ablation | 15% of signs wrong | 400 literatures | 682s
+13:34:36 done ablation | no design opposing benefit | 400 literatures | 344s
+13:37:30 done ablation | one-signed literature, null effect | 400 literatures | 174s
+13:39:29 done ablation | one-signed literature, null effect, magnitudes doubled | 400 literatures | 119s
+13:51:33 done ablation | extreme outlier | 400 literatures | 724s
+14:02:30 done ablation | heterogeneous populations | 400 literatures | 657s
+14:12:32 done ablation | contradictory evidence | 400 literatures | 601s
+14:15:56 done groups | dense small biases | 200 literatures | 204s
+14:19:18 done groups | omitted bias | 200 literatures | 202s
+14:20:08 done groups | one-signed literature, null effect | 200 literatures | 50s
+14:20:57 done groups | one-signed literature, null effect, magnitudes doubled | 200 literatures | 49s
+14:24:25 done groups | extreme outlier | 200 literatures | 208s
+14:27:45 done groups | heterogeneous populations | 200 literatures | 200s
+14:31:24 done heldout | reference | 200 literatures | 219s
+14:34:42 done heldout | null effect | 200 literatures | 198s
+14:37:55 done heldout | dense small biases | 200 literatures | 194s
+14:41:18 done heldout | omitted bias | 200 literatures | 203s
+14:42:03 done heldout | one-signed literature, null effect | 200 literatures | 45s
+14:42:46 done heldout | one-signed literature, null effect, magnitudes doubled | 200 literatures | 43s
+14:46:03 done heldout | extreme outlier | 200 literatures | 197s
+14:49:28 done heldout | heterogeneous populations | 200 literatures | 205s
+14:53:57 done heldout | contradictory evidence | 200 literatures | 268s
+14:57:21 done heldout | held-out: new-user cohort against its direction, larger shift | 200 literatures | 204s

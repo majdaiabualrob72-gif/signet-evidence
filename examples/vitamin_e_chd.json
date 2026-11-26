@@ -1,0 +1,16 @@
+{
+ "name": "Vitamin E supplements and coronary disease, evidence available in 1993",
+ "field": ["chd"],
+ "cells": [
+  {"id": "C_nhs", "design": "prospective cohort (Nurses' Health Study)", "estimate": 0.59, "lower": 0.38, "upper": 0.91,
+   "kernel": [1], "processes": ["H"], "source": "Stampfer et al. N Engl J Med 1993;328:1444-9"},
+  {"id": "C_hpfs", "design": "prospective cohort (Health Professionals Follow-up Study)", "estimate": 0.63, "lower": 0.47, "upper": 0.84,
+   "kernel": [1], "processes": ["H"], "source": "Rimm et al. N Engl J Med 1993;328:1450-6"}
+ ],
+ "assumptions": [
+  {"name": "H_toward_lower_risk", "type": "sign", "process": "H", "direction": "negative", "rung": 1,
+   "source": "healthy-user bias among elective users of supplements"}
+ ],
+ "targets": [{"name": "chd", "coefficients": {"chd": 1.0}}],
+ "analysis": {"alpha": 0.05, "rungs": [1], "tolerance": [0, 1], "claims": ["benefit", "harm"]}
+}

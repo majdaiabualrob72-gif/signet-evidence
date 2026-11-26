@@ -1,0 +1,425 @@
+{
+ "nrep": 400,
+ "results": {
+  "reference": {
+   "FE (all designs)": {
+    "n": 400,
+    "coverage": 0.365,
+    "mc_se": 0.024071508054129054,
+    "median_width": 0.11221021127980135,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 1.0,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 400,
+    "coverage": 0.9725,
+    "mc_se": 0.00817675822071314,
+    "median_width": 0.36121607251417776,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.99,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 400,
+    "coverage": 0.9925,
+    "mc_se": 0.004313858481684336,
+    "median_width": 0.3358975099702846,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.94,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 400,
+    "coverage": 0.9825,
+    "mc_se": 0.006556247020971671,
+    "median_width": 0.3744852608427427,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.8175,
+    "harm": 0.0
+   }
+  },
+  "null effect": {
+   "FE (all designs)": {
+    "n": 400,
+    "coverage": 0.315,
+    "mc_se": 0.023225793850803037,
+    "median_width": 0.11316698186753449,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.65,
+    "harm": 0.035
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 400,
+    "coverage": 0.97,
+    "mc_se": 0.008529361054615993,
+    "median_width": 0.3648051099200977,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.03,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 400,
+    "coverage": 0.99,
+    "mc_se": 0.004974937185533102,
+    "median_width": 0.33861056046586346,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0075,
+    "harm": 0.0025
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 400,
+    "coverage": 0.965,
+    "mc_se": 0.009188987974744557,
+    "median_width": 0.38719550813251696,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0275,
+    "harm": 0.0075
+   }
+  },
+  "magnitudes doubled": {
+   "FE (all designs)": {
+    "n": 400,
+    "coverage": 0.1925,
+    "mc_se": 0.019713177699194007,
+    "median_width": 0.1104335798343063,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.99,
+    "harm": 0.0025
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 400,
+    "coverage": 0.79,
+    "mc_se": 0.0203654118544163,
+    "median_width": 0.3669953104096105,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.9825,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 400,
+    "coverage": 0.9525,
+    "mc_se": 0.010635289135702893,
+    "median_width": 0.3402484700297261,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.9625,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 400,
+    "coverage": 0.9975,
+    "mc_se": 0.002496873044429746,
+    "median_width": 0.6764067216502481,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.545,
+    "harm": 0.0
+   }
+  },
+  "dense small biases": {
+   "FE (all designs)": {
+    "n": 400,
+    "coverage": 0.245,
+    "mc_se": 0.02150436002302789,
+    "median_width": 0.11465207713203701,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.995,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 400,
+    "coverage": 0.955,
+    "mc_se": 0.010365206220813944,
+    "median_width": 0.35243676374600474,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.985,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 400,
+    "coverage": 0.9825,
+    "mc_se": 0.006556247020971671,
+    "median_width": 0.33327029114142775,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.96,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 400,
+    "coverage": 0.9825,
+    "mc_se": 0.006556247020971671,
+    "median_width": 0.39770891511283263,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.8075,
+    "harm": 0.0
+   }
+  },
+  "15% of signs wrong": {
+   "FE (all designs)": {
+    "n": 400,
+    "coverage": 0.44,
+    "mc_se": 0.024819347291981715,
+    "median_width": 0.11114261297440832,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.995,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 400,
+    "coverage": 0.9925,
+    "mc_se": 0.004313858481684336,
+    "median_width": 0.35237424037723086,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.9675,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 400,
+    "coverage": 0.9775,
+    "mc_se": 0.00741514497498194,
+    "median_width": 0.33693847616516803,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.8775,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 400,
+    "coverage": 0.98,
+    "mc_se": 0.007000000000000003,
+    "median_width": 0.3635300727087789,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.8175,
+    "harm": 0.0
+   }
+  },
+  "omitted bias": {
+   "FE (all designs)": {
+    "n": 400,
+    "coverage": 0.63,
+    "mc_se": 0.024140215409146622,
+    "median_width": 0.11358156798239578,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.995,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 400,
+    "coverage": 0.9925,
+    "mc_se": 0.004313858481684336,
+    "median_width": 0.3653566784351281,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.92,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 400,
+    "coverage": 0.9725,
+    "mc_se": 0.00817675822071314,
+    "median_width": 0.3425911977428859,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.7675,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 400,
+    "coverage": 0.98,
+    "mc_se": 0.007000000000000003,
+    "median_width": 0.3778852983487246,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.725,
+    "harm": 0.0
+   }
+  },
+  "no design opposing benefit": {
+   "FE (all designs)": {
+    "n": 400,
+    "coverage": 0.2125,
+    "mc_se": 0.020453835214941964,
+    "median_width": 0.14902909609781012,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 1.0,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 400,
+    "coverage": 0.975,
+    "mc_se": 0.007806247497998001,
+    "median_width": 0.5750325018873967,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.945,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 400,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.5137897507274714,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.5025,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 400,
+    "coverage": 0.955,
+    "mc_se": 0.010365206220813944,
+    "median_width": 0.9455692442551871,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.395,
+    "harm": 0.0
+   }
+  },
+  "no bias": {
+   "FE (all designs)": {
+    "n": 400,
+    "coverage": 0.96,
+    "mc_se": 0.009797958971132717,
+    "median_width": 0.11311094017783131,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.995,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 400,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.3585284069011051,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.9275,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 400,
+    "coverage": 0.9875,
+    "mc_se": 0.005555121510822233,
+    "median_width": 0.3351975504948921,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.76,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 400,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.22837078140141054,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.8675,
+    "harm": 0.0
+   }
+  },
+  "one-signed literature, null effect": {
+   "FE (all designs)": {
+    "n": 400,
+    "coverage": 0.09,
+    "mc_se": 0.014309088021254185,
+    "median_width": 0.17435527955819108,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.91,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 400,
+    "coverage": 0.9275,
+    "mc_se": 0.012965699942540704,
+    "median_width": 0.6066324248400478,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0725,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 400,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.5452296886575532,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 400,
+    "coverage": 0.7425,
+    "mc_se": 0.021862853770722612,
+    "median_width": 1.3635749126844792,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.2575,
+    "harm": 0.0
+   }
+  },
+  "one-signed literature, null effect, magnitudes doubled": {
+   "FE (all designs)": {
+    "n": 400,
+    "coverage": 0.0175,
+    "mc_se": 0.006556247020971678,
+    "median_width": 0.17757150715704337,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.9825,
+    "harm": 0.0
+   },
+   "BA-U (unsigned bias priors)": {
+    "n": 400,
+    "coverage": 0.27,
+    "mc_se": 0.022197972880423113,
+    "median_width": 0.6080398395324522,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.73,
+    "harm": 0.0
+   },
+   "BA-S (elicited directions and magnitudes)": {
+    "n": 400,
+    "coverage": 0.8975,
+    "mc_se": 0.015165235738358969,
+    "median_width": 0.5432463963784566,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.1025,
+    "harm": 0.0
+   },
+   "NCO-cal (calibrated, RE)": {
+    "n": 400,
+    "coverage": 0.6675,
+    "mc_se": 0.023555453190291203,
+    "median_width": 2.408361141533966,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.3325,
+    "harm": 0.0
+   }
+  }
+ }
+}

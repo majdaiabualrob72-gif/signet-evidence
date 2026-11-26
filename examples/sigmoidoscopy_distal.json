@@ -1,0 +1,18 @@
+{
+ "name": "Screening sigmoidoscopy and distal colorectal cancer mortality, evidence available in 1992",
+ "field": ["distal"],
+ "cells": [
+  {"id": "B_distal", "design": "case-control", "estimate": 0.41, "lower": 0.25, "upper": 0.69, "kernel": [1], "processes": ["H"],
+   "source": "Selby et al. N Engl J Med 1992;326:653-7"},
+  {"id": "B_proximal", "design": "case-control, cancers beyond reach", "estimate": 0.96, "lower": 0.61, "upper": 1.50,
+   "kernel": [0], "processes": ["H"], "source": "Selby et al. N Engl J Med 1992;326:653-7"}
+ ],
+ "assumptions": [
+  {"name": "H_toward_lower_risk", "type": "sign", "process": "H", "direction": "negative", "rung": 1,
+   "source": "healthy-screenee bias"},
+  {"name": "H_shared", "type": "share", "process": "H", "rows": ["B_distal", "B_proximal"], "rung": 2,
+   "source": "anatomical negative control in the same programme (Selby 1992)"}
+ ],
+ "targets": [{"name": "distal", "coefficients": {"distal": 1.0}}],
+ "analysis": {"alpha": 0.05, "rungs": [1, 2], "tolerance": [0, 1], "claims": ["benefit", "harm"]}
+}

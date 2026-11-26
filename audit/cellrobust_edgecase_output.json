@@ -1,0 +1,122 @@
+{
+ "extreme outlier": {
+  "affected": 0,
+  "coverage_archived": 0.99,
+  "coverage_corrected": 0.99,
+  "benefit_archived": 0.59,
+  "benefit_corrected": 0.59,
+  "group_only_benefit_lost": 0
+ },
+ "publication bias": {
+  "affected": 0,
+  "coverage_archived": 0.995,
+  "coverage_corrected": 0.995,
+  "benefit_archived": 0.72,
+  "benefit_corrected": 0.72,
+  "group_only_benefit_lost": 0
+ },
+ "heterogeneous populations": {
+  "affected": 1,
+  "coverage_archived": 0.945,
+  "coverage_corrected": 0.945,
+  "benefit_archived": 0.62,
+  "benefit_corrected": 0.62,
+  "group_only_benefit_lost": 0
+ },
+ "missing controls and variances": {
+  "affected": 0,
+  "coverage_archived": 1.0,
+  "coverage_corrected": 1.0,
+  "benefit_archived": 0.455,
+  "benefit_corrected": 0.455,
+  "group_only_benefit_lost": 0
+ },
+ "contradictory evidence": {
+  "affected": 0,
+  "coverage_archived": 0.925,
+  "coverage_corrected": 0.925,
+  "benefit_archived": 0.605,
+  "benefit_corrected": 0.605,
+  "group_only_benefit_lost": 0
+ },
+ "reference": {
+  "affected": 2,
+  "coverage_archived": 0.995,
+  "coverage_corrected": 0.995,
+  "benefit_archived": 0.69,
+  "benefit_corrected": 0.69,
+  "group_only_benefit_lost": 0
+ },
+ "null effect": {
+  "affected": 1,
+  "coverage_archived": 0.995,
+  "coverage_corrected": 0.995,
+  "benefit_archived": 0.0,
+  "benefit_corrected": 0.0,
+  "group_only_benefit_lost": 0
+ },
+ "magnitudes doubled": {
+  "affected": 0,
+  "coverage_archived": 1.0,
+  "coverage_corrected": 1.0,
+  "benefit_archived": 0.59,
+  "benefit_corrected": 0.59,
+  "group_only_benefit_lost": 0
+ },
+ "dense small biases": {
+  "affected": 2,
+  "coverage_archived": 1.0,
+  "coverage_corrected": 1.0,
+  "benefit_archived": 0.72,
+  "benefit_corrected": 0.72,
+  "group_only_benefit_lost": 0
+ },
+ "15% of signs wrong": {
+  "affected": 2,
+  "coverage_archived": 0.995,
+  "coverage_corrected": 0.995,
+  "benefit_archived": 0.615,
+  "benefit_corrected": 0.615,
+  "group_only_benefit_lost": 0
+ },
+ "omitted bias": {
+  "affected": 1,
+  "coverage_archived": 1.0,
+  "coverage_corrected": 1.0,
+  "benefit_archived": 0.54,
+  "benefit_corrected": 0.54,
+  "group_only_benefit_lost": 0
+ },
+ "no design opposing benefit": {
+  "affected": 32,
+  "coverage_archived": 1.0,
+  "coverage_corrected": 1.0,
+  "benefit_archived": 0.06,
+  "benefit_corrected": 0.06,
+  "group_only_benefit_lost": 0
+ },
+ "no bias": {
+  "affected": 2,
+  "coverage_archived": 1.0,
+  "coverage_corrected": 1.0,
+  "benefit_archived": 0.75,
+  "benefit_corrected": 0.75,
+  "group_only_benefit_lost": 0
+ },
+ "one-signed literature, null effect": {
+  "affected": 70,
+  "coverage_archived": 1.0,
+  "coverage_corrected": 1.0,
+  "benefit_archived": 0.0,
+  "benefit_corrected": 0.0,
+  "group_only_benefit_lost": 0
+ },
+ "one-signed literature, null effect, magnitudes doubled": {
+  "affected": 72,
+  "coverage_archived": 1.0,
+  "coverage_corrected": 1.0,
+  "benefit_archived": 0.0,
+  "benefit_corrected": 0.0,
+  "group_only_benefit_lost": 0
+ }
+}

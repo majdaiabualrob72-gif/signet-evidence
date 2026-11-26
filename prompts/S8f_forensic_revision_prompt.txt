@@ -1,0 +1,402 @@
+# SIGNET — AUTONOMOUS END-TO-END SCIENTIFIC REVISION, VALIDATION, AND FINAL SUBMISSION RELEASE
+
+## 1. ABSOLUTE MISSION
+
+You are entrusted with the complete revision and finalization of the SIGNET research project.
+
+Your task is to take the uploaded forensic verdict, original manuscript, supplementary materials, source code, computational archive, figures, tables, and supporting documentation and produce the strongest possible final journal-submission package.
+
+**You are the execution agent, not an adviser.**
+
+I do not want to supervise individual corrections, rewrite your suggested paragraphs, manually reconcile numerical discrepancies, or repeatedly ask you to finish incomplete work.
+
+I expect you to:
+
+- Read everything.
+- Understand the entire project.
+- Identify every required correction.
+- Make the corrections directly.
+- Recalculate affected results.
+- Modify code when necessary.
+- Update every affected document.
+- Verify every change.
+- Detect and correct errors introduced during revision.
+- Conduct repeated quality-control reviews.
+- Produce the final files.
+
+Do not stop after presenting a plan.
+
+Do not ask me to approve individual corrections.
+
+Do not return intermediate drafts as the final deliverable.
+
+Do not transfer tasks back to me merely because they are technically demanding.
+
+**Take responsibility for completing the project to the highest defensible scientific standard.**
+
+## 2. MODEL AND REASONING REQUIREMENTS
+
+Use the strongest available Claude Opus or equivalent highest-capability reasoning model, with the maximum available thinking/effort setting.
+
+Enable extended or adaptive thinking where available.
+
+Use the strongest available coding and file-handling capabilities.
+
+For complex calculations, use executable Python or R rather than mental arithmetic.
+
+For large document packages, inspect all files and maintain a structured internal record of the entire project.
+
+Do not sacrifice accuracy for speed.
+
+## 3. SOURCE MATERIALS ARE THE AUTHORITY
+
+The primary revision specification is:
+
+**Verdict.pdf — SIGNET Independent Forensic Audit, November 22, 2026.**
+
+The audit identifies:
+
+- Three major findings.
+- Thirteen moderate findings.
+- Thirteen minor findings.
+
+You must inspect all 11 pages and use the exact finding IDs M1–M3, D1–D13, and N1–N13.
+
+The actual manuscript, source code, supplementary materials, and numerical outputs determine how corrections must be implemented.
+
+Never assume the verdict contains every possible issue. Its findings are the mandatory minimum correction set, not a limit on further quality improvement.
+
+Preserve valid mathematical work. Do not redesign the methodology without compelling scientific justification.
+
+## 4. AUTONOMOUS FILE MANAGEMENT
+
+Inspect all uploaded files.
+
+Identify authoritative versions and establish a consistent project structure.
+
+Create a separate working directory and preserve the originals.
+
+Inspect:
+
+- Every manuscript section.
+- Every equation.
+- Every table.
+- Every figure.
+- Every figure legend.
+- Every supplementary section.
+- Every reference.
+- Every relevant Python and R file.
+- Every test and configuration file.
+- Every available numerical output.
+- Every relevant execution log.
+
+Inspect ZIP archives completely.
+
+Do not assume the main script represents the complete computational implementation.
+
+Use the actual source files rather than recreating a simplified version of the project.
+
+If a required file is genuinely absent, continue every task that can be completed and request only the missing essential material.
+
+Do not stop the entire project because one component is unavailable.
+
+## 5. MANDATORY COMPLETE CORRECTION
+
+Resolve all 29 forensic findings.
+
+Use a machine-readable correction register and a human-readable correction report.
+
+For every finding, record:
+
+- Original problem.
+- Exact location.
+- Scientific interpretation.
+- Actual correction implemented.
+- Files modified.
+- Numerical impact.
+- Verification performed.
+- Final status.
+
+A finding is not resolved merely because you changed its wording.
+
+It must be verified against the underlying scientific and computational evidence.
+
+### Special mandatory attention
+
+**M1 — Random-effects comparator**
+
+Reconstruct the actual analysis, determine the interval used, reproduce the Wald, Hartung–Knapp, and never-narrower specifications where appropriate, and update every affected numerical result and interpretation.
+
+**M2 — Independent human verification**
+
+Complete all internal verification and prepare the independent statistician's verification package. Never invent human sign-off.
+
+**M3 — Reporting default**
+
+Correct the post-stress-test selection issue, disclose the lack of prospective support, explain the three uninformative clinical questions, and report the structural rung alongside the default.
+
+**D1–D13 and N1–N13**
+
+Implement all corrections individually, including the statistical assumptions, BA-S specifications, group definitions, empty-set handling, hormone-therapy sensitivity analysis, trial-validity assumption, literature, bounded-set coverage, ablation analysis, R reconstruction, references, denominators, mathematical conditions, numerical discrepancies, scenario specifications, tolerances, and cross-references.
+
+No finding may disappear from the final register without an explicit resolution or an evidence-based explanation of why it remains unresolved.
+
+## 6. REVISE THE ACTUAL RESEARCH
+
+Do not merely write a new manuscript based on the audit.
+
+Work from the actual latest SIGNET manuscript and preserve its established scientific structure and valid content.
+
+Edit the actual DOCX file.
+
+Update all affected:
+
+- Abstract statements.
+- Introduction claims.
+- Methods.
+- Mathematical formulations.
+- Statistical descriptions.
+- Results.
+- Discussion.
+- Limitations.
+- Conclusions.
+- Tables.
+- Figure legends.
+- References.
+- Declarations.
+
+Maintain a consistent narrative throughout the entire manuscript.
+
+Every number in the Abstract must agree with the final Results.
+
+Every number in the Results must agree with its underlying output.
+
+Every methodological statement must describe the actual implementation.
+
+Every conclusion must be supported by the final evidence.
+
+## 7. COMPUTATIONAL RECONSTRUCTION AND REANALYSIS
+
+Inspect and execute the actual code wherever possible.
+
+Reproduce all affected analyses.
+
+Do not merely trust previous outputs.
+
+Where necessary:
+
+- Correct source code.
+- Add missing tests.
+- Correct numerical tolerances.
+- Run alternative comparator specifications.
+- Perform required sensitivity analyses.
+- Recalculate confidence intervals and p-values.
+- Reproduce all affected tables and figures.
+- Check boundary conditions.
+- Check empty and unbounded sets.
+- Check numerical stability.
+- Check consistency between mathematical definitions and code.
+
+Preserve original source code and outputs.
+
+Create a documented revised version.
+
+Do not report a successful test unless it was actually executed.
+
+If the environment prevents an execution, identify the limitation precisely and use an alternative independent calculation where possible.
+
+## 8. MATHEMATICAL AND STATISTICAL QUALITY CONTROL
+
+Recheck all Theorems 1–3 and Propositions S1–S4 against the actual manuscript and proofs.
+
+Preserve valid proofs.
+
+Correct missing assumptions, mathematical terminology, conditions, definitions, and attributions.
+
+Recheck every equation affected by a revision.
+
+Ensure that all statistical procedures are described accurately.
+
+Do not confuse:
+
+- Statistical significance with practical significance.
+- Validity with exactness.
+- Mathematical identification with empirical identification.
+- Boundedness with informative coverage.
+- Simulation performance with real-world performance.
+- Computational reproducibility with scientific validity.
+
+Do not make SIGNET appear more successful by changing inferential standards or selecting favorable comparators.
+
+## 9. COMPLETE DOCUMENT AND FIGURE RECONSTRUCTION
+
+Produce the actual revised documents.
+
+Do not deliver a document that requires me to copy and paste corrections from a separate report.
+
+Ensure that all tables and figures are consistent with the final analyses.
+
+Recreate figures if necessary.
+
+Verify:
+
+- Typography.
+- Equation rendering.
+- Table formatting.
+- Page numbering.
+- Headings.
+- Captions.
+- References.
+- Cross-references.
+- Supplementary numbering.
+- Internal hyperlinks.
+- Document integrity.
+
+Check the exported PDF visually, page by page, for clipping, broken equations, missing tables, blank pages, and formatting errors.
+
+## 10. REFERENCE AND CITATION VERIFICATION
+
+Verify all references, including the final bibliography and newly introduced literature.
+
+Check every citation against the actual publication.
+
+Verify author names, title, year, journal, DOI, and relevance.
+
+Pay special attention to the methodological literature identified in D8.
+
+Ensure that every in-text citation corresponds to a bibliography entry and every bibliography entry is appropriately cited.
+
+Do not invent or approximate references.
+
+## 11. GITHUB AND ZENODO — THE ONLY DEFERRED EXTERNAL IDENTIFIERS
+
+I will supply the final GitHub URL and Zenodo DOI later.
+
+Do not interrupt the revision for these two items.
+
+Prepare all associated statements, documentation, version information, and repository descriptions.
+
+Retain clearly identified placeholders for:
+
+- GitHub repository URL.
+- Zenodo DOI.
+
+Do not fabricate either identifier.
+
+Complete everything else that can be completed without them.
+
+## 12. REPEATED SELF-CORRECTION AND QUALITY CONTROL
+
+This section is particularly important.
+
+You must not perform one revision pass and immediately declare completion.
+
+Conduct at least four distinct finalization passes.
+
+**PASS 1 — Scientific revision**
+
+Implement all forensic corrections and improve the complete manuscript.
+
+**PASS 2 — Independent numerical and computational verification**
+
+Recalculate affected outputs, inspect the code, and verify all numerical statements.
+
+**PASS 3 — Adversarial peer review**
+
+Assume you are a highly critical reviewer specializing in mathematical statistics and methodological research.
+
+Attempt to identify new weaknesses, unsupported claims, unfair comparisons, mathematical ambiguities, and inconsistencies.
+
+Correct every defensible issue.
+
+**PASS 4 — Final production audit**
+
+Inspect the actual final DOCX and PDF, tables, figures, supplementary files, references, and computational package.
+
+Check that no corrections were lost during document generation or export.
+
+If a problem is discovered in any pass, return to the relevant revision stage, correct it, and repeat the necessary checks.
+
+Continue until the project reaches a stable final state or a genuinely external dependency prevents completion.
+
+Do not substitute a self-assessment claiming that the manuscript is excellent for actual verification.
+
+## 13. FINAL DELIVERABLES
+
+Produce a complete final package containing:
+
+1. Final revised manuscript in DOCX.
+2. Final revised manuscript in PDF.
+3. Final revised supplementary materials in DOCX.
+4. Final revised supplementary materials in PDF.
+5. Final figures in publication-quality formats.
+6. Final tables.
+7. Complete correction register in XLSX.
+8. Detailed change log.
+9. Revised source-code package, where applicable.
+10. Computational execution and testing report.
+11. Independent human statistician verification package.
+12. Verified reference list.
+13. Final submission-readiness report.
+14. Journal cover letter draft.
+15. Complete journal submission checklist.
+
+Use actual finished files. Do not generate empty or superficial deliverables.
+
+Prepare the manuscript in a professional, journal-neutral methodological format because no target journal has been specified.
+
+Do not require me to select a journal before completing the scientific revision.
+
+## 14. FINAL RELEASE GATE
+
+You may declare the project ready for author review only after all possible work has been completed.
+
+The final release must satisfy the following:
+
+- All 29 forensic findings have been addressed.
+- All affected results have been recalculated or explicitly marked unverifiable.
+- All manuscript sections are consistent.
+- All supplementary materials are synchronized.
+- All references are checked.
+- All figures and tables are verified.
+- All executable tests have been run where possible.
+- The final PDF has been visually inspected.
+- No known correctable inconsistency remains.
+- GitHub and Zenodo placeholders are clearly identified.
+- Independent human verification is transparently distinguished from AI verification.
+
+Do not label the work fully submission-ready while essential human verification or external identifiers remain outstanding.
+
+However, do not use these outstanding external items as an excuse to leave other work unfinished.
+
+## 15. STRICT BEHAVIORAL RULES
+
+1. Do not stop after creating a plan.
+2. Do not ask for approval of ordinary editorial or methodological corrections.
+3. Do not ask me to manually edit documents.
+4. Do not ask me to reconcile numbers.
+5. Do not return only suggested paragraphs.
+6. Do not return a correction list instead of revised files.
+7. Do not invent data or evidence.
+8. Do not fabricate independent verification.
+9. Do not silently change the methodology.
+10. Do not discard valid existing work.
+11. Do not leave avoidable inconsistencies.
+12. Do not declare completion prematurely.
+13. Make conservative, scientifically justified decisions when multiple defensible options exist, documenting the rationale.
+14. If an author-specific fact is genuinely unavailable, isolate it rather than inventing it.
+15. Continue all other work while any isolated external dependency remains unresolved.
+
+## FINAL INSTRUCTION
+
+Take full ownership of the revision workflow.
+
+I am providing the forensic verdict so that you can use it to correct the actual SIGNET research project.
+
+I do not want to become the project manager for your corrections.
+
+I do not want to receive an incomplete manuscript and then spend another round correcting omissions, inconsistent tables, broken references, missing supplementary sections, or unresolved numerical discrepancies that you could have identified yourself.
+
+**Your responsibility is to deliver the most complete, accurate, scientifically defensible final SIGNET submission package achievable from the supplied evidence, with all correctable problems resolved before you return the work.**
+
+Begin by inspecting every uploaded file and proceed directly to execution.

@@ -1,0 +1,45 @@
+{
+ "nrep": 200,
+ "tau_h": 0.1,
+ "results": {
+  "contradictory evidence": {
+   "SIGNET R3 k=1 (group or cell) + heterogeneity allowance": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.5350890938444237,
+    "unbounded": 0.035,
+    "empty": 0.0,
+    "benefit": 0.315,
+    "harm": 0.0
+   },
+   "median seconds": 1.2026951115001339
+  },
+  "heterogeneous populations": {
+   "SIGNET R3 k=1 (group or cell) + heterogeneity allowance": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.6360369947433463,
+    "unbounded": 0.09,
+    "empty": 0.0,
+    "benefit": 0.36,
+    "harm": 0.0
+   },
+   "median seconds": 0.9394388559999243
+  },
+  "reference": {
+   "SIGNET R3 k=1 (group or cell) + heterogeneity allowance": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.588335679024647,
+    "unbounded": 0.12,
+    "empty": 0.0,
+    "benefit": 0.425,
+    "harm": 0.0
+   },
+   "median seconds": 0.9253834639998786
+  }
+ }
+}

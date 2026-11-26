@@ -1,0 +1,2 @@
+reference {'SIGNET R3 + heterogeneity allowance': (0.98, 0.38, 0.8), 'SIGNET R3 k=1 + heterogeneity allowance': (1.0, 0.58, 0.45)}
+heterogeneous populations {'SIGNET R3 + heterogeneity allowance': (0.938, 0.37, 0.77), 'SIGNET R3 k=1 + heterogeneity allowance': (1.0, 0.58, 0.4)}

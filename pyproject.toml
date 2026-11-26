@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signet-evidence"
+version = "1.2.0"
+description = "SIGNET: signed evidence triangulation. Certifying effects from biased evidence using directions of bias, with inference that is valid in finite samples for known variances."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "clarabel>=0.7"]
+
+[project.optional-dependencies]
+verify = ["cvxpy>=1.4"]
+figures = ["matplotlib>=3.8"]
+
+[project.scripts]
+signet = "signet.cli:main"
+
+[tool.setuptools]
+packages = ["signet"]

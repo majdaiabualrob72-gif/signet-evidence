@@ -1,0 +1,29 @@
+comparators reference 0s
+comparators null effect 0s
+comparators magnitudes doubled 1s
+comparators dense small biases 1s
+comparators 15% of signs wrong 1s
+comparators omitted bias 1s
+comparators no design opposing benefit 1s
+comparators no bias 2s
+comparators one-signed literature, null effect 2s
+comparators one-signed literature, null effect, magnitudes doubled 2s
+hetallow heterogeneous populations 159s
+bounded reference 131s
+sweep mixed designs, true benefit | x4.0 102s
+sweep one-signed literature, null effect | x3.0 150s
+cellrobust extreme outlier 105s
+cellrobust publication bias 202s
+cellrobust heterogeneous populations 295s
+cellrobust missing controls and variances 371s
+cellrobust contradictory evidence 494s
+cellrobust reference 593s
+cellrobust null effect 693s
+cellrobust magnitudes doubled 793s
+cellrobust dense small biases 898s
+cellrobust 15% of signs wrong 1000s
+cellrobust omitted bias 1093s
+cellrobust no design opposing benefit 1133s
+cellrobust no bias 1247s
+cellrobust one-signed literature, null effect 1267s
+cellrobust one-signed literature, null effect, magnitudes doubled 1285s

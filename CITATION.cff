@@ -1,0 +1,26 @@
+# The code was written by a generative AI system under the author's direction; see AI_USE.md.
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SIGNET: signed evidence triangulation (reference implementation, data and analysis scripts)"
+version: 1.2.0
+date-released: 2026-11-22
+license: MIT
+type: software
+authors:
+  - family-names: AbuAlrob
+    given-names: Majd A.
+    orcid: "https://orcid.org/0000-0002-9707-9266"
+    affiliation: "Neuroscience Institute, Hamad Medical Corporation, Doha, Qatar"
+keywords:
+  - evidence synthesis
+  - meta-analysis
+  - triangulation
+  - partial identification
+  - bias analysis
+abstract: >-
+  SIGNET encodes directions of bias, links between designs and design validity as
+  named linear constraints, decides before results are seen which directional claims
+  a body of evidence can certify, and reports certificates, inference that is valid in finite
+  samples for known variances, and tolerance to failed assumptions. The code was written by
+  generative AI systems (Claude Opus 5.5 and, for version 1.2.0, Claude Fable 5.2; Anthropic) under
+  the direction of the author, who is accountable for it; see AI_USE.md.

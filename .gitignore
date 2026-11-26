@@ -1,0 +1,22 @@
+# Python caches and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# macOS and editor files
+.DS_Store
+.idea/
+.vscode/
+# outputs written by quick runs outside the archived locations
+/sigmoidoscopy.json
+/sigmoidoscopy.md
+/ht.json
+/ht.md
+/report.md
+.venv/
+.venv/
+
+# Temporarily excluded pending research-data review
+/data/realdata/

@@ -1,0 +1,350 @@
+{
+ "nrep": 400,
+ "results": {
+  "reference": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.875,
+    "mc_se": 0.016535945694153693,
+    "median_width": 0.24824590268342395,
+    "unbounded": 0.0,
+    "empty": 0.04,
+    "benefit": 0.89,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.9925,
+    "mc_se": 0.004313858481684336,
+    "median_width": 0.4351855734120246,
+    "unbounded": 0.0,
+    "empty": 0.005,
+    "benefit": 0.6875,
+    "harm": 0.0
+   },
+   "median seconds": 0.588580175000061
+  },
+  "null effect": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.86,
+    "mc_se": 0.01734935157289747,
+    "median_width": 0.25262849227241846,
+    "unbounded": 0.0,
+    "empty": 0.045,
+    "benefit": 0.0525,
+    "harm": 0.0425
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.995,
+    "mc_se": 0.0035266839949164726,
+    "median_width": 0.43953640630358004,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0025,
+    "harm": 0.0025
+   },
+   "median seconds": 0.5819979320000357
+  },
+  "magnitudes doubled": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.8,
+    "mc_se": 0.02,
+    "median_width": 0.253422214673913,
+    "unbounded": 0.0,
+    "empty": 0.13,
+    "benefit": 0.7725,
+    "harm": 0.0025
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.9775,
+    "mc_se": 0.00741514497498194,
+    "median_width": 0.45406873984461116,
+    "unbounded": 0.0,
+    "empty": 0.005,
+    "benefit": 0.665,
+    "harm": 0.0
+   },
+   "median seconds": 0.5241454270000077
+  },
+  "dense small biases": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.865,
+    "mc_se": 0.017086178624841776,
+    "median_width": 0.2434188179347827,
+    "unbounded": 0.0,
+    "empty": 0.0475,
+    "benefit": 0.8875,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.9975,
+    "mc_se": 0.002496873044429746,
+    "median_width": 0.444745099593492,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.685,
+    "harm": 0.0
+   },
+   "median seconds": 0.5478311639999447
+  },
+  "15% of signs wrong": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.8025,
+    "mc_se": 0.019905636764494625,
+    "median_width": 0.23750000000000004,
+    "unbounded": 0.0,
+    "empty": 0.1125,
+    "benefit": 0.8325,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.9825,
+    "mc_se": 0.006556247020971671,
+    "median_width": 0.4029469074378288,
+    "unbounded": 0.0,
+    "empty": 0.0025,
+    "benefit": 0.705,
+    "harm": 0.0
+   },
+   "median seconds": 0.5975057945000799
+  },
+  "omitted bias": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.81,
+    "mc_se": 0.01961504524593303,
+    "median_width": 0.24440758746603267,
+    "unbounded": 0.0,
+    "empty": 0.09,
+    "benefit": 0.795,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.9925,
+    "mc_se": 0.004313858481684336,
+    "median_width": 0.42457738436680503,
+    "unbounded": 0.0,
+    "empty": 0.0025,
+    "benefit": 0.545,
+    "harm": 0.0
+   },
+   "median seconds": 0.545036229999937
+  },
+  "no design opposing benefit": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.9825,
+    "mc_se": 0.006556247020971671,
+    "median_width": 0.4836310345193614,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.4825,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.9601533432916247,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0775,
+    "harm": 0.0
+   },
+   "median seconds": 0.3531451220001145
+  },
+  "no bias": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.975,
+    "mc_se": 0.007806247497998001,
+    "median_width": 0.21064585810122277,
+    "unbounded": 0.0,
+    "empty": 0.01,
+    "benefit": 0.925,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.3639797499842278,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.72,
+    "harm": 0.0
+   },
+   "median seconds": 0.670299196500082
+  },
+  "one-signed literature, null effect": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.7505426821501359,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 1.5414942524242126,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "median seconds": 0.27711428400004934
+  },
+  "one-signed literature, null effect, magnitudes doubled": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.9975,
+    "mc_se": 0.002496873044429746,
+    "median_width": 0.7551120923913044,
+    "unbounded": 0.0,
+    "empty": 0.0025,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 1.4913024440155542,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "median seconds": 0.2795248680000668
+  },
+  "extreme outlier": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.83,
+    "mc_se": 0.018781639970992952,
+    "median_width": 0.2840353260869565,
+    "unbounded": 0.0,
+    "empty": 0.095,
+    "benefit": 0.81,
+    "harm": 0.0025
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.98,
+    "mc_se": 0.007000000000000003,
+    "median_width": 0.4817288768866397,
+    "unbounded": 0.0,
+    "empty": 0.0175,
+    "benefit": 0.5875,
+    "harm": 0.0
+   },
+   "median seconds": 0.6092588714998328
+  },
+  "publication bias": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.8425,
+    "mc_se": 0.018213576666871335,
+    "median_width": 0.26117739470108703,
+    "unbounded": 0.0,
+    "empty": 0.0775,
+    "benefit": 0.875,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.9975,
+    "mc_se": 0.002496873044429746,
+    "median_width": 0.44036046551068575,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.7075,
+    "harm": 0.0
+   },
+   "median seconds": 0.5588936614999511
+  },
+  "heterogeneous populations": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.6425,
+    "mc_se": 0.023963187913965036,
+    "median_width": 0.23046344259510873,
+    "unbounded": 0.0,
+    "empty": 0.1675,
+    "benefit": 0.74,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.935,
+    "mc_se": 0.012326293035621046,
+    "median_width": 0.4158073648800936,
+    "unbounded": 0.0,
+    "empty": 0.01,
+    "benefit": 0.66,
+    "harm": 0.0
+   },
+   "median seconds": 0.5203374889997576
+  },
+  "missing controls and variances": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.8725,
+    "mc_se": 0.016676611616272652,
+    "median_width": 0.27185960852581526,
+    "unbounded": 0.0,
+    "empty": 0.0375,
+    "benefit": 0.7925,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.995,
+    "mc_se": 0.0035266839949164726,
+    "median_width": 0.5599059311367605,
+    "unbounded": 0.0,
+    "empty": 0.0,
+    "benefit": 0.4925,
+    "harm": 0.0
+   },
+   "median seconds": 0.453707495000117
+  },
+  "contradictory evidence": {
+   "SIGNET-B (rung 3 + magnitude bounds)": {
+    "n": 400,
+    "coverage": 0.32,
+    "mc_se": 0.0233238075793812,
+    "median_width": 0.16957158627717395,
+    "unbounded": 0.0,
+    "empty": 0.405,
+    "benefit": 0.5325,
+    "harm": 0.0
+   },
+   "SIGNET-B k=1": {
+    "n": 400,
+    "coverage": 0.6875,
+    "mc_se": 0.023175620272173948,
+    "median_width": 0.3101252223003697,
+    "unbounded": 0.0,
+    "empty": 0.07,
+    "benefit": 0.5975,
+    "harm": 0.0025
+   },
+   "median seconds": 0.7088443750001261
+  }
+ }
+}

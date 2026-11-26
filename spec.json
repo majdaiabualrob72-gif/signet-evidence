@@ -1,0 +1,85 @@
+{
+  "name": "Statin use versus non-use and venous thromboembolism; capacity-only specification; evidence cutoff 2008-11-19",
+  "metadata": {
+    "protocol_timestamp_qatar": "2026-11-22T20:09:00+03:00",
+    "specification_status": "capacity-only; estimates intentionally not extracted",
+    "software": "SIGNET 1.2.0; source archive used unchanged",
+    "benchmark": "JUPITER randomized rosuvastatin trial; VTE outcome reported in 2009. Benchmark only; not an evidence cell.",
+    "cutoff_rationale": "The JUPITER trial's first publication was 2008-11-20 (primary trial paper). The VTE-specific secondary-outcome article appeared online 2009-03-29. The stricter first-trial-publication cutoff is used: only studies published before 2008-11-20 are eligible.",
+    "evidence_cutoff": "2008-11-19",
+    "placeholder_rule": "Every cell estimate is 1.0 on the ratio scale and every SE is 0.1 on the log scale. These are computational placeholders, not empirical estimates.",
+    "selection_rule": "Candidate 1 qualifies first: pre-cutoff observational evidence includes both a population-based retrospective cohort and a matched case-control design. Later candidates are not evaluated because the ordered rule stops at the first qualifying candidate."
+  },
+  "field": [
+    "vte"
+  ],
+  "cells": [
+    {
+      "id": "YANG_2002_COHORT",
+      "design": "population-based retrospective follow-up cohort; current/recent statin use versus normolipidaemic non-use; idiopathic VTE",
+      "estimate": 1.0,
+      "se": 0.1,
+      "scale": "ratio",
+      "kernel": [
+        1.0
+      ],
+      "processes": [
+        "H"
+      ],
+      "source": "Yang CC, Jick SS, Jick H. Statins and the risk of idiopathic venous thromboembolism. Br J Clin Pharmacol. 2002;53(1):101-105. DOI: 10.1046/j.0306-5251.2001.01523.x. Primary report; cohort/follow-up estimate."
+    },
+    {
+      "id": "LACUT_2004_CASE_CONTROL",
+      "design": "hospital-based matched case-control study; statin use versus non-use; composite VTE",
+      "estimate": 1.0,
+      "se": 0.1,
+      "scale": "ratio",
+      "kernel": [
+        1.0
+      ],
+      "processes": [
+        "H"
+      ],
+      "source": "Lacut K, Oger E, Le Gal G, et al. Statins but not fibrates are associated with a reduced risk of venous thromboembolism: a hospital-based case-control study. Fundam Clin Pharmacol. 2004;18(4):477-482. DOI: 10.1111/j.1472-8206.2004.00252.x. PubMed PMID: 15312155; primary abstract."
+    }
+  ],
+  "assumptions": [
+    {
+      "name": "H_HEALTHY_USER_BIAS_TOWARD_LOWER_RISK",
+      "type": "sign",
+      "process": "H",
+      "direction": "negative",
+      "rung": 1,
+      "source": "Brookhart MA, Patrick AR, Dormuth C, et al. Adherence to lipid-lowering therapy and the use of preventive health services: an investigation of the healthy user effect. Am J Epidemiol. 2007;166(3):348-354. DOI: 10.1093/aje/kwm070. Statin users/adherers were more likely to use preventive health services despite adjustment, supporting a plausible negative (protective) direction for healthy-user/adherer bias. This is directional only; no VTE-specific bias magnitude is asserted."
+    }
+  ],
+  "certificate_se": {
+    "YANG_2002_COHORT": 0.1,
+    "LACUT_2004_CASE_CONTROL": 0.1
+  },
+  "targets": [
+    {
+      "name": "vte",
+      "coefficients": {
+        "vte": 1.0
+      }
+    }
+  ],
+  "analysis": {
+    "alpha": 0.05,
+    "rungs": [
+      1,
+      2,
+      3
+    ],
+    "tolerance": [
+      0,
+      1
+    ],
+    "claims": [
+      "benefit",
+      "harm"
+    ],
+    "inversion": "hull"
+  }
+}

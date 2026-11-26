@@ -1,0 +1,288 @@
+{
+ "name": "Beta-carotene and coronary heart disease, published triangulation inputs, trial validity named (post hoc encoding, 22 November 2026)",
+ "input_sha256": "8d6bfd62a4bd13037f8f1d0b595b4e6832c14efb9738fa1e1876fe9e4355c367",
+ "alpha": 0.05,
+ "signet_version": "1.2.0",
+ "inversion": "hull",
+ "certificate_selection": "covariance of the estimates",
+ "warnings": [
+  "cell D_rct: standard error 0.00769 on the log scale is below 0.01; set limits are computed to an absolute tolerance of 1e-4 (1.3% of this standard error)"
+ ],
+ "targets": {
+  "chd": {
+   "rung1": {
+    "include": [
+     "H_toward_lower_risk"
+    ],
+    "capacity": {
+     "above": false,
+     "below": false
+    },
+    "set": {
+     "lo": "-inf",
+     "hi": "inf",
+     "ratio_scale": "0 to inf"
+    },
+    "inversion_checks": {
+     "outer_set": {
+      "lo": "-inf",
+      "hi": "inf"
+     },
+     "bracketed": {
+      "hi": null,
+      "lo": null
+     },
+     "hull_extended": false,
+     "warnings": []
+    },
+    "certificate_unique": {
+     "hi": null,
+     "lo": null
+    },
+    "identified_at_estimates": {
+     "lo": "-inf",
+     "hi": "inf",
+     "certificate_hi": null,
+     "certificate_lo": null
+    },
+    "model_test": {
+     "reject": false,
+     "T": 9.293032241564288e-16,
+     "r": 0,
+     "crit": 0.0,
+     "p": 1.0
+    },
+    "claims": {
+     "benefit": {
+      "p_cert": 1.0,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": null
+     },
+     "harm": {
+      "p_cert": 1.0,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": null
+     }
+    },
+    "tolerance_k1": {
+     "lo": "-inf",
+     "hi": "inf",
+     "ratio_scale": "0 to inf"
+    }
+   },
+   "rung2": {
+    "include": [
+     "H_toward_lower_risk",
+     "P_absent",
+     "L_absent"
+    ],
+    "capacity": {
+     "above": true,
+     "below": true
+    },
+    "set": {
+     "lo": -0.03040489374691346,
+     "hi": 0.07001014531558651,
+     "ratio_scale": "0.970 to 1.073"
+    },
+    "inversion_checks": {
+     "outer_set": {
+      "lo": -0.04875206171566346,
+      "hi": 0.08835731328433653
+     },
+     "bracketed": {
+      "hi": true,
+      "lo": true
+     },
+     "hull_extended": false,
+     "warnings": []
+    },
+    "certificate_unique": {
+     "hi": true,
+     "lo": true
+    },
+    "identified_at_estimates": {
+     "lo": 0.01980262729617973,
+     "hi": 0.01980262729617973,
+     "certificate_hi": {
+      "weights": {
+       "D_mr": 1.0
+      },
+      "assumptions": [
+       "P_absent"
+      ]
+     },
+     "certificate_lo": {
+      "weights": {
+       "D_mr": 1.0
+      },
+      "assumptions": [
+       "P_absent"
+      ]
+     }
+    },
+    "model_test": {
+     "reject": false,
+     "T": 1.8007976230553976e-14,
+     "r": 0,
+     "crit": 0.0,
+     "p": 1.0
+    },
+    "claims": {
+     "benefit": {
+      "p_cert": 0.8115149575217064,
+      "p_cc": 1.0,
+      "p": 1.0,
+      "p_cc_upper": 1.0,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "D_mr": 1.0000000004986669
+       },
+       "assumptions": [
+        "P_absent"
+       ],
+       "sd": 0.022414023045368957
+      }
+     },
+     "harm": {
+      "p_cert": 0.18848504472308358,
+      "p_cc": 0.3769700871953908,
+      "p": 0.7539401743907816,
+      "p_cc_upper": 0.8541110746436377,
+      "p_upper": 0.7539401788923343,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "D_mr": 0.9999999994986671
+       },
+       "assumptions": [
+        "P_absent"
+       ],
+       "sd": 0.02241402302295494
+      }
+     }
+    },
+    "tolerance_k1": {
+     "lo": -0.28927092961548984,
+     "hi": "inf",
+     "ratio_scale": "0.749 to inf"
+    }
+   },
+   "rung3": {
+    "include": [
+     "H_toward_lower_risk",
+     "P_absent",
+     "L_absent",
+     "trial_valid"
+    ],
+    "capacity": {
+     "above": true,
+     "below": true
+    },
+    "set": {
+     "lo": -0.01422121364139094,
+     "hi": 0.018394357762348556,
+     "ratio_scale": "0.986 to 1.019"
+    },
+    "inversion_checks": {
+     "outer_set": {
+      "lo": -0.019397803075509347,
+      "hi": 0.023570946924490653
+     },
+     "bracketed": {
+      "hi": true,
+      "lo": true
+     },
+     "hull_extended": false,
+     "warnings": []
+    },
+    "certificate_unique": {
+     "hi": false,
+     "lo": false
+    },
+    "identified_at_estimates": {
+     "lo": null,
+     "hi": null,
+     "certificate_hi": null,
+     "certificate_lo": null
+    },
+    "model_test": {
+     "reject": false,
+     "T": 0.6983131373004646,
+     "r": 1,
+     "crit": 3.841458820694124,
+     "p": 0.4033510856983703
+    },
+    "claims": {
+     "benefit": {
+      "p_cert": 0.6128619998154847,
+      "p_cc": 0.7052826964651291,
+      "p": 1.0,
+      "p_cc_upper": 0.8736006443610544,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "D_rct": 0.8946315550816648,
+        "D_mr": 0.10536844541819478
+       },
+       "assumptions": [
+        "P_absent",
+        "trial_valid"
+       ],
+       "sd": 0.00727570526035777
+      }
+     },
+     "harm": {
+      "p_cert": 0.3871380099897322,
+      "p_cc": 0.6768675029406952,
+      "p": 1.0,
+      "p_cc_upper": 0.854111074643639,
+      "p_upper": 1.0,
+      "set_empty": false,
+      "certificate": {
+       "weights": {
+        "D_rct": 0.8946315541870331,
+        "D_mr": 0.10536844531282633
+       },
+       "assumptions": [
+        "P_absent",
+        "trial_valid"
+       ],
+       "sd": 0.007275705253082064
+      }
+     }
+    },
+    "tolerance_k1": {
+     "lo": -0.03040489374691346,
+     "hi": 0.07001014531558651,
+     "ratio_scale": "0.970 to 1.073"
+    },
+    "default": {
+     "lo": -0.03040489374691346,
+     "hi": 0.07001014531558651,
+     "ratio_scale": "0.970 to 1.073"
+    },
+    "default_capacity": {
+     "above": true,
+     "below": true,
+     "limiting": {
+      "above": [],
+      "below": []
+     }
+    },
+    "n_cells_measuring_target": 3
+   }
+  }
+ }
+}

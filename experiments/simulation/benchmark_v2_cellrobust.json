@@ -1,0 +1,200 @@
+{
+ "nrep": 200,
+ "results": {
+  "contradictory evidence": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 0.925,
+    "mc_se": 0.01862458053218917,
+    "median_width": 0.3683335050535225,
+    "unbounded": 0.035,
+    "empty": 0.015,
+    "benefit": 0.605,
+    "harm": 0.0
+   },
+   "median seconds": 1.0911348414999793
+  },
+  "missing controls and variances": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.5024748414911161,
+    "unbounded": 0.275,
+    "empty": 0.0,
+    "benefit": 0.45,
+    "harm": 0.0
+   },
+   "median seconds": 0.779540463000103
+  },
+  "heterogeneous populations": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 0.945,
+    "mc_se": 0.016120638945153514,
+    "median_width": 0.4456059812782356,
+    "unbounded": 0.09,
+    "empty": 0.015,
+    "benefit": 0.62,
+    "harm": 0.0
+   },
+   "median seconds": 0.8595963379998466
+  },
+  "publication bias": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.4051893197704797,
+    "unbounded": 0.11,
+    "empty": 0.0,
+    "benefit": 0.72,
+    "harm": 0.0
+   },
+   "median seconds": 0.9421990529997402
+  },
+  "extreme outlier": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 0.99,
+    "mc_se": 0.007035623639735147,
+    "median_width": 0.4601394465966532,
+    "unbounded": 0.105,
+    "empty": 0.0,
+    "benefit": 0.59,
+    "harm": 0.0
+   },
+   "median seconds": 0.9476704980002069
+  },
+  "reference": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.4029073319562635,
+    "unbounded": 0.12,
+    "empty": 0.005,
+    "benefit": 0.69,
+    "harm": 0.0
+   },
+   "median seconds": 0.8875376615001187
+  },
+  "null effect": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.42358426592972076,
+    "unbounded": 0.11,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.005
+   },
+   "median seconds": 0.9695485380002538
+  },
+  "magnitudes doubled": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.4427736224441503,
+    "unbounded": 0.145,
+    "empty": 0.0,
+    "benefit": 0.59,
+    "harm": 0.0
+   },
+   "median seconds": 0.7392330024999865
+  },
+  "dense small biases": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.40620127623245306,
+    "unbounded": 0.125,
+    "empty": 0.0,
+    "benefit": 0.72,
+    "harm": 0.0
+   },
+   "median seconds": 0.8934803960000863
+  },
+  "15% of signs wrong": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 0.995,
+    "mc_se": 0.004987484335815003,
+    "median_width": 0.3818776006283969,
+    "unbounded": 0.16,
+    "empty": 0.005,
+    "benefit": 0.615,
+    "harm": 0.0
+   },
+   "median seconds": 0.9079825049998362
+  },
+  "omitted bias": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.3959253008166029,
+    "unbounded": 0.165,
+    "empty": 0.0,
+    "benefit": 0.54,
+    "harm": 0.0
+   },
+   "median seconds": 0.8203143625000848
+  },
+  "no design opposing benefit": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.6337916649641523,
+    "unbounded": 0.885,
+    "empty": 0.0,
+    "benefit": 0.06,
+    "harm": 0.0
+   },
+   "median seconds": 0.3332414594999591
+  },
+  "no bias": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": 0.3380605695194726,
+    "unbounded": 0.095,
+    "empty": 0.0,
+    "benefit": 0.75,
+    "harm": 0.0
+   },
+   "median seconds": 0.9687238134999916
+  },
+  "one-signed literature, null effect": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "median seconds": 0.17740456050023568
+  },
+  "one-signed literature, null effect, magnitudes doubled": {
+   "SIGNET R3 k=1 (group or cell)": {
+    "n": 200,
+    "coverage": 1.0,
+    "mc_se": 0.0,
+    "median_width": null,
+    "unbounded": 1.0,
+    "empty": 0.0,
+    "benefit": 0.0,
+    "harm": 0.0
+   },
+   "median seconds": 0.17865594749991942
+  }
+ }
+}

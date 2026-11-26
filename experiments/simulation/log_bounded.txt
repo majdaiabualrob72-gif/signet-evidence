@@ -1,0 +1,15 @@
+reference {'SIGNET-B (rung 3 + magnitude bounds)': (0.875, 0.25, 0.89), 'SIGNET-B k=1': (0.993, 0.44, 0.69)}
+null effect {'SIGNET-B (rung 3 + magnitude bounds)': (0.86, 0.25, 0.05), 'SIGNET-B k=1': (0.995, 0.44, 0.0)}
+magnitudes doubled {'SIGNET-B (rung 3 + magnitude bounds)': (0.8, 0.25, 0.77), 'SIGNET-B k=1': (0.978, 0.45, 0.67)}
+dense small biases {'SIGNET-B (rung 3 + magnitude bounds)': (0.865, 0.24, 0.89), 'SIGNET-B k=1': (0.998, 0.44, 0.69)}
+15% of signs wrong {'SIGNET-B (rung 3 + magnitude bounds)': (0.802, 0.24, 0.83), 'SIGNET-B k=1': (0.983, 0.4, 0.7)}
+omitted bias {'SIGNET-B (rung 3 + magnitude bounds)': (0.81, 0.24, 0.8), 'SIGNET-B k=1': (0.993, 0.42, 0.55)}
+no design opposing benefit {'SIGNET-B (rung 3 + magnitude bounds)': (0.983, 0.48, 0.48), 'SIGNET-B k=1': (1.0, 0.96, 0.08)}
+no bias {'SIGNET-B (rung 3 + magnitude bounds)': (0.975, 0.21, 0.93), 'SIGNET-B k=1': (1.0, 0.36, 0.72)}
+one-signed literature, null effect {'SIGNET-B (rung 3 + magnitude bounds)': (1.0, 0.75, 0.0), 'SIGNET-B k=1': (1.0, 1.54, 0.0)}
+one-signed literature, null effect, magnitudes doubled {'SIGNET-B (rung 3 + magnitude bounds)': (0.998, 0.76, 0.0), 'SIGNET-B k=1': (1.0, 1.49, 0.0)}
+extreme outlier {'SIGNET-B (rung 3 + magnitude bounds)': (0.83, 0.28, 0.81), 'SIGNET-B k=1': (0.98, 0.48, 0.59)}
+publication bias {'SIGNET-B (rung 3 + magnitude bounds)': (0.843, 0.26, 0.88), 'SIGNET-B k=1': (0.998, 0.44, 0.71)}
+heterogeneous populations {'SIGNET-B (rung 3 + magnitude bounds)': (0.642, 0.23, 0.74), 'SIGNET-B k=1': (0.935, 0.42, 0.66)}
+missing controls and variances {'SIGNET-B (rung 3 + magnitude bounds)': (0.873, 0.27, 0.79), 'SIGNET-B k=1': (0.995, 0.56, 0.49)}
+contradictory evidence {'SIGNET-B (rung 3 + magnitude bounds)': (0.32, 0.17, 0.53), 'SIGNET-B k=1': (0.688, 0.31, 0.6)}

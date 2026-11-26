@@ -1,0 +1,776 @@
+{
+ "contrasts": [
+  {
+   "label": "Coverage, reference: SIGNET k=1 vs RE",
+   "n": 400,
+   "xA": 399,
+   "xB": 280,
+   "a": 279,
+   "b": 120,
+   "c": 1,
+   "d": 0,
+   "diff": 0.2975000000000001,
+   "lo": 0.25278147392717315,
+   "hi": 0.34425000767891173,
+   "p": 9.178259891220421e-35
+  },
+  {
+   "label": "Coverage, reference: SIGNET k=1 vs adaptive protocol",
+   "n": 400,
+   "xA": 399,
+   "xB": 377,
+   "a": 376,
+   "b": 23,
+   "c": 1,
+   "d": 0,
+   "diff": 0.05500000000000005,
+   "lo": 0.032757823910781914,
+   "hi": 0.08240370867924485,
+   "p": 2.9802322387695312e-06
+  },
+  {
+   "label": "Coverage, 15% of signs wrong: SIGNET k=1 vs adaptive protocol",
+   "n": 400,
+   "xA": 396,
+   "xB": 353,
+   "a": 353,
+   "b": 43,
+   "c": 0,
+   "d": 4,
+   "diff": 0.10750000000000004,
+   "lo": 0.07892259133606921,
+   "hi": 0.14182804294745952,
+   "p": 2.2737367544323206e-13
+  },
+  {
+   "label": "Coverage, heterogeneous populations: SIGNET k=1 vs adaptive protocol",
+   "n": 400,
+   "xA": 375,
+   "xB": 312,
+   "a": 310,
+   "b": 65,
+   "c": 2,
+   "d": 23,
+   "diff": 0.15749999999999997,
+   "lo": 0.12116499284323752,
+   "hi": 0.1966147868589062,
+   "p": 3.088620938868081e-17
+  },
+  {
+   "label": "Benefit certified, reference (true benefit): SIGNET k=1 vs BA-S",
+   "n": 400,
+   "xA": 268,
+   "xB": 376,
+   "a": 266,
+   "b": 2,
+   "c": 110,
+   "d": 22,
+   "diff": -0.2699999999999999,
+   "lo": -0.3155226796080095,
+   "hi": -0.22547736809300764,
+   "p": 2.437842123605363e-30
+  },
+  {
+   "label": "False benefit, null effect: SIGNET k=1 vs RE",
+   "n": 400,
+   "xA": 0,
+   "xB": 125,
+   "a": 0,
+   "b": 0,
+   "c": 125,
+   "d": 275,
+   "diff": -0.3125,
+   "lo": -0.3595255495622826,
+   "hi": -0.26801270203681016,
+   "p": 4.70197740328915e-38
+  },
+  {
+   "label": "False benefit, one-signed literature, doubled biases: SIGNET k=1 vs BA-S",
+   "n": 400,
+   "xA": 0,
+   "xB": 41,
+   "a": 0,
+   "b": 0,
+   "c": 41,
+   "d": 359,
+   "diff": -0.1025,
+   "lo": -0.1361034210135723,
+   "hi": -0.07477591152976698,
+   "p": 9.094947017729282e-13
+  },
+  {
+   "label": "False benefit, one-signed literature, doubled biases: SIGNET k=1 vs RE",
+   "n": 400,
+   "xA": 0,
+   "xB": 316,
+   "a": 0,
+   "b": 0,
+   "c": 316,
+   "d": 84,
+   "diff": -0.79,
+   "lo": -0.8270622748261584,
+   "hi": -0.7463710013907453,
+   "p": 1.4981364335015035e-95
+  },
+  {
+   "label": "Coverage, biases x4 (mixed designs): SIGNET k=1 vs BA-S",
+   "n": 200,
+   "xA": 199,
+   "xB": 120,
+   "a": 120,
+   "b": 79,
+   "c": 0,
+   "d": 1,
+   "diff": 0.395,
+   "lo": 0.32606564341341027,
+   "hi": 0.46422620435888373,
+   "p": 3.308722450212111e-24
+  },
+  {
+   "label": "False benefit, biases x3 (one-signed): SIGNET k=1 vs BA-S",
+   "n": 200,
+   "xA": 0,
+   "xB": 132,
+   "a": 0,
+   "b": 0,
+   "c": 132,
+   "d": 68,
+   "diff": -0.66,
+   "lo": -0.7220845402909122,
+   "hi": -0.589326061061671,
+   "p": 3.6734198463196485e-40
+  },
+  {
+   "label": "Coverage, contradictory evidence: SIGNET k=1 vs RE",
+   "n": 400,
+   "xA": 297,
+   "xB": 373,
+   "a": 282,
+   "b": 15,
+   "c": 91,
+   "d": 12,
+   "diff": -0.18999999999999995,
+   "lo": -0.2375570804218198,
+   "hi": -0.14281079153511717,
+   "p": 1.9043469464568123e-14
+  },
+  {
+   "label": "Coverage, heterogeneous populations: SIGNET R3 with vs without allowance",
+   "n": 400,
+   "xA": 375,
+   "xB": 260,
+   "a": 260,
+   "b": 115,
+   "c": 0,
+   "d": 25,
+   "diff": 0.2875,
+   "lo": 0.24321564972905566,
+   "hi": 0.33272424222812813,
+   "p": 4.81482486096809e-35
+  },
+  {
+   "label": "Benefit certified, reference: SIGNET-B k=1 vs SIGNET k=1",
+   "n": 400,
+   "xA": 275,
+   "xB": 268,
+   "a": 266,
+   "b": 9,
+   "c": 2,
+   "d": 123,
+   "diff": 0.01749999999999996,
+   "lo": 0.00044725473434062413,
+   "hi": 0.03474040723989684,
+   "p": 0.0654296875
+  },
+  {
+   "label": "Coverage, contradictory evidence: group-or-cell tolerance vs group tolerance",
+   "n": 200,
+   "xA": 185,
+   "xB": 148,
+   "a": 148,
+   "b": 37,
+   "c": 0,
+   "d": 15,
+   "diff": 0.18500000000000005,
+   "lo": 0.1317003401237083,
+   "hi": 0.2426795567855223,
+   "p": 1.4551915228366852e-11
+  },
+  {
+   "label": "Coverage, contradictory evidence: group-or-cell tolerance vs RE",
+   "n": 200,
+   "xA": 185,
+   "xB": 187,
+   "a": 177,
+   "b": 8,
+   "c": 10,
+   "d": 5,
+   "diff": -0.010000000000000009,
+   "lo": -0.05568066370151166,
+   "hi": 0.034891565747179366,
+   "p": 0.8145294189453125
+  },
+  {
+   "label": "Benefit certified, reference: group-or-cell tolerance vs group tolerance",
+   "n": 200,
+   "xA": 138,
+   "xB": 138,
+   "a": 138,
+   "b": 0,
+   "c": 0,
+   "d": 62,
+   "diff": 0.0,
+   "lo": -0.012062742698039275,
+   "hi": 0.012062742698039275,
+   "p": 1.0
+  },
+  {
+   "label": "False benefit, null effect: group-or-cell tolerance vs RE",
+   "n": 200,
+   "xA": 0,
+   "xB": 67,
+   "a": 0,
+   "b": 0,
+   "c": 67,
+   "d": 133,
+   "diff": -0.335,
+   "lo": -0.40297808792033485,
+   "hi": -0.2704296005023789,
+   "p": 1.3552527156068805e-20
+  }
+ ],
+ "reproduction": [
+  [
+   "comparators",
+   "reference",
+   "FE (all designs)",
+   0.365,
+   0.365
+  ],
+  [
+   "comparators",
+   "reference",
+   "BA-U (unsigned bias priors)",
+   0.9725,
+   0.9725
+  ],
+  [
+   "comparators",
+   "reference",
+   "BA-S (elicited directions and magnitudes)",
+   0.9925,
+   0.9925
+  ],
+  [
+   "comparators",
+   "reference",
+   "NCO-cal (calibrated, RE)",
+   0.9825,
+   0.9825
+  ],
+  [
+   "comparators",
+   "null effect",
+   "FE (all designs)",
+   0.315,
+   0.315
+  ],
+  [
+   "comparators",
+   "null effect",
+   "BA-U (unsigned bias priors)",
+   0.97,
+   0.97
+  ],
+  [
+   "comparators",
+   "null effect",
+   "BA-S (elicited directions and magnitudes)",
+   0.99,
+   0.99
+  ],
+  [
+   "comparators",
+   "null effect",
+   "NCO-cal (calibrated, RE)",
+   0.965,
+   0.965
+  ],
+  [
+   "comparators",
+   "magnitudes doubled",
+   "FE (all designs)",
+   0.1925,
+   0.1925
+  ],
+  [
+   "comparators",
+   "magnitudes doubled",
+   "BA-U (unsigned bias priors)",
+   0.79,
+   0.79
+  ],
+  [
+   "comparators",
+   "magnitudes doubled",
+   "BA-S (elicited directions and magnitudes)",
+   0.9525,
+   0.9525
+  ],
+  [
+   "comparators",
+   "magnitudes doubled",
+   "NCO-cal (calibrated, RE)",
+   0.9975,
+   0.9975
+  ],
+  [
+   "comparators",
+   "dense small biases",
+   "FE (all designs)",
+   0.245,
+   0.245
+  ],
+  [
+   "comparators",
+   "dense small biases",
+   "BA-U (unsigned bias priors)",
+   0.955,
+   0.955
+  ],
+  [
+   "comparators",
+   "dense small biases",
+   "BA-S (elicited directions and magnitudes)",
+   0.9825,
+   0.9825
+  ],
+  [
+   "comparators",
+   "dense small biases",
+   "NCO-cal (calibrated, RE)",
+   0.9825,
+   0.9825
+  ],
+  [
+   "comparators",
+   "15% of signs wrong",
+   "FE (all designs)",
+   0.44,
+   0.44
+  ],
+  [
+   "comparators",
+   "15% of signs wrong",
+   "BA-U (unsigned bias priors)",
+   0.9925,
+   0.9925
+  ],
+  [
+   "comparators",
+   "15% of signs wrong",
+   "BA-S (elicited directions and magnitudes)",
+   0.9775,
+   0.9775
+  ],
+  [
+   "comparators",
+   "15% of signs wrong",
+   "NCO-cal (calibrated, RE)",
+   0.98,
+   0.98
+  ],
+  [
+   "comparators",
+   "omitted bias",
+   "FE (all designs)",
+   0.63,
+   0.63
+  ],
+  [
+   "comparators",
+   "omitted bias",
+   "BA-U (unsigned bias priors)",
+   0.9925,
+   0.9925
+  ],
+  [
+   "comparators",
+   "omitted bias",
+   "BA-S (elicited directions and magnitudes)",
+   0.9725,
+   0.9725
+  ],
+  [
+   "comparators",
+   "omitted bias",
+   "NCO-cal (calibrated, RE)",
+   0.98,
+   0.98
+  ],
+  [
+   "comparators",
+   "no design opposing benefit",
+   "FE (all designs)",
+   0.2125,
+   0.2125
+  ],
+  [
+   "comparators",
+   "no design opposing benefit",
+   "BA-U (unsigned bias priors)",
+   0.975,
+   0.975
+  ],
+  [
+   "comparators",
+   "no design opposing benefit",
+   "BA-S (elicited directions and magnitudes)",
+   1.0,
+   1.0
+  ],
+  [
+   "comparators",
+   "no design opposing benefit",
+   "NCO-cal (calibrated, RE)",
+   0.955,
+   0.955
+  ],
+  [
+   "comparators",
+   "no bias",
+   "FE (all designs)",
+   0.96,
+   0.96
+  ],
+  [
+   "comparators",
+   "no bias",
+   "BA-U (unsigned bias priors)",
+   1.0,
+   1.0
+  ],
+  [
+   "comparators",
+   "no bias",
+   "BA-S (elicited directions and magnitudes)",
+   0.9875,
+   0.9875
+  ],
+  [
+   "comparators",
+   "no bias",
+   "NCO-cal (calibrated, RE)",
+   1.0,
+   1.0
+  ],
+  [
+   "comparators",
+   "one-signed literature, null effect",
+   "FE (all designs)",
+   0.09,
+   0.09
+  ],
+  [
+   "comparators",
+   "one-signed literature, null effect",
+   "BA-U (unsigned bias priors)",
+   0.9275,
+   0.9275
+  ],
+  [
+   "comparators",
+   "one-signed literature, null effect",
+   "BA-S (elicited directions and magnitudes)",
+   1.0,
+   1.0
+  ],
+  [
+   "comparators",
+   "one-signed literature, null effect",
+   "NCO-cal (calibrated, RE)",
+   0.7425,
+   0.7425
+  ],
+  [
+   "comparators",
+   "one-signed literature, null effect, magnitudes doubled",
+   "FE (all designs)",
+   0.0175,
+   0.0175
+  ],
+  [
+   "comparators",
+   "one-signed literature, null effect, magnitudes doubled",
+   "BA-U (unsigned bias priors)",
+   0.27,
+   0.27
+  ],
+  [
+   "comparators",
+   "one-signed literature, null effect, magnitudes doubled",
+   "BA-S (elicited directions and magnitudes)",
+   0.8975,
+   0.8975
+  ],
+  [
+   "comparators",
+   "one-signed literature, null effect, magnitudes doubled",
+   "NCO-cal (calibrated, RE)",
+   0.6675,
+   0.6675
+  ],
+  [
+   "cellrobust",
+   "extreme outlier",
+   "group or cell, coverage",
+   0.99,
+   0.99
+  ],
+  [
+   "cellrobust",
+   "extreme outlier",
+   "group or cell, benefit",
+   0.59,
+   0.59
+  ],
+  [
+   "cellrobust",
+   "publication bias",
+   "group or cell, coverage",
+   0.995,
+   0.995
+  ],
+  [
+   "cellrobust",
+   "publication bias",
+   "group or cell, benefit",
+   0.72,
+   0.72
+  ],
+  [
+   "cellrobust",
+   "heterogeneous populations",
+   "group or cell, coverage",
+   0.945,
+   0.945
+  ],
+  [
+   "cellrobust",
+   "heterogeneous populations",
+   "group or cell, benefit",
+   0.62,
+   0.62
+  ],
+  [
+   "cellrobust",
+   "missing controls and variances",
+   "group or cell, coverage",
+   1.0,
+   1.0
+  ],
+  [
+   "cellrobust",
+   "missing controls and variances",
+   "group or cell, benefit",
+   0.45,
+   0.455
+  ],
+  [
+   "cellrobust",
+   "contradictory evidence",
+   "group or cell, coverage",
+   0.925,
+   0.925
+  ],
+  [
+   "cellrobust",
+   "contradictory evidence",
+   "group or cell, benefit",
+   0.605,
+   0.605
+  ],
+  [
+   "cellrobust",
+   "reference",
+   "group or cell, coverage",
+   0.995,
+   0.995
+  ],
+  [
+   "cellrobust",
+   "reference",
+   "group or cell, benefit",
+   0.69,
+   0.69
+  ],
+  [
+   "cellrobust",
+   "null effect",
+   "group or cell, coverage",
+   0.995,
+   0.995
+  ],
+  [
+   "cellrobust",
+   "null effect",
+   "group or cell, benefit",
+   0.0,
+   0.0
+  ],
+  [
+   "cellrobust",
+   "magnitudes doubled",
+   "group or cell, coverage",
+   1.0,
+   1.0
+  ],
+  [
+   "cellrobust",
+   "magnitudes doubled",
+   "group or cell, benefit",
+   0.59,
+   0.59
+  ],
+  [
+   "cellrobust",
+   "dense small biases",
+   "group or cell, coverage",
+   1.0,
+   1.0
+  ],
+  [
+   "cellrobust",
+   "dense small biases",
+   "group or cell, benefit",
+   0.72,
+   0.72
+  ],
+  [
+   "cellrobust",
+   "15% of signs wrong",
+   "group or cell, coverage",
+   0.995,
+   0.995
+  ],
+  [
+   "cellrobust",
+   "15% of signs wrong",
+   "group or cell, benefit",
+   0.615,
+   0.615
+  ],
+  [
+   "cellrobust",
+   "omitted bias",
+   "group or cell, coverage",
+   1.0,
+   1.0
+  ],
+  [
+   "cellrobust",
+   "omitted bias",
+   "group or cell, benefit",
+   0.54,
+   0.54
+  ],
+  [
+   "cellrobust",
+   "no design opposing benefit",
+   "group or cell, coverage",
+   1.0,
+   1.0
+  ],
+  [
+   "cellrobust",
+   "no design opposing benefit",
+   "group or cell, benefit",
+   0.06,
+   0.06
+  ],
+  [
+   "cellrobust",
+   "no bias",
+   "group or cell, coverage",
+   1.0,
+   1.0
+  ],
+  [
+   "cellrobust",
+   "no bias",
+   "group or cell, benefit",
+   0.75,
+   0.75
+  ],
+  [
+   "cellrobust",
+   "one-signed literature, null effect",
+   "group or cell, coverage",
+   1.0,
+   1.0
+  ],
+  [
+   "cellrobust",
+   "one-signed literature, null effect",
+   "group or cell, benefit",
+   0.0,
+   0.0
+  ],
+  [
+   "cellrobust",
+   "one-signed literature, null effect, magnitudes doubled",
+   "group or cell, coverage",
+   1.0,
+   1.0
+  ],
+  [
+   "cellrobust",
+   "one-signed literature, null effect, magnitudes doubled",
+   "group or cell, benefit",
+   0.0,
+   0.0
+  ],
+  [
+   "sweep",
+   "mixed designs, true benefit | x4.0",
+   "SIGNET R3 k=1",
+   0.995,
+   0.995
+  ],
+  [
+   "sweep",
+   "mixed designs, true benefit | x4.0",
+   "BA-S (elicited directions and magnitudes)",
+   0.6,
+   0.6
+  ],
+  [
+   "sweep",
+   "one-signed literature, null effect | x3.0",
+   "SIGNET R3 k=1",
+   1.0,
+   1.0
+  ],
+  [
+   "sweep",
+   "one-signed literature, null effect | x3.0",
+   "BA-S (elicited directions and magnitudes)",
+   0.34,
+   0.34
+  ],
+  [
+   "hetallow",
+   "heterogeneous populations",
+   "R3 + allowance",
+   0.9375,
+   0.9375
+  ],
+  [
+   "bounded",
+   "reference",
+   "SIGNET-B k=1 benefit",
+   0.6875,
+   0.6875
+  ]
+ ]
+}
